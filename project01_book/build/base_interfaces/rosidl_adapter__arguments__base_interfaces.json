@@ -1,7 +1,0 @@
-{
-  "package_name": "base_interfaces",
-  "non_idl_tuples": [
-    "/home/simpletime/project01_book/src/base_interfaces:msg/Bookneed.msg",
-    "/home/simpletime/project01_book/src/base_interfaces:msg/Booksupply.msg"
-  ]
-}

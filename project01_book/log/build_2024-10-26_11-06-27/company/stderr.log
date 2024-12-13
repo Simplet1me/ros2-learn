@@ -1,8 +1,0 @@
-[01m[K/home/simpletime/project01_book/src/company/src/company_a.cpp:[m[K In member function ‘[01m[Kvoid Listener::do_cb(base_interfaces::msg::Booksupply)[m[K’:
-[01m[K/home/simpletime/project01_book/src/company/src/company_a.cpp:45:45:[m[K [01;35m[Kwarning: [m[KNULL used in arithmetic [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpointer-arith-Wpointer-arith]8;;[m[K]
-   45 |         if(booksupplyb.book_supply_price != [01;35m[KNULL[m[K && booksupplyc.book_supply_price != NULL){
-      |                                             [01;35m[K^~~~[m[K
-[01m[K/home/simpletime/project01_book/src/company/src/company_a.cpp:45:86:[m[K [01;35m[Kwarning: [m[KNULL used in arithmetic [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpointer-arith-Wpointer-arith]8;;[m[K]
-   45 | ook_supply_price != NULL && booksupplyc.book_supply_price != [01;35m[KNULL[m[K){
-      |                                                              [01;35m[K^~~~[m[K
-

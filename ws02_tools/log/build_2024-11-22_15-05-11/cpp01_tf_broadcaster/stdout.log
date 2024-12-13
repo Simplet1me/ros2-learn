@@ -1,7 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target demo03_tf_listener[0m
-[ 60%] Built target demo00_run1
-[ 60%] Built target demo01_static_tf_broadcaster
-[ 60%] Built target demo00_run
-[ 80%] Built target demo02_dynamic_tf_broadcaster
-[ 90%] [32mBuilding CXX object CMakeFiles/demo03_tf_listener.dir/src/demo03_tf_listener.cpp.o[0m
-[100%] [32m[1mLinking CXX executable demo03_tf_listener[0m

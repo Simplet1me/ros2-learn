@@ -1,2 +1,0 @@
-string company_name
-int32 book_supply_price

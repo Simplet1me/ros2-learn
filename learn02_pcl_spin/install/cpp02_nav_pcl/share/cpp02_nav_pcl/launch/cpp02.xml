@@ -1,4 +1,0 @@
-<launch>
-    <node pkg="cpp02_nav_pcl" exec="demo01_pcl_pub" name="t1" />
-    <node pkg="cpp02_nav_pcl" exec="demo02_pcl_listener" name="t2" />    
-</launch>

@@ -1,4 +1,0 @@
-[01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp01_pcl_spin/src/demo01_pcl_spin.cpp:[m[K In member function ‘[01m[Kvoid PointCouldPublisher::do_cb(const PointCloud2&)[m[K’:
-[01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp01_pcl_spin/src/demo01_pcl_spin.cpp:48:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kget_cloud_msg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-   48 |   void do_cb([01;35m[Kconst sensor_msgs::msg::PointCloud2 & get_cloud_msg[m[K){
-      |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K

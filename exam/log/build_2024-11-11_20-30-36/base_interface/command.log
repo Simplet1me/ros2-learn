@@ -1,6 +1,0 @@
-Invoking command in '/home/simpletime/exam/build/base_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/simpletime/exam/src/base_interface -DCMAKE_INSTALL_PREFIX=/home/simpletime/exam/install/base_interface
-Invoked command in '/home/simpletime/exam/build/base_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/simpletime/exam/src/base_interface -DCMAKE_INSTALL_PREFIX=/home/simpletime/exam/install/base_interface
-Invoking command in '/home/simpletime/exam/build/base_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/exam/build/base_interface -- -j4 -l4
-Invoked command in '/home/simpletime/exam/build/base_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/exam/build/base_interface -- -j4 -l4
-Invoking command in '/home/simpletime/exam/build/base_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/simpletime/exam/build/base_interface
-Invoked command in '/home/simpletime/exam/build/base_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/simpletime/exam/build/base_interface

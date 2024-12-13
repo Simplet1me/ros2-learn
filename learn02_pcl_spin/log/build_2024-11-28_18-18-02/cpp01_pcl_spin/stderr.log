@@ -1,6 +1,0 @@
-/usr/bin/ld: CMakeFiles/demo01_pcl_spin.dir/src/demo01_pcl_spin.cpp.o: in function `PointCouldPublisher::pub()':
-demo01_pcl_spin.cpp:(.text._ZN19PointCouldPublisher3pubEv[_ZN19PointCouldPublisher3pubEv]+0x540): undefined reference to `void tf2::doTransform<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >(sensor_msgs::msg::PointCloud2_<std::allocator<void> > const&, sensor_msgs::msg::PointCloud2_<std::allocator<void> >&, geometry_msgs::msg::TransformStamped_<std::allocator<void> > const&)'
-collect2: error: ld returned 1 exit status
-gmake[2]: *** [CMakeFiles/demo01_pcl_spin.dir/build.make:326: demo01_pcl_spin] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo01_pcl_spin.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

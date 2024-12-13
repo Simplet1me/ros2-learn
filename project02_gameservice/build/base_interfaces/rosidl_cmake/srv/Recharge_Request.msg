@@ -1,2 +1,0 @@
-string user_name
-int32 user_recharge_amount

@@ -1,8 +1,0 @@
-[ 50%] [32mBuilding CXX object CMakeFiles/demo01_pcl_spin.dir/src/demo01_pcl_spin.cpp.o[0m
-[01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp01_pcl_spin/src/demo01_pcl_spin.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kbuffer.h: No such file or directory
-    8 | #include [01;31m[K<buffer.h>[m[K
-      |          [01;31m[K^~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/demo01_pcl_spin.dir/build.make:76: CMakeFiles/demo01_pcl_spin.dir/src/demo01_pcl_spin.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo01_pcl_spin.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

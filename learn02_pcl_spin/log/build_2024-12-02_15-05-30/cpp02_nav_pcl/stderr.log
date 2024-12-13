@@ -1,4 +1,0 @@
-[01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp02_nav_pcl/src/demo02_pcl_listener.cpp:[m[K In member function ‘[01m[Kvoid DepthMapPublisher::do_cb(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
-[01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp02_nav_pcl/src/demo02_pcl_listener.cpp:52:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kd[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
-   52 |       float distance = [01;35m[K(plane(0) * point.x + plane(1) * point.y + plane(2) * point.z + d)[m[K / plane.norm();
-      |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K

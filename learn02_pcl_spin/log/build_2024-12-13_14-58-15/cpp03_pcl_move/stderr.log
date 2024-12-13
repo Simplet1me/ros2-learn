@@ -1,8 +1,0 @@
-[01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp03_pcl_move/src/demo02_pcl_pub.cpp:[m[K In constructor ‘[01m[KTFPublisher::TFPublisher()[m[K’:
-[01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp03_pcl_move/src/demo02_pcl_pub.cpp:38:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktfpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpcpublisher_[m[K’?
-   38 |     [01;31m[Ktfpublisher_[m[K = std::make_shared<tf2_ros::TransformBroadcaster>(this);
-      |     [01;31m[K^~~~~~~~~~~~[m[K
-      |     [32m[Kpcpublisher_[m[K
-gmake[2]: *** [CMakeFiles/demo02_pcl_pub.dir/build.make:76: CMakeFiles/demo02_pcl_pub.dir/src/demo02_pcl_pub.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/demo02_pcl_pub.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

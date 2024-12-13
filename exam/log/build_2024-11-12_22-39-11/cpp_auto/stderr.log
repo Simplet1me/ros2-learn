@@ -1,5 +1,0 @@
-[31mCMake Error at CMakeLists.txt:17 (ament_auto_add_executable):
-  Unknown CMake command "ament_auto_add_executable".
-
-[0m
-gmake: *** [Makefile:267：cmake_check_build_system] 错误 1

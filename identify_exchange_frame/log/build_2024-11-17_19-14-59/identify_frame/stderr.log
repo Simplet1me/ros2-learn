@@ -1,8 +1,0 @@
-In file included from [01m[K/home/simpletime/Project/identify_exchange_frame/identify_exchange_frame/include/filter.cpp:1[m[K:
-[01m[K/home/simpletime/Project/identify_exchange_frame/identify_exchange_frame/include/filter.hpp:1:[m[K [01;31m[Kerror: [m[Kunterminated #ifndef
-    1 | #ifndef RM_FRAME_FILTER_FRAME_FILTER_HPP
-      | 
-gmake[2]: *** [CMakeFiles/Slover.dir/build.make:76：CMakeFiles/Slover.dir/include/filter.cpp.o] 错误 1
-gmake[1]: *** [CMakeFiles/Makefile2:143：CMakeFiles/Slover.dir/all] 错误 2
-gmake[1]: *** 正在等待未完成的任务....
-gmake: *** [Makefile:146：all] 错误 2

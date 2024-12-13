@@ -1,2 +1,0 @@
-Invoking command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move -- -j32 -l32
-Invoked command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move -- -j32 -l32

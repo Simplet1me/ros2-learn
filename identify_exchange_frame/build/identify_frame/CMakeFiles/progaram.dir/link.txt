@@ -1,1 +1,0 @@
-/usr/bin/c++  -Wall -Wextra CMakeFiles/progaram.dir/test/main.cpp.o -o progaram  -Wl,-rpath,/home/simpletime/Project/identify_exchange_frame/build/identify_frame::::::::::::::::::::: libSlover.so 

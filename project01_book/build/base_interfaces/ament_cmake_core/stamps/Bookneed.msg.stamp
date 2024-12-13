@@ -1,3 +1,0 @@
-string company_name
-int32 book_need_amount
-string book_need_kind

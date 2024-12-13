@@ -1,2 +1,0 @@
-Invoking command in '/home/simpletime/Project/proj_ws_pcl/build/pcl_reg': /usr/bin/cmake /home/simpletime/Project/proj_ws_pcl/src/pcl -DCMAKE_INSTALL_PREFIX=/home/simpletime/Project/proj_ws_pcl/install/pcl_reg
-Invoked command in '/home/simpletime/Project/proj_ws_pcl/build/pcl_reg' returned '1': /usr/bin/cmake /home/simpletime/Project/proj_ws_pcl/src/pcl -DCMAKE_INSTALL_PREFIX=/home/simpletime/Project/proj_ws_pcl/install/pcl_reg

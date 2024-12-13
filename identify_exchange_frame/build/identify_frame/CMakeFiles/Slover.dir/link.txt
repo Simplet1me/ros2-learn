@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC  -Wall -Wextra -shared -Wl,-soname,libSlover.so -o libSlover.so CMakeFiles/Slover.dir/include/filter.cpp.o CMakeFiles/Slover.dir/include/keyPoints.cpp.o  -Wl,-rpath,:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: 

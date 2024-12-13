@@ -1,2 +1,0 @@
-Invoking command in '/home/simpletime/exam/build/base_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/exam/build/base_interface -- -j4 -l4
-Invoked command in '/home/simpletime/exam/build/base_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/exam/build/base_interface -- -j4 -l4

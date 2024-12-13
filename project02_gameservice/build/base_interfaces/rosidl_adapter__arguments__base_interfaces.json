@@ -1,6 +1,0 @@
-{
-  "package_name": "base_interfaces",
-  "non_idl_tuples": [
-    "/home/simpletime/project02_gameservice/src/base_interfaces:srv/Recharge.srv"
-  ]
-}

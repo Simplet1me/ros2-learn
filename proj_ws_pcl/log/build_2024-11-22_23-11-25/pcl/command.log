@@ -1,2 +1,0 @@
-Invoking command in '/home/simpletime/Project/proj_ws_pcl/build/pcl': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/simpletime/Project/proj_ws_pcl/src/pcl -DCMAKE_INSTALL_PREFIX=/home/simpletime/Project/proj_ws_pcl/install/pcl
-Invoked command in '/home/simpletime/Project/proj_ws_pcl/build/pcl' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/simpletime/Project/proj_ws_pcl/src/pcl -DCMAKE_INSTALL_PREFIX=/home/simpletime/Project/proj_ws_pcl/install/pcl

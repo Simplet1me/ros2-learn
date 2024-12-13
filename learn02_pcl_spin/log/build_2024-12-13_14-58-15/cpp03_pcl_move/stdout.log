@@ -1,5 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target demo02_pcl_pub[0m
-[ 25%] [32mBuilding CXX object CMakeFiles/demo01_tf_spin.dir/src/demo01_tf_spin.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/demo02_pcl_pub.dir/src/demo02_pcl_pub.cpp.o[0m
-[ 75%] [32m[1mLinking CXX executable demo01_tf_spin[0m
-[ 75%] Built target demo01_tf_spin

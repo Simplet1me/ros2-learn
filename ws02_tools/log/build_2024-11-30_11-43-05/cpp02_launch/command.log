@@ -1,4 +1,0 @@
-Invoking command in '/home/simpletime/Project/ws02_tools/build/cpp02_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/ws02_tools/build/cpp02_launch -- -j32 -l32
-Invoked command in '/home/simpletime/Project/ws02_tools/build/cpp02_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/ws02_tools/build/cpp02_launch -- -j32 -l32
-Invoking command in '/home/simpletime/Project/ws02_tools/build/cpp02_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/simpletime/Project/ws02_tools/build/cpp02_launch
-Invoked command in '/home/simpletime/Project/ws02_tools/build/cpp02_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/simpletime/Project/ws02_tools/build/cpp02_launch
