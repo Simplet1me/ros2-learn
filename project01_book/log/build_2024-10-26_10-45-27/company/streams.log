@@ -1,0 +1,24 @@
+[0.009s] Invoking command in '/home/simpletime/project01_book/build/company': CMAKE_PREFIX_PATH=/home/simpletime/project01_book/install/base_interfaces:/home/simpletime/project01_book/install/company:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/project01_book/build/company -- -j4 -l4
+[0.094s] [35m[1mConsolidate compiler generated dependencies of target company_a[0m
+[0.110s] [ 33%] Built target company_c
+[0.122s] [ 50%] [32mBuilding CXX object CMakeFiles/company_b.dir/src/company_b.cpp.o[0m
+[0.124s] [ 66%] [32mBuilding CXX object CMakeFiles/company_a.dir/src/company_a.cpp.o[0m
+[1.866s] [01m[K/home/simpletime/project01_book/src/company/src/company_a.cpp:33:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kbase_interfaces::msg::Booksupply Listenerb::getBooksupply()[m[K’ cannot be overloaded with ‘[01m[Kbase_interfaces::msg::Booksupply Listenerb::getBooksupply()[m[K’
+[1.866s]    33 |     Booksupply [01;31m[KgetBooksupply[m[K(){
+[1.866s]       |                [01;31m[K^~~~~~~~~~~~~[m[K
+[1.866s] [01m[K/home/simpletime/project01_book/src/company/src/company_a.cpp:30:16:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kbase_interfaces::msg::Booksupply Listenerb::getBooksupply()[m[K’
+[1.866s]    30 |     Booksupply [01;36m[KgetBooksupply[m[K(){
+[1.866s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[1.899s] [01m[K/home/simpletime/project01_book/src/company/src/company_a.cpp:55:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kbase_interfaces::msg::Booksupply Listenerc::getBooksupply()[m[K’ cannot be overloaded with ‘[01m[Kbase_interfaces::msg::Booksupply Listenerc::getBooksupply()[m[K’
+[1.899s]    55 |     Booksupply [01;31m[KgetBooksupply[m[K(){
+[1.899s]       |                [01;31m[K^~~~~~~~~~~~~[m[K
+[1.900s] [01m[K/home/simpletime/project01_book/src/company/src/company_a.cpp:52:16:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kbase_interfaces::msg::Booksupply Listenerc::getBooksupply()[m[K’
+[1.900s]    52 |     Booksupply [01;36m[KgetBooksupply[m[K(){
+[1.900s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[3.792s] gmake[2]: *** [CMakeFiles/company_a.dir/build.make:76：CMakeFiles/company_a.dir/src/company_a.cpp.o] 错误 1
+[3.792s] gmake[1]: *** [CMakeFiles/Makefile2:141：CMakeFiles/company_a.dir/all] 错误 2
+[3.792s] gmake[1]: *** 正在等待未完成的任务....
+[6.103s] [ 83%] [32m[1mLinking CXX executable company_b[0m
+[6.400s] [ 83%] Built target company_b
+[6.401s] gmake: *** [Makefile:146：all] 错误 2
+[6.403s] Invoked command in '/home/simpletime/project01_book/build/company' returned '2': CMAKE_PREFIX_PATH=/home/simpletime/project01_book/install/base_interfaces:/home/simpletime/project01_book/install/company:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/project01_book/build/company -- -j4 -l4

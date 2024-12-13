@@ -1,0 +1,172 @@
+[0.000000] (-) TimerEvent: {}
+[0.000526] (cpp01_pcl_spin) JobQueued: {'identifier': 'cpp01_pcl_spin', 'dependencies': OrderedDict()}
+[0.000813] (cpp01_pcl_spin) JobStarted: {'identifier': 'cpp01_pcl_spin'}
+[0.007995] (cpp01_pcl_spin) JobProgress: {'identifier': 'cpp01_pcl_spin', 'progress': 'cmake'}
+[0.009032] (cpp01_pcl_spin) JobProgress: {'identifier': 'cpp01_pcl_spin', 'progress': 'build'}
+[0.009822] (cpp01_pcl_spin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin', '--', '-j32', '-l32'], 'cwd': '/home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'simpletime'), ('GIT_ASKPASS', '/home/simpletime/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/simpletime'), ('TERM_PROGRAM_VERSION', '1.91.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-f85bc050-6f93-4379-b4d2-04d3931093af.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/simpletime/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/simpletime/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/simpletime/Project/learn02_pcl_spin/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'simpletime'), ('NAME', 'LAPTOP-KMT8CKP9'), ('WSL_INTEROP', '/run/WSL/442_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/simpletime/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/f/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Bandizip/:/mnt/f/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/f/MinGW/x86_64-14.2.0-release-posix-seh-ucrt-rt_v12-rev0/mingw64/bin:/mnt/c/Program Files (x86)/GtkSharp/2.12/bin:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Administrator/.dotnet/tools:/mnt/c/Users/Administrator/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6212e3ba6c.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.054931] (cpp01_pcl_spin) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo01_tf_spin\x1b[0m\n'}
+[0.071106] (cpp01_pcl_spin) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/demo01_pcl_spin.dir/src/demo01_pcl_spin.cpp.o\x1b[0m\n'}
+[0.087762] (cpp01_pcl_spin) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo01_tf_spin.dir/src/demo01_tf_spin.cpp.o\x1b[0m\n'}
+[0.099599] (-) TimerEvent: {}
+[0.200374] (-) TimerEvent: {}
+[0.302194] (-) TimerEvent: {}
+[0.403550] (-) TimerEvent: {}
+[0.504173] (-) TimerEvent: {}
+[0.604767] (-) TimerEvent: {}
+[0.705600] (-) TimerEvent: {}
+[0.807054] (-) TimerEvent: {}
+[0.907996] (-) TimerEvent: {}
+[1.009454] (-) TimerEvent: {}
+[1.110814] (-) TimerEvent: {}
+[1.212145] (-) TimerEvent: {}
+[1.313458] (-) TimerEvent: {}
+[1.413913] (-) TimerEvent: {}
+[1.514354] (-) TimerEvent: {}
+[1.615386] (-) TimerEvent: {}
+[1.716305] (-) TimerEvent: {}
+[1.818522] (-) TimerEvent: {}
+[1.919450] (-) TimerEvent: {}
+[2.020793] (-) TimerEvent: {}
+[2.122052] (-) TimerEvent: {}
+[2.223304] (-) TimerEvent: {}
+[2.324593] (-) TimerEvent: {}
+[2.425603] (-) TimerEvent: {}
+[2.526663] (-) TimerEvent: {}
+[2.627501] (-) TimerEvent: {}
+[2.728360] (-) TimerEvent: {}
+[2.829023] (-) TimerEvent: {}
+[2.929839] (-) TimerEvent: {}
+[3.030449] (-) TimerEvent: {}
+[3.130878] (-) TimerEvent: {}
+[3.232368] (-) TimerEvent: {}
+[3.335501] (-) TimerEvent: {}
+[3.438634] (-) TimerEvent: {}
+[3.539293] (-) TimerEvent: {}
+[3.640102] (-) TimerEvent: {}
+[3.742326] (-) TimerEvent: {}
+[3.844518] (-) TimerEvent: {}
+[3.947181] (-) TimerEvent: {}
+[4.049652] (-) TimerEvent: {}
+[4.151883] (-) TimerEvent: {}
+[4.253411] (-) TimerEvent: {}
+[4.356469] (-) TimerEvent: {}
+[4.457509] (-) TimerEvent: {}
+[4.560583] (-) TimerEvent: {}
+[4.663317] (-) TimerEvent: {}
+[4.766415] (-) TimerEvent: {}
+[4.869602] (-) TimerEvent: {}
+[4.972823] (-) TimerEvent: {}
+[5.076223] (-) TimerEvent: {}
+[5.179450] (-) TimerEvent: {}
+[5.281305] (-) TimerEvent: {}
+[5.384392] (-) TimerEvent: {}
+[5.486630] (-) TimerEvent: {}
+[5.589742] (-) TimerEvent: {}
+[5.690460] (-) TimerEvent: {}
+[5.793727] (-) TimerEvent: {}
+[5.897855] (-) TimerEvent: {}
+[6.002096] (-) TimerEvent: {}
+[6.106224] (-) TimerEvent: {}
+[6.210306] (-) TimerEvent: {}
+[6.314403] (-) TimerEvent: {}
+[6.418501] (-) TimerEvent: {}
+[6.522577] (-) TimerEvent: {}
+[6.626670] (-) TimerEvent: {}
+[6.729622] (-) TimerEvent: {}
+[6.833994] (-) TimerEvent: {}
+[6.934853] (-) TimerEvent: {}
+[7.039015] (-) TimerEvent: {}
+[7.143129] (-) TimerEvent: {}
+[7.247385] (-) TimerEvent: {}
+[7.351612] (-) TimerEvent: {}
+[7.455687] (-) TimerEvent: {}
+[7.559871] (-) TimerEvent: {}
+[7.664246] (-) TimerEvent: {}
+[7.670552] (cpp01_pcl_spin) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable demo01_tf_spin\x1b[0m\n'}
+[7.764447] (-) TimerEvent: {}
+[7.867396] (-) TimerEvent: {}
+[7.968235] (-) TimerEvent: {}
+[8.072502] (-) TimerEvent: {}
+[8.176719] (-) TimerEvent: {}
+[8.277818] (-) TimerEvent: {}
+[8.347447] (cpp01_pcl_spin) StdoutLine: {'line': b'[ 75%] Built target demo01_tf_spin\n'}
+[8.379075] (-) TimerEvent: {}
+[8.483375] (-) TimerEvent: {}
+[8.584051] (-) TimerEvent: {}
+[8.687256] (-) TimerEvent: {}
+[8.790555] (-) TimerEvent: {}
+[8.893845] (-) TimerEvent: {}
+[8.995374] (-) TimerEvent: {}
+[9.098435] (-) TimerEvent: {}
+[9.201643] (-) TimerEvent: {}
+[9.303133] (-) TimerEvent: {}
+[9.406154] (-) TimerEvent: {}
+[9.508816] (-) TimerEvent: {}
+[9.611907] (-) TimerEvent: {}
+[9.714991] (-) TimerEvent: {}
+[9.816166] (-) TimerEvent: {}
+[9.917097] (-) TimerEvent: {}
+[10.020281] (-) TimerEvent: {}
+[10.123479] (-) TimerEvent: {}
+[10.226642] (-) TimerEvent: {}
+[10.328840] (-) TimerEvent: {}
+[10.432040] (-) TimerEvent: {}
+[10.535112] (-) TimerEvent: {}
+[10.638189] (-) TimerEvent: {}
+[10.741258] (-) TimerEvent: {}
+[10.844313] (-) TimerEvent: {}
+[10.947432] (-) TimerEvent: {}
+[11.050684] (-) TimerEvent: {}
+[11.153827] (-) TimerEvent: {}
+[11.257002] (-) TimerEvent: {}
+[11.359952] (-) TimerEvent: {}
+[11.460999] (-) TimerEvent: {}
+[11.564004] (-) TimerEvent: {}
+[11.667186] (-) TimerEvent: {}
+[11.770226] (-) TimerEvent: {}
+[11.872235] (-) TimerEvent: {}
+[11.972941] (-) TimerEvent: {}
+[12.075877] (-) TimerEvent: {}
+[12.179020] (-) TimerEvent: {}
+[12.280829] (-) TimerEvent: {}
+[12.384717] (-) TimerEvent: {}
+[12.486436] (-) TimerEvent: {}
+[12.589463] (-) TimerEvent: {}
+[12.692614] (-) TimerEvent: {}
+[12.795753] (-) TimerEvent: {}
+[12.809198] (cpp01_pcl_spin) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable demo01_pcl_spin\x1b[0m\n'}
+[12.898590] (-) TimerEvent: {}
+[13.001394] (-) TimerEvent: {}
+[13.104742] (-) TimerEvent: {}
+[13.207948] (-) TimerEvent: {}
+[13.309085] (-) TimerEvent: {}
+[13.412354] (-) TimerEvent: {}
+[13.515071] (-) TimerEvent: {}
+[13.573127] (cpp01_pcl_spin) StdoutLine: {'line': b'[100%] Built target demo01_pcl_spin\n'}
+[13.582517] (cpp01_pcl_spin) CommandEnded: {'returncode': 0}
+[13.609813] (cpp01_pcl_spin) JobProgress: {'identifier': 'cpp01_pcl_spin', 'progress': 'install'}
+[13.615396] (-) TimerEvent: {}
+[13.617719] (cpp01_pcl_spin) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin'], 'cwd': '/home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'simpletime'), ('GIT_ASKPASS', '/home/simpletime/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/simpletime'), ('TERM_PROGRAM_VERSION', '1.91.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-f85bc050-6f93-4379-b4d2-04d3931093af.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/simpletime/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/simpletime/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/simpletime/Project/learn02_pcl_spin/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'simpletime'), ('NAME', 'LAPTOP-KMT8CKP9'), ('WSL_INTEROP', '/run/WSL/442_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/simpletime/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/f/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Bandizip/:/mnt/f/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/f/MinGW/x86_64-14.2.0-release-posix-seh-ucrt-rt_v12-rev0/mingw64/bin:/mnt/c/Program Files (x86)/GtkSharp/2.12/bin:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Administrator/.dotnet/tools:/mnt/c/Users/Administrator/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6212e3ba6c.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[13.623916] (cpp01_pcl_spin) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.624233] (cpp01_pcl_spin) StdoutLine: {'line': b'-- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/lib/cpp01_pcl_spin/demo01_pcl_spin\n'}
+[13.633710] (cpp01_pcl_spin) StdoutLine: {'line': b'-- Set runtime path of "/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/lib/cpp01_pcl_spin/demo01_pcl_spin" to ""\n'}
+[13.634105] (cpp01_pcl_spin) StdoutLine: {'line': b'-- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/lib/cpp01_pcl_spin/demo01_tf_spin\n'}
+[13.636511] (cpp01_pcl_spin) StdoutLine: {'line': b'-- Set runtime path of "/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/lib/cpp01_pcl_spin/demo01_tf_spin" to ""\n'}
+[13.636803] (cpp01_pcl_spin) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/ament_index/resource_index/package_run_dependencies/cpp01_pcl_spin\n'}
+[13.637066] (cpp01_pcl_spin) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/ament_index/resource_index/parent_prefix_path/cpp01_pcl_spin\n'}
+[13.637234] (cpp01_pcl_spin) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/environment/ament_prefix_path.sh\n'}
+[13.637501] (cpp01_pcl_spin) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/environment/ament_prefix_path.dsv\n'}
+[13.637665] (cpp01_pcl_spin) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/environment/path.sh\n'}
+[13.637831] (cpp01_pcl_spin) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/environment/path.dsv\n'}
+[13.637973] (cpp01_pcl_spin) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/local_setup.bash\n'}
+[13.638345] (cpp01_pcl_spin) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/local_setup.sh\n'}
+[13.638678] (cpp01_pcl_spin) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/local_setup.zsh\n'}
+[13.638827] (cpp01_pcl_spin) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/local_setup.dsv\n'}
+[13.639091] (cpp01_pcl_spin) StdoutLine: {'line': b'-- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/package.dsv\n'}
+[13.639441] (cpp01_pcl_spin) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/ament_index/resource_index/packages/cpp01_pcl_spin\n'}
+[13.639585] (cpp01_pcl_spin) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/cmake/cpp01_pcl_spinConfig.cmake\n'}
+[13.639760] (cpp01_pcl_spin) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/cmake/cpp01_pcl_spinConfig-version.cmake\n'}
+[13.639986] (cpp01_pcl_spin) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/package.xml\n'}
+[13.641120] (cpp01_pcl_spin) CommandEnded: {'returncode': 0}
+[13.686179] (cpp01_pcl_spin) JobEnded: {'identifier': 'cpp01_pcl_spin', 'rc': 0}
+[13.687449] (-) EventReactorShutdown: {}

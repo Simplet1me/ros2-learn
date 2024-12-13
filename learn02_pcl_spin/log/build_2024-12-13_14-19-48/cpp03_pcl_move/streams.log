@@ -1,0 +1,64 @@
+[0.019s] Invoking command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move -- -j32 -l32
+[0.035s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.125s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.242s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.244s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.248s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.254s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.262s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.284s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.284s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.138s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.171s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[4.182s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[4.234s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.245s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[4.268s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.455s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[8.349s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.354s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.933s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[9.937s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.941s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[11.533s] -- Found Qhull version 8.0.2
+[13.130s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[14.731s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[14.733s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[14.734s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[14.735s] -- Found tf2_sensor_msgs: 0.25.8 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+[14.752s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.803s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.803s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/simpletime/Project/learn02_pcl_spin/src/cpp03_pcl_move/include>
+[14.803s] -- Configured cppcheck exclude dirs and/or files: 
+[14.804s] -- Added test 'lint_cmake' to check CMake code style
+[14.804s] -- Added test 'uncrustify' to check C / C++ code style
+[14.804s] -- Configured uncrustify additional arguments: 
+[14.804s] -- Added test 'xmllint' to check XML markup files
+[14.805s] -- Configuring done
+[14.854s] -- Generating done
+[14.856s] -- Build files have been written to: /home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move
+[14.888s] [35m[1mConsolidate compiler generated dependencies of target demo02_pcl_pub[0m
+[14.888s] [35m[1mConsolidate compiler generated dependencies of target demo01_tf_spin[0m
+[14.914s] [100%] Built target demo01_tf_spin
+[14.914s] [100%] Built target demo02_pcl_pub
+[14.923s] Invoked command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move -- -j32 -l32
+[14.950s] Invoking command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move
+[14.955s] -- Install configuration: ""
+[14.956s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/lib/cpp03_pcl_move/demo01_tf_spin
+[14.956s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/lib/cpp03_pcl_move/demo02_pcl_pub
+[14.957s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/ament_index/resource_index/package_run_dependencies/cpp03_pcl_move
+[14.957s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/ament_index/resource_index/parent_prefix_path/cpp03_pcl_move
+[14.957s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/environment/ament_prefix_path.sh
+[14.957s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/environment/ament_prefix_path.dsv
+[14.958s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/environment/path.sh
+[14.958s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/environment/path.dsv
+[14.958s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/local_setup.bash
+[14.958s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/local_setup.sh
+[14.958s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/local_setup.zsh
+[14.958s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/local_setup.dsv
+[14.958s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/package.dsv
+[14.958s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/ament_index/resource_index/packages/cpp03_pcl_move
+[14.958s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/cmake/cpp03_pcl_moveConfig.cmake
+[14.958s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/cmake/cpp03_pcl_moveConfig-version.cmake
+[14.958s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/package.xml
+[14.961s] Invoked command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move

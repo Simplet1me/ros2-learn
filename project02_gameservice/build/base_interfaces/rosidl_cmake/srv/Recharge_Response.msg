@@ -1,0 +1,3 @@
+
+string user_vip_level
+int32 user_points

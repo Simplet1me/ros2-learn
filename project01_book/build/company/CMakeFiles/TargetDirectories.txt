@@ -1,0 +1,12 @@
+/home/simpletime/project01_book/build/company/CMakeFiles/uninstall.dir
+/home/simpletime/project01_book/build/company/CMakeFiles/company_uninstall.dir
+/home/simpletime/project01_book/build/company/CMakeFiles/company_a.dir
+/home/simpletime/project01_book/build/company/CMakeFiles/company_b.dir
+/home/simpletime/project01_book/build/company/CMakeFiles/company_c.dir
+/home/simpletime/project01_book/build/company/CMakeFiles/test.dir
+/home/simpletime/project01_book/build/company/CMakeFiles/edit_cache.dir
+/home/simpletime/project01_book/build/company/CMakeFiles/rebuild_cache.dir
+/home/simpletime/project01_book/build/company/CMakeFiles/list_install_components.dir
+/home/simpletime/project01_book/build/company/CMakeFiles/install.dir
+/home/simpletime/project01_book/build/company/CMakeFiles/install/local.dir
+/home/simpletime/project01_book/build/company/CMakeFiles/install/strip.dir

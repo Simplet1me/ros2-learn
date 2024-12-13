@@ -1,0 +1,4 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/simpletime/Project/ws01_plumbing/build/base_interfaces_demo/CMakeCache.txt is different than the directory /home/simpletime/ws01_plumbing/build/base_interfaces_demo where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0mCMake Error: The source directory "/home/simpletime/ws01_plumbing/src/base_interfaces_demo" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:1179: cmake_check_build_system] Error 1

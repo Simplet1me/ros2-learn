@@ -1,0 +1,28 @@
+[0.013s] Invoking command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl -- -j32 -l32
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target demo02_pcl_listener[0m
+[0.055s] [ 50%] Built target demo01_pcl_pub
+[0.067s] [ 75%] [32mBuilding CXX object CMakeFiles/demo02_pcl_listener.dir/src/demo02_pcl_listener.cpp.o[0m
+[9.294s] [100%] [32m[1mLinking CXX executable demo02_pcl_listener[0m
+[9.835s] [100%] Built target demo02_pcl_listener
+[9.846s] Invoked command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl -- -j32 -l32
+[9.867s] Invoking command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl
+[9.873s] -- Install configuration: ""
+[9.873s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/lib/cpp02_nav_pcl/demo01_pcl_pub
+[9.873s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/lib/cpp02_nav_pcl/demo02_pcl_listener
+[9.878s] -- Set runtime path of "/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/lib/cpp02_nav_pcl/demo02_pcl_listener" to ""
+[9.878s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/ament_index/resource_index/package_run_dependencies/cpp02_nav_pcl
+[9.878s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/ament_index/resource_index/parent_prefix_path/cpp02_nav_pcl
+[9.878s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/environment/ament_prefix_path.sh
+[9.878s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/environment/ament_prefix_path.dsv
+[9.878s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/environment/path.sh
+[9.878s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/environment/path.dsv
+[9.878s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/local_setup.bash
+[9.878s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/local_setup.sh
+[9.878s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/local_setup.zsh
+[9.879s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/local_setup.dsv
+[9.879s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/package.dsv
+[9.879s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/ament_index/resource_index/packages/cpp02_nav_pcl
+[9.879s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/cmake/cpp02_nav_pclConfig.cmake
+[9.879s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/cmake/cpp02_nav_pclConfig-version.cmake
+[9.879s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/package.xml
+[9.880s] Invoked command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl

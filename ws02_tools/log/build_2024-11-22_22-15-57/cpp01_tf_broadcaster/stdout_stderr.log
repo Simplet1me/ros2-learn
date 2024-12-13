@@ -1,0 +1,13 @@
+[ 33%] Built target demo01_static_tf_broadcaster
+[ 33%] Built target demo00_run
+[ 50%] Built target demo02_dynamic_tf_broadcaster
+[ 66%] Built target demo00_run1
+[ 75%] [32mBuilding CXX object CMakeFiles/demo04_pcl_reader.dir/src/demo04_pcl_reader.cpp.o[0m
+[ 91%] Built target demo03_tf_listener
+[01m[K/home/simpletime/Project/ws02_tools/src/cpp01_tf_broadcaster/src/demo04_pcl_reader.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/point_cloud2.hpp: No such file or directory
+    3 | #include [01;31m[K"sensor_msgs/msg/point_cloud2.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/demo04_pcl_reader.dir/build.make:76: CMakeFiles/demo04_pcl_reader.dir/src/demo04_pcl_reader.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/demo04_pcl_reader.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

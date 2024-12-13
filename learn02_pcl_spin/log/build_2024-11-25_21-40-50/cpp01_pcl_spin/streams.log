@@ -1,0 +1,72 @@
+[0.013s] Invoking command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin -- -j32 -l32
+[0.036s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.144s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.264s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.266s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.271s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.280s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.289s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.317s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.318s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.375s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.410s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[4.423s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[4.482s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.493s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[4.519s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.773s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[9.008s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.014s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[10.778s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[10.783s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[10.788s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[12.566s] -- Found Qhull version 8.0.2
+[14.337s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[16.046s] [33mCMake Warning (dev) at CMakeLists.txt:16 (find_package):
+[16.046s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[16.047s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[16.047s]   command to set the policy and suppress this warning.
+[16.047s] 
+[16.047s]   CMake variable PCL_ROOT is set to:
+[16.047s] 
+[16.047s]     /usr
+[16.047s] 
+[16.047s]   For compatibility, CMake is ignoring the variable.
+[16.047s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[16.047s] [0m
+[16.059s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[16.119s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[16.119s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/simpletime/Project/learn02_pcl_spin/src/cpp01_pcl_spin/include>
+[16.119s] -- Configured cppcheck exclude dirs and/or files: 
+[16.119s] -- Added test 'lint_cmake' to check CMake code style
+[16.120s] -- Added test 'uncrustify' to check C / C++ code style
+[16.120s] -- Configured uncrustify additional arguments: 
+[16.120s] -- Added test 'xmllint' to check XML markup files
+[16.121s] -- Configuring done
+[16.155s] -- Generating done
+[16.158s] -- Build files have been written to: /home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin
+[16.197s] [35m[1mConsolidate compiler generated dependencies of target demo01_pcl_spin[0m
+[16.217s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_pcl_spin.dir/src/demo01_pcl_spin.cpp.o[0m
+[19.603s] [100%] [32m[1mLinking CXX executable demo01_pcl_spin[0m
+[20.030s] [100%] Built target demo01_pcl_spin
+[20.041s] Invoked command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin -- -j32 -l32
+[20.090s] Invoking command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin
+[20.098s] -- Install configuration: ""
+[20.098s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/lib/cpp01_pcl_spin/demo01_pcl_spin
+[20.113s] -- Set runtime path of "/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/lib/cpp01_pcl_spin/demo01_pcl_spin" to ""
+[20.113s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/ament_index/resource_index/package_run_dependencies/cpp01_pcl_spin
+[20.117s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/ament_index/resource_index/parent_prefix_path/cpp01_pcl_spin
+[20.118s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/environment/ament_prefix_path.sh
+[20.119s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/environment/ament_prefix_path.dsv
+[20.119s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/environment/path.sh
+[20.120s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/environment/path.dsv
+[20.120s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/local_setup.bash
+[20.121s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/local_setup.sh
+[20.121s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/local_setup.zsh
+[20.122s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/local_setup.dsv
+[20.122s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/package.dsv
+[20.123s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/ament_index/resource_index/packages/cpp01_pcl_spin
+[20.123s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/cmake/cpp01_pcl_spinConfig.cmake
+[20.123s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/cmake/cpp01_pcl_spinConfig-version.cmake
+[20.123s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/package.xml
+[20.124s] Invoked command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin

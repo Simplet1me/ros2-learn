@@ -1,0 +1,35 @@
+[0.015s] Invoking command in '/home/simpletime/exam/build/base_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/exam/build/base_interface -- -j4 -l4
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target base_interface__rosidl_generator_c[0m
+[0.090s] [  3%] Built target base_interface__cpp
+[0.091s] [ 12%] Built target base_interface__rosidl_generator_c
+[0.108s] [ 12%] Built target ament_cmake_python_copy_base_interface
+[0.109s] [35m[1mConsolidate compiler generated dependencies of target base_interface__rosidl_typesupport_introspection_cpp[0m
+[0.109s] [35m[1mConsolidate compiler generated dependencies of target base_interface__rosidl_typesupport_fastrtps_cpp[0m
+[0.114s] [35m[1mConsolidate compiler generated dependencies of target base_interface__rosidl_typesupport_cpp[0m
+[0.129s] [35m[1mConsolidate compiler generated dependencies of target base_interface__rosidl_typesupport_fastrtps_c[0m
+[0.129s] [ 22%] Built target base_interface__rosidl_typesupport_fastrtps_cpp
+[0.129s] [ 32%] Built target base_interface__rosidl_typesupport_introspection_cpp
+[0.137s] [ 41%] Built target base_interface__rosidl_typesupport_cpp
+[0.147s] [35m[1mConsolidate compiler generated dependencies of target base_interface__rosidl_typesupport_introspection_c[0m
+[0.147s] [35m[1mConsolidate compiler generated dependencies of target base_interface__rosidl_typesupport_c[0m
+[0.149s] [ 51%] Built target base_interface__rosidl_typesupport_fastrtps_c
+[0.160s] [ 61%] Built target base_interface__rosidl_typesupport_introspection_c
+[0.162s] [ 70%] Built target base_interface__rosidl_typesupport_c
+[0.182s] [ 70%] Built target base_interface
+[0.203s] [ 74%] Built target base_interface__py
+[0.214s] [35m[1mConsolidate compiler generated dependencies of target base_interface__rosidl_generator_py[0m
+[0.224s] [ 80%] Built target base_interface__rosidl_generator_py
+[0.235s] [35m[1mConsolidate compiler generated dependencies of target base_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.238s] [35m[1mConsolidate compiler generated dependencies of target base_interface__rosidl_typesupport_introspection_c__pyext[0m
+[0.250s] [35m[1mConsolidate compiler generated dependencies of target base_interface__rosidl_typesupport_c__pyext[0m
+[0.262s] [ 87%] Built target base_interface__rosidl_typesupport_introspection_c__pyext
+[0.265s] [ 93%] Built target base_interface__rosidl_typesupport_c__pyext
+[0.265s] [100%] Built target base_interface__rosidl_typesupport_fastrtps_c__pyext
+[0.306s] running egg_info
+[0.307s] writing base_interface.egg-info/PKG-INFO
+[0.307s] writing dependency_links to base_interface.egg-info/dependency_links.txt
+[0.307s] writing top-level names to base_interface.egg-info/top_level.txt
+[0.309s] reading manifest file 'base_interface.egg-info/SOURCES.txt'
+[0.309s] writing manifest file 'base_interface.egg-info/SOURCES.txt'
+[0.332s] [100%] Built target ament_cmake_python_build_base_interface_egg
+[0.347s] Invoked command in '/home/simpletime/exam/build/base_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/exam/build/base_interface -- -j4 -l4

@@ -1,0 +1,4 @@
+[01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp01_pcl_spin/src/demo01_pcl_spin.cpp:[m[K In member function ‘[01m[Kvoid PointCouldPublisher::pub()[m[K’:
+[01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp01_pcl_spin/src/demo01_pcl_spin.cpp:27:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krad[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   27 |     double [01;35m[Krad[m[K = ray * M_PI / 180.0;
+      |            [01;35m[K^~~[m[K

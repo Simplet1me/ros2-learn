@@ -1,0 +1,10 @@
+[0.013s] Invoking command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin -- -j32 -l32
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_pcl_spin.dir/src/demo01_pcl_spin.cpp.o[0m
+[1.397s] [01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp01_pcl_spin/src/demo01_pcl_spin.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Ktransform_listener.h: No such file or directory
+[1.397s]     7 | #include [01;31m[K<transform_listener.h>[m[K
+[1.398s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.398s] compilation terminated.
+[1.409s] gmake[2]: *** [CMakeFiles/demo01_pcl_spin.dir/build.make:76: CMakeFiles/demo01_pcl_spin.dir/src/demo01_pcl_spin.cpp.o] Error 1
+[1.410s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo01_pcl_spin.dir/all] Error 2
+[1.410s] gmake: *** [Makefile:146: all] Error 2
+[1.413s] Invoked command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin -- -j32 -l32

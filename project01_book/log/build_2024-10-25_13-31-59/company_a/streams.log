@@ -1,0 +1,23 @@
+[0.007s] Invoking command in '/home/simpletime/project01_book/build/company_a': CMAKE_PREFIX_PATH=/home/simpletime/project01_book/install/base_interfaces:/home/simpletime/project01_book/install/company_a:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/project01_book/build/company_a -- -j4 -l4
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target company_a[0m
+[0.051s] [100%] Built target company_a
+[0.060s] Invoked command in '/home/simpletime/project01_book/build/company_a' returned '0': CMAKE_PREFIX_PATH=/home/simpletime/project01_book/install/base_interfaces:/home/simpletime/project01_book/install/company_a:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/project01_book/build/company_a -- -j4 -l4
+[0.081s] Invoking command in '/home/simpletime/project01_book/build/company_a': CMAKE_PREFIX_PATH=/home/simpletime/project01_book/install/base_interfaces:/home/simpletime/project01_book/install/company_a:/opt/ros/humble /usr/bin/cmake --install /home/simpletime/project01_book/build/company_a
+[0.086s] -- Install configuration: ""
+[0.087s] -- Up-to-date: /home/simpletime/project01_book/install/company_a/lib/company_a/company_a
+[0.087s] -- Up-to-date: /home/simpletime/project01_book/install/company_a/share/ament_index/resource_index/package_run_dependencies/company_a
+[0.087s] -- Up-to-date: /home/simpletime/project01_book/install/company_a/share/ament_index/resource_index/parent_prefix_path/company_a
+[0.087s] -- Up-to-date: /home/simpletime/project01_book/install/company_a/share/company_a/environment/ament_prefix_path.sh
+[0.087s] -- Up-to-date: /home/simpletime/project01_book/install/company_a/share/company_a/environment/ament_prefix_path.dsv
+[0.087s] -- Up-to-date: /home/simpletime/project01_book/install/company_a/share/company_a/environment/path.sh
+[0.087s] -- Up-to-date: /home/simpletime/project01_book/install/company_a/share/company_a/environment/path.dsv
+[0.087s] -- Up-to-date: /home/simpletime/project01_book/install/company_a/share/company_a/local_setup.bash
+[0.087s] -- Up-to-date: /home/simpletime/project01_book/install/company_a/share/company_a/local_setup.sh
+[0.087s] -- Up-to-date: /home/simpletime/project01_book/install/company_a/share/company_a/local_setup.zsh
+[0.087s] -- Up-to-date: /home/simpletime/project01_book/install/company_a/share/company_a/local_setup.dsv
+[0.087s] -- Up-to-date: /home/simpletime/project01_book/install/company_a/share/company_a/package.dsv
+[0.087s] -- Up-to-date: /home/simpletime/project01_book/install/company_a/share/ament_index/resource_index/packages/company_a
+[0.087s] -- Up-to-date: /home/simpletime/project01_book/install/company_a/share/company_a/cmake/company_aConfig.cmake
+[0.087s] -- Up-to-date: /home/simpletime/project01_book/install/company_a/share/company_a/cmake/company_aConfig-version.cmake
+[0.087s] -- Up-to-date: /home/simpletime/project01_book/install/company_a/share/company_a/package.xml
+[0.089s] Invoked command in '/home/simpletime/project01_book/build/company_a' returned '0': CMAKE_PREFIX_PATH=/home/simpletime/project01_book/install/base_interfaces:/home/simpletime/project01_book/install/company_a:/opt/ros/humble /usr/bin/cmake --install /home/simpletime/project01_book/build/company_a

@@ -1,0 +1,40 @@
+[0.013s] Invoking command in '/home/simpletime/exam/build/cpp_topic': CMAKE_PREFIX_PATH=/home/simpletime/exam/install/base_interface:/home/simpletime/exam/install/cpp_topic:/home/simpletime/exam/install/cpp_auto:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/exam/build/cpp_topic -- -j4 -l4
+[0.056s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.170s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.236s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.238s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.241s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.248s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.255s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.275s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.276s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.351s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.390s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.398s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.398s] -- Configured cppcheck include dirs: /home/simpletime/exam/src/cpp_topic/include;$<BUILD_INTERFACE:/home/simpletime/exam/src/cpp_topic/include>
+[0.398s] -- Configured cppcheck exclude dirs and/or files: 
+[0.399s] -- Added test 'lint_cmake' to check CMake code style
+[0.399s] -- Added test 'uncrustify' to check C / C++ code style
+[0.399s] -- Configured uncrustify additional arguments: 
+[0.399s] -- Added test 'xmllint' to check XML markup files
+[0.401s] -- Configuring done
+[0.403s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_add_library.cmake:66 (add_library):
+[0.404s]   Cannot find source file:
+[0.404s] 
+[0.404s]     base_interface/msg/message.hpp
+[0.404s] 
+[0.404s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[0.404s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[0.404s] Call Stack (most recent call first):
+[0.404s]   CMakeLists.txt:18 (ament_auto_add_library)
+[0.404s] 
+[0.404s] [0m
+[0.406s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_add_library.cmake:66 (add_library):
+[0.406s]   No SOURCES given to target: my_lib
+[0.406s] Call Stack (most recent call first):
+[0.406s]   CMakeLists.txt:18 (ament_auto_add_library)
+[0.406s] 
+[0.406s] [0m
+[0.406s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.411s] gmake: *** [Makefile:308：cmake_check_build_system] 错误 1
+[0.413s] Invoked command in '/home/simpletime/exam/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=/home/simpletime/exam/install/base_interface:/home/simpletime/exam/install/cpp_topic:/home/simpletime/exam/install/cpp_auto:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/exam/build/cpp_topic -- -j4 -l4

@@ -1,0 +1,31 @@
+[0.018s] Invoking command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move -- -j32 -l32
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target demo02_pcl_pub[0m
+[0.059s] [ 25%] [32mBuilding CXX object CMakeFiles/demo01_tf_spin.dir/src/demo01_tf_spin.cpp.o[0m
+[0.073s] [ 50%] [32mBuilding CXX object CMakeFiles/demo02_pcl_pub.dir/src/demo02_pcl_pub.cpp.o[0m
+[6.156s] [ 75%] [32m[1mLinking CXX executable demo02_pcl_pub[0m
+[6.213s] [100%] [32m[1mLinking CXX executable demo01_tf_spin[0m
+[6.576s] [100%] Built target demo02_pcl_pub
+[6.617s] [100%] Built target demo01_tf_spin
+[6.628s] Invoked command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move -- -j32 -l32
+[6.651s] Invoking command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move
+[6.656s] -- Install configuration: ""
+[6.656s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/lib/cpp03_pcl_move/demo01_tf_spin
+[6.658s] -- Set runtime path of "/home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/lib/cpp03_pcl_move/demo01_tf_spin" to ""
+[6.658s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/lib/cpp03_pcl_move/demo02_pcl_pub
+[6.660s] -- Set runtime path of "/home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/lib/cpp03_pcl_move/demo02_pcl_pub" to ""
+[6.661s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/ament_index/resource_index/package_run_dependencies/cpp03_pcl_move
+[6.661s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/ament_index/resource_index/parent_prefix_path/cpp03_pcl_move
+[6.661s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/environment/ament_prefix_path.sh
+[6.661s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/environment/ament_prefix_path.dsv
+[6.661s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/environment/path.sh
+[6.661s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/environment/path.dsv
+[6.661s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/local_setup.bash
+[6.661s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/local_setup.sh
+[6.661s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/local_setup.zsh
+[6.661s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/local_setup.dsv
+[6.662s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/package.dsv
+[6.662s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/ament_index/resource_index/packages/cpp03_pcl_move
+[6.662s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/cmake/cpp03_pcl_moveConfig.cmake
+[6.662s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/cmake/cpp03_pcl_moveConfig-version.cmake
+[6.662s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/package.xml
+[6.664s] Invoked command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move

@@ -1,0 +1,109 @@
+[0.010s] Invoking command in '/home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster -- -j32 -l32
+[0.028s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.116s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.220s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.221s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.225s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.232s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.240s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.260s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.261s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.934s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.967s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[3.978s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[4.031s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[4.040s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.060s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.167s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[7.890s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.894s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[7.895s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[9.370s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[9.374s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.378s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[10.843s] -- Found Qhull version 8.0.2
+[12.327s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[13.812s] -- looking for PCL_COMMON
+[13.812s] -- looking for PCL_KDTREE
+[13.812s] -- looking for PCL_OCTREE
+[13.812s] -- looking for PCL_SEARCH
+[13.813s] -- looking for PCL_SAMPLE_CONSENSUS
+[13.813s] -- looking for PCL_FILTERS
+[13.813s] -- looking for PCL_2D
+[13.814s] -- looking for PCL_GEOMETRY
+[13.814s] -- looking for PCL_IO
+[13.814s] -- looking for PCL_FEATURES
+[13.814s] -- looking for PCL_ML
+[13.814s] -- looking for PCL_SEGMENTATION
+[13.815s] -- looking for PCL_VISUALIZATION
+[13.815s] -- looking for PCL_SURFACE
+[13.815s] -- looking for PCL_REGISTRATION
+[13.815s] -- looking for PCL_KEYPOINTS
+[13.816s] -- looking for PCL_TRACKING
+[13.816s] -- looking for PCL_RECOGNITION
+[13.816s] -- looking for PCL_STEREO
+[13.817s] -- looking for PCL_APPS
+[13.817s] -- looking for PCL_IN_HAND_SCANNER
+[13.818s] -- looking for PCL_MODELER
+[13.818s] -- looking for PCL_POINT_CLOUD_EDITOR
+[13.818s] -- looking for PCL_OUTOFCORE
+[13.818s] -- looking for PCL_PEOPLE
+[13.819s] -- Found rviz2: 11.2.13 (/opt/ros/humble/share/rviz2/cmake)
+[13.822s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[13.851s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.900s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.901s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/simpletime/Project/ws02_tools/src/cpp01_tf_broadcaster/include>
+[13.901s] -- Configured cppcheck exclude dirs and/or files: 
+[13.901s] -- Added test 'lint_cmake' to check CMake code style
+[13.902s] -- Added test 'uncrustify' to check C / C++ code style
+[13.902s] -- Configured uncrustify additional arguments: 
+[13.902s] -- Added test 'xmllint' to check XML markup files
+[13.902s] -- Configuring done
+[13.951s] -- Generating done
+[13.954s] -- Build files have been written to: /home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster
+[13.985s] [35m[1mConsolidate compiler generated dependencies of target demo01_static_tf_broadcaster[0m
+[13.985s] [35m[1mConsolidate compiler generated dependencies of target demo02_dynamic_tf_broadcaster[0m
+[13.985s] [35m[1mConsolidate compiler generated dependencies of target demo00_run1[0m
+[13.986s] [35m[1mConsolidate compiler generated dependencies of target demo03_tf_listener[0m
+[13.987s] [35m[1mConsolidate compiler generated dependencies of target demo00_run[0m
+[13.987s] [35m[1mConsolidate compiler generated dependencies of target demo04_pcl_reader[0m
+[14.000s] [ 33%] Built target demo02_dynamic_tf_broadcaster
+[14.000s] [ 33%] Built target demo01_static_tf_broadcaster
+[14.001s] [ 50%] Built target demo00_run1
+[14.001s] [ 66%] Built target demo03_tf_listener
+[14.003s] [ 83%] [32mBuilding CXX object CMakeFiles/demo04_pcl_reader.dir/src/demo04_pcl_reader.cpp.o[0m
+[14.003s] [ 91%] Built target demo00_run
+[19.383s] [100%] [32m[1mLinking CXX executable demo04_pcl_reader[0m
+[19.895s] [100%] Built target demo04_pcl_reader
+[19.905s] Invoked command in '/home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster -- -j32 -l32
+[19.945s] Invoking command in '/home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster
+[19.949s] -- Install configuration: ""
+[19.951s] -- Installing: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo01_static_tf_broadcaster
+[19.953s] -- Set runtime path of "/home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo01_static_tf_broadcaster" to ""
+[19.954s] -- Installing: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo03_tf_listener
+[19.963s] -- Set runtime path of "/home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo03_tf_listener" to ""
+[19.964s] -- Installing: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo00_run
+[19.967s] -- Set runtime path of "/home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo00_run" to ""
+[19.967s] -- Installing: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo02_dynamic_tf_broadcaster
+[19.977s] -- Set runtime path of "/home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo02_dynamic_tf_broadcaster" to ""
+[19.977s] -- Installing: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo00_run1
+[19.980s] -- Set runtime path of "/home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo00_run1" to ""
+[19.981s] -- Installing: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo04_pcl_reader
+[19.982s] -- Set runtime path of "/home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo04_pcl_reader" to ""
+[19.983s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo04_pcl_reader
+[19.983s] -- Installing: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/ament_index/resource_index/package_run_dependencies/cpp01_tf_broadcaster
+[19.983s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/ament_index/resource_index/parent_prefix_path/cpp01_tf_broadcaster
+[19.984s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/environment/ament_prefix_path.sh
+[19.984s] -- Installing: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/environment/ament_prefix_path.dsv
+[19.984s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/environment/path.sh
+[19.984s] -- Installing: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/environment/path.dsv
+[19.984s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/local_setup.bash
+[19.985s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/local_setup.sh
+[19.985s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/local_setup.zsh
+[19.985s] -- Installing: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/local_setup.dsv
+[19.985s] -- Installing: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/package.dsv
+[19.985s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/ament_index/resource_index/packages/cpp01_tf_broadcaster
+[19.985s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/cmake/cpp01_tf_broadcasterConfig.cmake
+[19.985s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/cmake/cpp01_tf_broadcasterConfig-version.cmake
+[19.985s] -- Installing: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/package.xml
+[19.988s] Invoked command in '/home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster

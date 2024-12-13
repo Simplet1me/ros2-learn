@@ -1,0 +1,120 @@
+[0.015s] Invoking command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/simpletime/Project/learn02_pcl_spin/src/cpp02_nav_pcl -DCMAKE_INSTALL_PREFIX=/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl
+[0.185s] -- The C compiler identification is GNU 11.4.0
+[0.612s] -- The CXX compiler identification is GNU 11.4.0
+[0.914s] -- Detecting C compiler ABI info
+[1.037s] -- Detecting C compiler ABI info - done
+[1.042s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.043s] -- Detecting C compile features
+[1.044s] -- Detecting C compile features - done
+[1.048s] -- Detecting CXX compiler ABI info
+[1.172s] -- Detecting CXX compiler ABI info - done
+[1.178s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.178s] -- Detecting CXX compile features
+[1.178s] -- Detecting CXX compile features - done
+[1.181s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.301s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.391s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.546s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.552s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.565s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.580s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.600s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.652s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.655s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.703s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.795s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.782s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.793s] -- Looking for pthread.h
+[5.914s] -- Looking for pthread.h - found
+[5.915s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.034s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.035s] -- Found Threads: TRUE  
+[6.096s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[6.126s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[6.229s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.248s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[6.281s] -- Checking for module 'eigen3'
+[6.292s] --   Found eigen3, version 3.4.0
+[6.317s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[6.317s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[7.297s] -- Checking for module 'flann'
+[7.308s] --   Found flann, version 1.9.1
+[7.602s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[7.602s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[11.805s] -- Checking for module 'libusb-1.0'
+[11.815s] --   Found libusb-1.0, version 1.0.25
+[11.906s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[11.908s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[12.090s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[13.856s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[13.861s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[13.867s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[15.632s] -- Found Qhull version 8.0.2
+[17.501s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[19.165s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[19.166s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[19.166s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[19.167s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[19.167s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[19.168s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[19.168s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[19.168s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[19.169s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[19.170s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[19.171s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[19.171s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[19.172s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[19.173s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[19.173s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[19.174s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[19.175s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[19.176s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[19.177s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[19.178s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[19.178s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[19.179s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[19.179s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[19.180s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[19.181s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[19.186s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[19.229s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[19.231s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[19.231s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[19.234s] -- Found tf2_sensor_msgs: 0.25.8 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+[19.248s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[19.330s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[19.331s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/simpletime/Project/learn02_pcl_spin/src/cpp02_nav_pcl/include>
+[19.331s] -- Configured cppcheck exclude dirs and/or files: 
+[19.332s] -- Added test 'lint_cmake' to check CMake code style
+[19.334s] -- Added test 'uncrustify' to check C / C++ code style
+[19.334s] -- Configured uncrustify additional arguments: 
+[19.335s] -- Added test 'xmllint' to check XML markup files
+[19.337s] -- Configuring done
+[19.434s] -- Generating done
+[19.436s] -- Build files have been written to: /home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl
+[19.459s] Invoked command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/simpletime/Project/learn02_pcl_spin/src/cpp02_nav_pcl -DCMAKE_INSTALL_PREFIX=/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl
+[19.461s] Invoking command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl -- -j32 -l32
+[19.507s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_pcl_pub.dir/src/demo01_pcl_pub.cpp.o[0m
+[19.549s] [100%] [32m[1mLinking CXX executable demo01_pcl_pub[0m
+[57.563s] [100%] Built target demo01_pcl_pub
+[57.572s] Invoked command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl -- -j32 -l32
+[57.596s] Invoking command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl
+[57.601s] -- Install configuration: ""
+[57.602s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/lib/cpp02_nav_pcl/demo01_pcl_pub
+[57.602s] -- Set runtime path of "/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/lib/cpp02_nav_pcl/demo01_pcl_pub" to ""
+[57.603s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/ament_index/resource_index/package_run_dependencies/cpp02_nav_pcl
+[57.603s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/ament_index/resource_index/parent_prefix_path/cpp02_nav_pcl
+[57.604s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/environment/ament_prefix_path.sh
+[57.604s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/environment/ament_prefix_path.dsv
+[57.604s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/environment/path.sh
+[57.604s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/environment/path.dsv
+[57.605s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/local_setup.bash
+[57.605s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/local_setup.sh
+[57.605s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/local_setup.zsh
+[57.605s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/local_setup.dsv
+[57.606s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/package.dsv
+[57.606s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/ament_index/resource_index/packages/cpp02_nav_pcl
+[57.606s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/cmake/cpp02_nav_pclConfig.cmake
+[57.607s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/cmake/cpp02_nav_pclConfig-version.cmake
+[57.607s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/package.xml
+[57.609s] Invoked command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl

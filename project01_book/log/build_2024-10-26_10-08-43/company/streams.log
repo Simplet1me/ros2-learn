@@ -1,0 +1,31 @@
+[0.009s] Invoking command in '/home/simpletime/project01_book/build/company': AMENT_PREFIX_PATH=/home/simpletime/project01_book/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/simpletime/project01_book/install/base_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/simpletime/project01_book/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/simpletime/project01_book/build/company -- -j4 -l4
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target company_b[0m
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target company_a[0m
+[0.077s] [ 66%] Built target company_c
+[0.077s] [ 66%] Built target company_b
+[0.078s] [ 83%] [32mBuilding CXX object CMakeFiles/company_a.dir/src/company_a.cpp.o[0m
+[5.730s] [100%] [32m[1mLinking CXX executable company_a[0m
+[6.026s] [100%] Built target company_a
+[6.037s] Invoked command in '/home/simpletime/project01_book/build/company' returned '0': AMENT_PREFIX_PATH=/home/simpletime/project01_book/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/simpletime/project01_book/install/base_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/simpletime/project01_book/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/simpletime/project01_book/build/company -- -j4 -l4
+[6.063s] Invoking command in '/home/simpletime/project01_book/build/company': AMENT_PREFIX_PATH=/home/simpletime/project01_book/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/simpletime/project01_book/install/base_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/simpletime/project01_book/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/simpletime/project01_book/build/company
+[6.069s] -- Install configuration: ""
+[6.071s] -- Installing: /home/simpletime/project01_book/install/company/lib/company/company_a
+[6.075s] -- Set runtime path of "/home/simpletime/project01_book/install/company/lib/company/company_a" to ""
+[6.076s] -- Up-to-date: /home/simpletime/project01_book/install/company/lib/company/company_b
+[6.077s] -- Up-to-date: /home/simpletime/project01_book/install/company/lib/company/company_c
+[6.079s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/ament_index/resource_index/package_run_dependencies/company
+[6.079s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/ament_index/resource_index/parent_prefix_path/company
+[6.079s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/company/environment/ament_prefix_path.sh
+[6.079s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/company/environment/ament_prefix_path.dsv
+[6.079s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/company/environment/path.sh
+[6.079s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/company/environment/path.dsv
+[6.079s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/company/local_setup.bash
+[6.079s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/company/local_setup.sh
+[6.080s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/company/local_setup.zsh
+[6.080s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/company/local_setup.dsv
+[6.080s] -- Installing: /home/simpletime/project01_book/install/company/share/company/package.dsv
+[6.080s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/ament_index/resource_index/packages/company
+[6.080s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/company/cmake/companyConfig.cmake
+[6.080s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/company/cmake/companyConfig-version.cmake
+[6.080s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/company/package.xml
+[6.083s] Invoked command in '/home/simpletime/project01_book/build/company' returned '0': AMENT_PREFIX_PATH=/home/simpletime/project01_book/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/simpletime/project01_book/install/base_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/simpletime/project01_book/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/simpletime/project01_book/build/company

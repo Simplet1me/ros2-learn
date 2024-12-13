@@ -1,0 +1,36 @@
+[0.009s] Invoking command in '/home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster -- -j4 -l4
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target demo00_run1[0m
+[0.101s] [ 50%] Built target demo02_dynamic_tf_broadcaster
+[0.108s] [ 25%] Built target demo00_run
+[0.108s] [ 75%] Built target demo01_static_tf_broadcaster
+[0.108s] [ 87%] [32mBuilding CXX object CMakeFiles/demo00_run1.dir/src/demo00_run1.cpp.o[0m
+[1.956s] [01m[K/home/simpletime/Project/ws02_tools/src/cpp01_tf_broadcaster/src/demo00_run1.cpp:[m[K In member function ‘[01m[Kvoid TFDynBroadcaster::pub_tf()[m[K’:
+[1.956s] [01m[K/home/simpletime/Project/ws02_tools/src/cpp01_tf_broadcaster/src/demo00_run1.cpp:24:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kisup[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.956s]    24 |     bool [01;35m[Kisup[m[K = 1;
+[1.956s]       |          [01;35m[K^~~~[m[K
+[3.183s] [100%] [32m[1mLinking CXX executable demo00_run1[0m
+[3.338s] [100%] Built target demo00_run1
+[3.352s] Invoked command in '/home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster -- -j4 -l4
+[3.406s] Invoking command in '/home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster
+[3.412s] -- Install configuration: ""
+[3.412s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo01_static_tf_broadcaster
+[3.412s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo00_run
+[3.412s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo02_dynamic_tf_broadcaster
+[3.413s] -- Installing: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo00_run1
+[3.414s] -- Set runtime path of "/home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo00_run1" to ""
+[3.414s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/ament_index/resource_index/package_run_dependencies/cpp01_tf_broadcaster
+[3.415s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/ament_index/resource_index/parent_prefix_path/cpp01_tf_broadcaster
+[3.415s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/environment/ament_prefix_path.sh
+[3.416s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/environment/ament_prefix_path.dsv
+[3.416s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/environment/path.sh
+[3.416s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/environment/path.dsv
+[3.416s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/local_setup.bash
+[3.416s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/local_setup.sh
+[3.416s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/local_setup.zsh
+[3.416s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/local_setup.dsv
+[3.416s] -- Installing: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/package.dsv
+[3.416s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/ament_index/resource_index/packages/cpp01_tf_broadcaster
+[3.416s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/cmake/cpp01_tf_broadcasterConfig.cmake
+[3.416s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/cmake/cpp01_tf_broadcasterConfig-version.cmake
+[3.416s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/package.xml
+[3.418s] Invoked command in '/home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster

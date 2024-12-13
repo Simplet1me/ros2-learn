@@ -1,0 +1,28 @@
+[0.008s] Invoking command in '/home/simpletime/project02_gameservice/build/game_service': AMENT_PREFIX_PATH=/home/simpletime/project02_gameservice/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/simpletime/project02_gameservice/install/base_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/simpletime/project02_gameservice/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/simpletime/project02_gameservice/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/simpletime/project02_gameservice/build/game_service -- -j4 -l4
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target gmae_client[0m
+[0.068s] [ 25%] [32mBuilding CXX object CMakeFiles/gmae_client.dir/src/gmae_client.cpp.o[0m
+[0.068s] [ 75%] Built target game_server
+[2.623s] [100%] [32m[1mLinking CXX executable gmae_client[0m
+[2.724s] [100%] Built target gmae_client
+[2.734s] Invoked command in '/home/simpletime/project02_gameservice/build/game_service' returned '0': AMENT_PREFIX_PATH=/home/simpletime/project02_gameservice/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/simpletime/project02_gameservice/install/base_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/simpletime/project02_gameservice/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/simpletime/project02_gameservice/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/simpletime/project02_gameservice/build/game_service -- -j4 -l4
+[2.760s] Invoking command in '/home/simpletime/project02_gameservice/build/game_service': AMENT_PREFIX_PATH=/home/simpletime/project02_gameservice/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/simpletime/project02_gameservice/install/base_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/simpletime/project02_gameservice/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/simpletime/project02_gameservice/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/simpletime/project02_gameservice/build/game_service
+[2.765s] -- Install configuration: ""
+[2.766s] -- Up-to-date: /home/simpletime/project02_gameservice/install/game_service/lib/game_service/game_server
+[2.767s] -- Installing: /home/simpletime/project02_gameservice/install/game_service/lib/game_service/gmae_client
+[2.767s] -- Set runtime path of "/home/simpletime/project02_gameservice/install/game_service/lib/game_service/gmae_client" to ""
+[2.767s] -- Up-to-date: /home/simpletime/project02_gameservice/install/game_service/share/ament_index/resource_index/package_run_dependencies/game_service
+[2.767s] -- Up-to-date: /home/simpletime/project02_gameservice/install/game_service/share/ament_index/resource_index/parent_prefix_path/game_service
+[2.767s] -- Up-to-date: /home/simpletime/project02_gameservice/install/game_service/share/game_service/environment/ament_prefix_path.sh
+[2.767s] -- Up-to-date: /home/simpletime/project02_gameservice/install/game_service/share/game_service/environment/ament_prefix_path.dsv
+[2.767s] -- Up-to-date: /home/simpletime/project02_gameservice/install/game_service/share/game_service/environment/path.sh
+[2.767s] -- Up-to-date: /home/simpletime/project02_gameservice/install/game_service/share/game_service/environment/path.dsv
+[2.767s] -- Up-to-date: /home/simpletime/project02_gameservice/install/game_service/share/game_service/local_setup.bash
+[2.767s] -- Up-to-date: /home/simpletime/project02_gameservice/install/game_service/share/game_service/local_setup.sh
+[2.767s] -- Up-to-date: /home/simpletime/project02_gameservice/install/game_service/share/game_service/local_setup.zsh
+[2.767s] -- Up-to-date: /home/simpletime/project02_gameservice/install/game_service/share/game_service/local_setup.dsv
+[2.768s] -- Installing: /home/simpletime/project02_gameservice/install/game_service/share/game_service/package.dsv
+[2.768s] -- Up-to-date: /home/simpletime/project02_gameservice/install/game_service/share/ament_index/resource_index/packages/game_service
+[2.768s] -- Up-to-date: /home/simpletime/project02_gameservice/install/game_service/share/game_service/cmake/game_serviceConfig.cmake
+[2.768s] -- Up-to-date: /home/simpletime/project02_gameservice/install/game_service/share/game_service/cmake/game_serviceConfig-version.cmake
+[2.768s] -- Up-to-date: /home/simpletime/project02_gameservice/install/game_service/share/game_service/package.xml
+[2.770s] Invoked command in '/home/simpletime/project02_gameservice/build/game_service' returned '0': AMENT_PREFIX_PATH=/home/simpletime/project02_gameservice/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/simpletime/project02_gameservice/install/base_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/simpletime/project02_gameservice/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/simpletime/project02_gameservice/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/simpletime/project02_gameservice/build/game_service

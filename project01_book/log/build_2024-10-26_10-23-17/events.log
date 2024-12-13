@@ -1,0 +1,305 @@
+[0.000000] (-) TimerEvent: {}
+[0.000222] (base_interfaces) JobQueued: {'identifier': 'base_interfaces', 'dependencies': OrderedDict()}
+[0.000291] (company) JobQueued: {'identifier': 'company', 'dependencies': OrderedDict([('base_interfaces', '/home/simpletime/project01_book/install/base_interfaces')])}
+[0.000348] (base_interfaces) JobStarted: {'identifier': 'base_interfaces'}
+[0.011091] (base_interfaces) JobProgress: {'identifier': 'base_interfaces', 'progress': 'cmake'}
+[0.013466] (base_interfaces) JobProgress: {'identifier': 'base_interfaces', 'progress': 'build'}
+[0.013523] (base_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/simpletime/project01_book/build/base_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/simpletime/project01_book/build/base_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'simpletime'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/simpletime/project01_book/install/base_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/simpletime'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1530'), ('SYSTEMD_EXEC_PID', '1702'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2702'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/simpletime/project01_book/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'simpletime'), ('JOURNAL_STREAM', '8:23631'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'simpletime'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/SVM:@/tmp/.ICE-unix/1674,unix/SVM:/tmp/.ICE-unix/1674'), ('INVOCATION_ID', 'a4352d6fa12a43b49b5c7417170ca47d'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.K923V2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f4479f0087.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/simpletime/project01_book/install/company:/home/simpletime/project01_book/install/base_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/simpletime/project01_book/build/base_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/simpletime/project01_book/install/company:/home/simpletime/project01_book/install/base_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.096414] (base_interfaces) StdoutLine: {'line': b'[ 10%] Built target base_interfaces__rosidl_generator_c\n'}
+[0.099845] (-) TimerEvent: {}
+[0.107247] (base_interfaces) StdoutLine: {'line': b'[ 12%] Built target base_interfaces__cpp\n'}
+[0.112400] (base_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_base_interfaces\n'}
+[0.120838] (base_interfaces) StdoutLine: {'line': b'[ 23%] Built target base_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.127341] (base_interfaces) StdoutLine: {'line': b'[ 43%] Built target base_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.127498] (base_interfaces) StdoutLine: {'line': b'[ 43%] Built target base_interfaces__rosidl_typesupport_c\n'}
+[0.134565] (base_interfaces) StdoutLine: {'line': b'[ 53%] Built target base_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.150305] (base_interfaces) StdoutLine: {'line': b'[ 74%] Built target base_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.150460] (base_interfaces) StdoutLine: {'line': b'[ 74%] Built target base_interfaces__rosidl_typesupport_cpp\n'}
+[0.168454] (base_interfaces) StdoutLine: {'line': b'[ 74%] Built target base_interfaces\n'}
+[0.188935] (base_interfaces) StdoutLine: {'line': b'[ 76%] Built target base_interfaces__py\n'}
+[0.199917] (-) TimerEvent: {}
+[0.212032] (base_interfaces) StdoutLine: {'line': b'[ 84%] Built target base_interfaces__rosidl_generator_py\n'}
+[0.234971] (base_interfaces) StdoutLine: {'line': b'[ 89%] Built target base_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.237678] (base_interfaces) StdoutLine: {'line': b'[ 94%] Built target base_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.237878] (base_interfaces) StdoutLine: {'line': b'[100%] Built target base_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.277410] (base_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.277926] (base_interfaces) StdoutLine: {'line': b'writing base_interfaces.egg-info/PKG-INFO\n'}
+[0.278136] (base_interfaces) StdoutLine: {'line': b'writing dependency_links to base_interfaces.egg-info/dependency_links.txt\n'}
+[0.278383] (base_interfaces) StdoutLine: {'line': b'writing top-level names to base_interfaces.egg-info/top_level.txt\n'}
+[0.280495] (base_interfaces) StdoutLine: {'line': b"reading manifest file 'base_interfaces.egg-info/SOURCES.txt'\n"}
+[0.280969] (base_interfaces) StdoutLine: {'line': b"writing manifest file 'base_interfaces.egg-info/SOURCES.txt'\n"}
+[0.300935] (-) TimerEvent: {}
+[0.301182] (base_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_base_interfaces_egg\n'}
+[0.312557] (base_interfaces) CommandEnded: {'returncode': 0}
+[0.387951] (base_interfaces) JobProgress: {'identifier': 'base_interfaces', 'progress': 'install'}
+[0.396031] (base_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/simpletime/project01_book/build/base_interfaces'], 'cwd': '/home/simpletime/project01_book/build/base_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'simpletime'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/simpletime/project01_book/install/base_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/simpletime'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1530'), ('SYSTEMD_EXEC_PID', '1702'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2702'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/simpletime/project01_book/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'simpletime'), ('JOURNAL_STREAM', '8:23631'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'simpletime'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/SVM:@/tmp/.ICE-unix/1674,unix/SVM:/tmp/.ICE-unix/1674'), ('INVOCATION_ID', 'a4352d6fa12a43b49b5c7417170ca47d'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.K923V2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f4479f0087.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/simpletime/project01_book/install/company:/home/simpletime/project01_book/install/base_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/simpletime/project01_book/build/base_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/simpletime/project01_book/install/company:/home/simpletime/project01_book/install/base_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.401285] (-) TimerEvent: {}
+[0.402882] (base_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.403217] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/ament_index/resource_index/rosidl_interfaces/base_interfaces\n'}
+[0.404062] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces\n'}
+[0.404136] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg\n'}
+[0.404174] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail\n'}
+[0.404209] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/booksupply__struct.h\n'}
+[0.404241] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/bookneed__type_support.h\n'}
+[0.404271] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/booksupply__functions.h\n'}
+[0.404454] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/bookneed__functions.h\n'}
+[0.404490] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/bookneed__struct.h\n'}
+[0.404520] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/booksupply__functions.c\n'}
+[0.404547] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/bookneed__functions.c\n'}
+[0.404581] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/booksupply__type_support.h\n'}
+[0.404608] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/booksupply.h\n'}
+[0.404640] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.404702] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/bookneed.h\n'}
+[0.404860] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/environment/library_path.sh\n'}
+[0.404910] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/environment/library_path.dsv\n'}
+[0.404947] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_c.so\n'}
+[0.404976] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces\n'}
+[0.405003] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg\n'}
+[0.405029] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail\n'}
+[0.405056] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/booksupply__rosidl_typesupport_fastrtps_c.h\n'}
+[0.405092] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/bookneed__rosidl_typesupport_fastrtps_c.h\n'}
+[0.405120] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.405285] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.405419] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces\n'}
+[0.405460] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg\n'}
+[0.405491] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.405521] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail\n'}
+[0.405548] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/bookneed__type_support.c\n'}
+[0.405576] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/booksupply__type_support.c\n'}
+[0.405973] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/booksupply__rosidl_typesupport_introspection_c.h\n'}
+[0.406044] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/bookneed__rosidl_typesupport_introspection_c.h\n'}
+[0.406081] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.407076] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_c.so\n'}
+[0.407151] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces\n'}
+[0.407226] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg\n'}
+[0.407268] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/booksupply.hpp\n'}
+[0.407320] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail\n'}
+[0.407353] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/booksupply__builder.hpp\n'}
+[0.407385] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/bookneed__builder.hpp\n'}
+[0.407417] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/bookneed__struct.hpp\n'}
+[0.407453] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/bookneed__traits.hpp\n'}
+[0.407519] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/booksupply__traits.hpp\n'}
+[0.407574] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/booksupply__struct.hpp\n'}
+[0.407610] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/bookneed.hpp\n'}
+[0.407642] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces\n'}
+[0.407673] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg\n'}
+[0.407802] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail\n'}
+[0.407844] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/dds_fastrtps\n'}
+[0.407879] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/bookneed__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.407921] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/booksupply__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.407952] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.408162] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.408240] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces\n'}
+[0.408282] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg\n'}
+[0.408337] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail\n'}
+[0.408388] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/bookneed__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.408434] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/bookneed__type_support.cpp\n'}
+[0.408465] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/booksupply__type_support.cpp\n'}
+[0.408582] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/booksupply__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.408978] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.409629] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.410041] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/environment/pythonpath.sh\n'}
+[0.410277] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/environment/pythonpath.dsv\n'}
+[0.410458] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces-0.0.0-py3.10.egg-info\n'}
+[0.410595] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.410883] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.411686] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.411796] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.411937] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces\n'}
+[0.411996] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg\n'}
+[0.412035] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg/__init__.py\n'}
+[0.412066] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg/_booksupply_s.c\n'}
+[0.412100] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg/_booksupply.py\n'}
+[0.412134] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg/_bookneed.py\n'}
+[0.412163] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg/_bookneed_s.c\n'}
+[0.412192] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/__init__.py\n'}
+[0.412239] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.412364] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.412443] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.412484] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.412518] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.412550] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.412579] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/libbase_interfaces__rosidl_generator_py.so\n'}
+[0.436752] (base_interfaces) StdoutLine: {'line': b"Listing '/home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces'...\n"}
+[0.436925] (base_interfaces) StdoutLine: {'line': b"Listing '/home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg'...\n"}
+[0.439327] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.439615] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.440592] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.441298] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_py.so\n'}
+[0.441398] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/msg/Bookneed.idl\n'}
+[0.441441] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/msg/Booksupply.idl\n'}
+[0.441483] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/msg/Bookneed.msg\n'}
+[0.441519] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/msg/Booksupply.msg\n'}
+[0.441549] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/ament_index/resource_index/package_run_dependencies/base_interfaces\n'}
+[0.442311] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/ament_index/resource_index/parent_prefix_path/base_interfaces\n'}
+[0.442407] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/environment/ament_prefix_path.sh\n'}
+[0.442448] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.442485] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/environment/path.sh\n'}
+[0.442517] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/environment/path.dsv\n'}
+[0.442547] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/local_setup.bash\n'}
+[0.442577] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/local_setup.sh\n'}
+[0.442605] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/local_setup.zsh\n'}
+[0.442633] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/local_setup.dsv\n'}
+[0.442662] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/package.dsv\n'}
+[0.442715] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/ament_index/resource_index/packages/base_interfaces\n'}
+[0.443266] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.443443] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.444659] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.444764] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.445319] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.445692] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.446631] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.446730] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.446977] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.447467] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.447846] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.447967] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.448010] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.448326] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.448419] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.448670] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_pyExport.cmake\n'}
+[0.448905] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.449125] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.449163] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.449199] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.449230] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.449259] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.449288] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.449317] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.450192] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/cmake/base_interfacesConfig.cmake\n'}
+[0.450429] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/cmake/base_interfacesConfig-version.cmake\n'}
+[0.450535] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/package.xml\n'}
+[0.452793] (base_interfaces) CommandEnded: {'returncode': 0}
+[0.501477] (-) TimerEvent: {}
+[0.556578] (base_interfaces) JobEnded: {'identifier': 'base_interfaces', 'rc': 0}
+[0.558431] (company) JobStarted: {'identifier': 'company'}
+[0.568169] (company) JobProgress: {'identifier': 'company', 'progress': 'cmake'}
+[0.569634] (company) JobProgress: {'identifier': 'company', 'progress': 'build'}
+[0.569847] (company) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/simpletime/project01_book/build/company', '--', '-j4', '-l4'], 'cwd': '/home/simpletime/project01_book/build/company', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'simpletime'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/simpletime/project01_book/install/base_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/simpletime'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1530'), ('SYSTEMD_EXEC_PID', '1702'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2702'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/simpletime/project01_book/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'simpletime'), ('JOURNAL_STREAM', '8:23631'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'simpletime'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/SVM:@/tmp/.ICE-unix/1674,unix/SVM:/tmp/.ICE-unix/1674'), ('INVOCATION_ID', 'a4352d6fa12a43b49b5c7417170ca47d'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.K923V2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f4479f0087.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/simpletime/project01_book/install/company:/home/simpletime/project01_book/install/base_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/simpletime/project01_book/build/company'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/simpletime/project01_book/install/base_interfaces:/home/simpletime/project01_book/install/company:/opt/ros/humble')]), 'shell': False}
+[0.601686] (-) TimerEvent: {}
+[0.628440] (company) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target company_b\x1b[0m\n'}
+[0.644012] (company) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/company_a.dir/src/company_a.cpp.o\x1b[0m\n'}
+[0.644245] (company) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/company_c.dir/src/company_c.cpp.o\x1b[0m\n'}
+[0.650166] (company) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/company_b.dir/src/company_b.cpp.o\x1b[0m\n'}
+[0.708416] (-) TimerEvent: {}
+[0.817386] (-) TimerEvent: {}
+[0.922373] (-) TimerEvent: {}
+[1.023338] (-) TimerEvent: {}
+[1.124711] (-) TimerEvent: {}
+[1.237038] (-) TimerEvent: {}
+[1.341722] (-) TimerEvent: {}
+[1.445126] (-) TimerEvent: {}
+[1.546825] (-) TimerEvent: {}
+[1.655377] (-) TimerEvent: {}
+[1.761428] (-) TimerEvent: {}
+[1.865281] (-) TimerEvent: {}
+[1.972007] (-) TimerEvent: {}
+[2.075107] (-) TimerEvent: {}
+[2.177462] (-) TimerEvent: {}
+[2.281646] (-) TimerEvent: {}
+[2.382115] (-) TimerEvent: {}
+[2.486696] (-) TimerEvent: {}
+[2.604775] (-) TimerEvent: {}
+[2.705199] (-) TimerEvent: {}
+[2.806396] (-) TimerEvent: {}
+[2.908378] (-) TimerEvent: {}
+[3.010193] (-) TimerEvent: {}
+[3.112136] (-) TimerEvent: {}
+[3.213950] (-) TimerEvent: {}
+[3.320836] (-) TimerEvent: {}
+[3.421296] (-) TimerEvent: {}
+[3.522554] (-) TimerEvent: {}
+[3.624899] (-) TimerEvent: {}
+[3.725690] (-) TimerEvent: {}
+[3.834855] (-) TimerEvent: {}
+[3.935547] (-) TimerEvent: {}
+[4.036982] (-) TimerEvent: {}
+[4.140793] (-) TimerEvent: {}
+[4.241396] (-) TimerEvent: {}
+[4.342154] (-) TimerEvent: {}
+[4.443597] (-) TimerEvent: {}
+[4.546417] (-) TimerEvent: {}
+[4.649003] (-) TimerEvent: {}
+[4.760436] (-) TimerEvent: {}
+[4.861132] (-) TimerEvent: {}
+[4.963162] (-) TimerEvent: {}
+[5.064664] (-) TimerEvent: {}
+[5.168168] (-) TimerEvent: {}
+[5.271498] (-) TimerEvent: {}
+[5.371992] (-) TimerEvent: {}
+[5.472698] (-) TimerEvent: {}
+[5.574638] (-) TimerEvent: {}
+[5.675302] (-) TimerEvent: {}
+[5.781638] (-) TimerEvent: {}
+[5.883061] (-) TimerEvent: {}
+[5.983552] (-) TimerEvent: {}
+[6.084282] (-) TimerEvent: {}
+[6.187488] (-) TimerEvent: {}
+[6.290298] (-) TimerEvent: {}
+[6.391991] (-) TimerEvent: {}
+[6.492920] (-) TimerEvent: {}
+[6.593926] (-) TimerEvent: {}
+[6.695366] (-) TimerEvent: {}
+[6.795799] (-) TimerEvent: {}
+[6.896652] (-) TimerEvent: {}
+[6.997255] (-) TimerEvent: {}
+[7.099276] (-) TimerEvent: {}
+[7.199707] (-) TimerEvent: {}
+[7.300071] (-) TimerEvent: {}
+[7.400438] (-) TimerEvent: {}
+[7.503677] (-) TimerEvent: {}
+[7.604358] (-) TimerEvent: {}
+[7.704691] (-) TimerEvent: {}
+[7.805124] (-) TimerEvent: {}
+[7.905783] (-) TimerEvent: {}
+[8.006344] (-) TimerEvent: {}
+[8.106859] (-) TimerEvent: {}
+[8.207177] (-) TimerEvent: {}
+[8.308434] (-) TimerEvent: {}
+[8.409567] (-) TimerEvent: {}
+[8.509985] (-) TimerEvent: {}
+[8.567640] (company) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable company_b\x1b[0m\n'}
+[8.610791] (-) TimerEvent: {}
+[8.711343] (-) TimerEvent: {}
+[8.814119] (-) TimerEvent: {}
+[8.903456] (company) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable company_c\x1b[0m\n'}
+[8.914273] (-) TimerEvent: {}
+[8.924415] (company) StdoutLine: {'line': b'[ 83%] Built target company_b\n'}
+[9.014397] (-) TimerEvent: {}
+[9.060490] (company) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable company_a\x1b[0m\n'}
+[9.114539] (-) TimerEvent: {}
+[9.215345] (-) TimerEvent: {}
+[9.250040] (company) StdoutLine: {'line': b'[100%] Built target company_c\n'}
+[9.315607] (-) TimerEvent: {}
+[9.360980] (company) StdoutLine: {'line': b'[100%] Built target company_a\n'}
+[9.418103] (-) TimerEvent: {}
+[9.426043] (company) CommandEnded: {'returncode': 0}
+[9.488113] (company) JobProgress: {'identifier': 'company', 'progress': 'install'}
+[9.491738] (company) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/simpletime/project01_book/build/company'], 'cwd': '/home/simpletime/project01_book/build/company', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'simpletime'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/simpletime/project01_book/install/base_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/simpletime'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1530'), ('SYSTEMD_EXEC_PID', '1702'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2702'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/simpletime/project01_book/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'simpletime'), ('JOURNAL_STREAM', '8:23631'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'simpletime'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/SVM:@/tmp/.ICE-unix/1674,unix/SVM:/tmp/.ICE-unix/1674'), ('INVOCATION_ID', 'a4352d6fa12a43b49b5c7417170ca47d'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.K923V2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f4479f0087.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/simpletime/project01_book/install/company:/home/simpletime/project01_book/install/base_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/simpletime/project01_book/build/company'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/simpletime/project01_book/install/base_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/simpletime/project01_book/install/base_interfaces:/home/simpletime/project01_book/install/company:/opt/ros/humble')]), 'shell': False}
+[9.498421] (company) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.500690] (company) StdoutLine: {'line': b'-- Installing: /home/simpletime/project01_book/install/company/lib/company/company_a\n'}
+[9.506168] (company) StdoutLine: {'line': b'-- Set runtime path of "/home/simpletime/project01_book/install/company/lib/company/company_a" to ""\n'}
+[9.507182] (company) StdoutLine: {'line': b'-- Installing: /home/simpletime/project01_book/install/company/lib/company/company_b\n'}
+[9.512334] (company) StdoutLine: {'line': b'-- Set runtime path of "/home/simpletime/project01_book/install/company/lib/company/company_b" to ""\n'}
+[9.513564] (company) StdoutLine: {'line': b'-- Installing: /home/simpletime/project01_book/install/company/lib/company/company_c\n'}
+[9.517769] (company) StdoutLine: {'line': b'-- Set runtime path of "/home/simpletime/project01_book/install/company/lib/company/company_c" to ""\n'}
+[9.518884] (-) TimerEvent: {}
+[9.519490] (company) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/company/share/ament_index/resource_index/package_run_dependencies/company\n'}
+[9.519601] (company) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/company/share/ament_index/resource_index/parent_prefix_path/company\n'}
+[9.519973] (company) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/company/share/company/environment/ament_prefix_path.sh\n'}
+[9.520133] (company) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/company/share/company/environment/ament_prefix_path.dsv\n'}
+[9.520213] (company) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/company/share/company/environment/path.sh\n'}
+[9.520335] (company) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/company/share/company/environment/path.dsv\n'}
+[9.520403] (company) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/company/share/company/local_setup.bash\n'}
+[9.520504] (company) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/company/share/company/local_setup.sh\n'}
+[9.520543] (company) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/company/share/company/local_setup.zsh\n'}
+[9.520575] (company) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/company/share/company/local_setup.dsv\n'}
+[9.520606] (company) StdoutLine: {'line': b'-- Installing: /home/simpletime/project01_book/install/company/share/company/package.dsv\n'}
+[9.520941] (company) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/company/share/ament_index/resource_index/packages/company\n'}
+[9.521192] (company) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/company/share/company/cmake/companyConfig.cmake\n'}
+[9.521266] (company) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/company/share/company/cmake/companyConfig-version.cmake\n'}
+[9.521344] (company) StdoutLine: {'line': b'-- Up-to-date: /home/simpletime/project01_book/install/company/share/company/package.xml\n'}
+[9.530414] (company) CommandEnded: {'returncode': 0}
+[9.619774] (-) TimerEvent: {}
+[9.626052] (company) JobEnded: {'identifier': 'company', 'rc': 0}
+[9.628550] (-) EventReactorShutdown: {}

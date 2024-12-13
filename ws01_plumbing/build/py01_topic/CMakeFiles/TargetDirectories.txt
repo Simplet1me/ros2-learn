@@ -1,0 +1,10 @@
+/home/simpletime/ws01_plumbing/build/py01_topic/CMakeFiles/uninstall.dir
+/home/simpletime/ws01_plumbing/build/py01_topic/CMakeFiles/py01_topic_uninstall.dir
+/home/simpletime/ws01_plumbing/build/py01_topic/CMakeFiles/demo01_talker_str_py.dir
+/home/simpletime/ws01_plumbing/build/py01_topic/CMakeFiles/test.dir
+/home/simpletime/ws01_plumbing/build/py01_topic/CMakeFiles/edit_cache.dir
+/home/simpletime/ws01_plumbing/build/py01_topic/CMakeFiles/rebuild_cache.dir
+/home/simpletime/ws01_plumbing/build/py01_topic/CMakeFiles/list_install_components.dir
+/home/simpletime/ws01_plumbing/build/py01_topic/CMakeFiles/install.dir
+/home/simpletime/ws01_plumbing/build/py01_topic/CMakeFiles/install/local.dir
+/home/simpletime/ws01_plumbing/build/py01_topic/CMakeFiles/install/strip.dir

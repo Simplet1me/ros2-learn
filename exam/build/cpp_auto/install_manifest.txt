@@ -1,0 +1,16 @@
+/home/simpletime/exam/install/cpp_auto/lib/cpp_auto/cppauto
+/home/simpletime/exam/install/cpp_auto/share/ament_index/resource_index/package_run_dependencies/cpp_auto
+/home/simpletime/exam/install/cpp_auto/share/ament_index/resource_index/parent_prefix_path/cpp_auto
+/home/simpletime/exam/install/cpp_auto/share/cpp_auto/environment/ament_prefix_path.sh
+/home/simpletime/exam/install/cpp_auto/share/cpp_auto/environment/ament_prefix_path.dsv
+/home/simpletime/exam/install/cpp_auto/share/cpp_auto/environment/path.sh
+/home/simpletime/exam/install/cpp_auto/share/cpp_auto/environment/path.dsv
+/home/simpletime/exam/install/cpp_auto/share/cpp_auto/local_setup.bash
+/home/simpletime/exam/install/cpp_auto/share/cpp_auto/local_setup.sh
+/home/simpletime/exam/install/cpp_auto/share/cpp_auto/local_setup.zsh
+/home/simpletime/exam/install/cpp_auto/share/cpp_auto/local_setup.dsv
+/home/simpletime/exam/install/cpp_auto/share/cpp_auto/package.dsv
+/home/simpletime/exam/install/cpp_auto/share/ament_index/resource_index/packages/cpp_auto
+/home/simpletime/exam/install/cpp_auto/share/cpp_auto/cmake/cpp_autoConfig.cmake
+/home/simpletime/exam/install/cpp_auto/share/cpp_auto/cmake/cpp_autoConfig-version.cmake
+/home/simpletime/exam/install/cpp_auto/share/cpp_auto/package.xml

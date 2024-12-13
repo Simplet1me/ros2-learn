@@ -1,0 +1,19 @@
+[0.009s] Invoking command in '/home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster -- -j32 -l32
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target demo03_tf_listener[0m
+[0.051s] [ 40%] Built target demo00_run
+[0.052s] [ 40%] Built target demo01_static_tf_broadcaster
+[0.052s] [ 60%] Built target demo02_dynamic_tf_broadcaster
+[0.053s] [ 80%] Built target demo00_run1
+[0.057s] [ 90%] [32mBuilding CXX object CMakeFiles/demo03_tf_listener.dir/src/demo03_tf_listener.cpp.o[0m
+[1.836s] In file included from [01m[K/opt/ros/humble/include/tf2/tf2/utils.h:20[m[K,
+[1.836s]                  from [01m[K/home/simpletime/Project/ws02_tools/src/cpp01_tf_broadcaster/src/demo03_tf_listener.cpp:4[m[K:
+[1.836s] /opt/ros/humble/include/tf2/tf2/impl/utils.h: In instantiation of ‘[01m[Ktf2::Quaternion tf2::impl::toQuaternion(const T&) [with T = geometry_msgs::msg::Quaternion_<std::allocator<void> >*][m[K’:
+[1.836s] [01m[K/opt/ros/humble/include/tf2/tf2/utils.h:35:41:[m[K   required from ‘[01m[Kvoid tf2::getEulerYPR(const A&, double&, double&, double&) [with A = geometry_msgs::msg::Quaternion_<std::allocator<void> >*][m[K’
+[1.836s] [01m[K/home/simpletime/Project/ws02_tools/src/cpp01_tf_broadcaster/src/demo03_tf_listener.cpp:28:25:[m[K   required from here
+[1.836s] [01m[K/opt/ros/humble/include/tf2/tf2/impl/utils.h:88:34:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kgeometry_msgs::msg::QuaternionStamped_<std::allocator<void> >[m[K’ to non-scalar type ‘[01m[Kgeometry_msgs::msg::Quaternion[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >[m[K’} requested
+[1.837s]    88 |   geometry_msgs::msg::Quaternion [01;31m[Kq[m[K = toMsg<T, geometry_msgs::msg::QuaternionStamped>(t);
+[1.837s]       |                                  [01;31m[K^[m[K
+[3.449s] gmake[2]: *** [CMakeFiles/demo03_tf_listener.dir/build.make:76: CMakeFiles/demo03_tf_listener.dir/src/demo03_tf_listener.cpp.o] Error 1
+[3.449s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/demo03_tf_listener.dir/all] Error 2
+[3.450s] gmake: *** [Makefile:146: all] Error 2
+[3.453s] Invoked command in '/home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster -- -j32 -l32

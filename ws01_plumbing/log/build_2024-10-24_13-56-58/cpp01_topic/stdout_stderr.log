@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target demo03_talker_stu[0m
+[ 25%] Built target demo02_listener_str
+[ 37%] [32mBuilding CXX object CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o[0m
+[ 62%] Built target demo01_talker_str
+[ 87%] Built target demo03_talker_stu
+[01m[K/home/simpletime/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:[m[K In constructor ‘[01m[KListenerStu::ListenerStu()[m[K’:
+[01m[K/home/simpletime/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:8:106:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KListenerStu::do_cb()[m[K’
+    8 |         subscription_ = this->create_subscription<Student>("chatter_stu",10,std::bind(&[01;31m[KListenerStu::do_cb()[m[K,this,std::placeholders::_1));
+      |                                                                                        [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/simpletime/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:12:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ListenerStu::do_cb(const Student&)[m[K’
+   12 |     void [01;36m[Kdo_cb[m[K(const Student &stu){
+      |          [01;36m[K^~~~~[m[K
+[01m[K/home/simpletime/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:12:10:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+gmake[2]: *** [CMakeFiles/demo04_listener_stu.dir/build.make:76：CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:221：CMakeFiles/demo04_listener_stu.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

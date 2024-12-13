@@ -1,0 +1,57 @@
+[0.010s] Invoking command in '/home/simpletime/project01_book/build/company': CMAKE_PREFIX_PATH=/home/simpletime/project01_book/install/base_interfaces:/home/simpletime/project01_book/install/company:/home/simpletime/project01_book/src/install/company:/home/simpletime/project01_book/src/install/base_interfaces:/home/simpletime/project01_book/install/company_a:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/project01_book/build/company -- -j4 -l4
+[0.028s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.111s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.127s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.129s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.132s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.138s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.145s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.163s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.163s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.231s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.261s] -- Found base_interfaces: 0.0.0 (/home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/cmake)
+[0.268s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.314s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.315s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/simpletime/project01_book/src/company/include>
+[0.315s] -- Configured cppcheck exclude dirs and/or files: 
+[0.315s] -- Added test 'lint_cmake' to check CMake code style
+[0.315s] -- Added test 'uncrustify' to check C / C++ code style
+[0.316s] -- Configured uncrustify additional arguments: 
+[0.316s] -- Added test 'xmllint' to check XML markup files
+[0.316s] -- Configuring done
+[0.329s] -- Generating done
+[0.331s] -- Build files have been written to: /home/simpletime/project01_book/build/company
+[0.353s] [35m[1mConsolidate compiler generated dependencies of target company_c[0m
+[0.353s] [35m[1mConsolidate compiler generated dependencies of target company_b[0m
+[0.354s] [35m[1mConsolidate compiler generated dependencies of target company_a[0m
+[0.362s] [ 16%] [32mBuilding CXX object CMakeFiles/company_b.dir/src/company_b.cpp.o[0m
+[0.363s] [ 33%] [32mBuilding CXX object CMakeFiles/company_c.dir/src/company_c.cpp.o[0m
+[0.369s] [ 66%] Built target company_a
+[2.447s] [ 83%] [32m[1mLinking CXX executable company_c[0m
+[2.453s] [100%] [32m[1mLinking CXX executable company_b[0m
+[2.530s] [100%] Built target company_c
+[2.532s] [100%] Built target company_b
+[2.541s] Invoked command in '/home/simpletime/project01_book/build/company' returned '0': CMAKE_PREFIX_PATH=/home/simpletime/project01_book/install/base_interfaces:/home/simpletime/project01_book/install/company:/home/simpletime/project01_book/src/install/company:/home/simpletime/project01_book/src/install/base_interfaces:/home/simpletime/project01_book/install/company_a:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/project01_book/build/company -- -j4 -l4
+[2.570s] Invoking command in '/home/simpletime/project01_book/build/company': CMAKE_PREFIX_PATH=/home/simpletime/project01_book/install/base_interfaces:/home/simpletime/project01_book/install/company:/home/simpletime/project01_book/src/install/company:/home/simpletime/project01_book/src/install/base_interfaces:/home/simpletime/project01_book/install/company_a:/opt/ros/humble /usr/bin/cmake --install /home/simpletime/project01_book/build/company
+[2.575s] -- Install configuration: ""
+[2.576s] -- Up-to-date: /home/simpletime/project01_book/install/company/lib/company/company_a
+[2.576s] -- Installing: /home/simpletime/project01_book/install/company/lib/company/company_b
+[2.576s] -- Set runtime path of "/home/simpletime/project01_book/install/company/lib/company/company_b" to ""
+[2.577s] -- Installing: /home/simpletime/project01_book/install/company/lib/company/company_c
+[2.577s] -- Set runtime path of "/home/simpletime/project01_book/install/company/lib/company/company_c" to ""
+[2.577s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/ament_index/resource_index/package_run_dependencies/company
+[2.577s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/ament_index/resource_index/parent_prefix_path/company
+[2.577s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/company/environment/ament_prefix_path.sh
+[2.577s] -- Installing: /home/simpletime/project01_book/install/company/share/company/environment/ament_prefix_path.dsv
+[2.578s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/company/environment/path.sh
+[2.579s] -- Installing: /home/simpletime/project01_book/install/company/share/company/environment/path.dsv
+[2.579s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/company/local_setup.bash
+[2.579s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/company/local_setup.sh
+[2.579s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/company/local_setup.zsh
+[2.579s] -- Installing: /home/simpletime/project01_book/install/company/share/company/local_setup.dsv
+[2.579s] -- Installing: /home/simpletime/project01_book/install/company/share/company/package.dsv
+[2.579s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/ament_index/resource_index/packages/company
+[2.579s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/company/cmake/companyConfig.cmake
+[2.579s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/company/cmake/companyConfig-version.cmake
+[2.579s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/company/package.xml
+[2.581s] Invoked command in '/home/simpletime/project01_book/build/company' returned '0': CMAKE_PREFIX_PATH=/home/simpletime/project01_book/install/base_interfaces:/home/simpletime/project01_book/install/company:/home/simpletime/project01_book/src/install/company:/home/simpletime/project01_book/src/install/base_interfaces:/home/simpletime/project01_book/install/company_a:/opt/ros/humble /usr/bin/cmake --install /home/simpletime/project01_book/build/company

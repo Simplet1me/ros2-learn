@@ -1,0 +1,29 @@
+[0.340s] Invoking command in '/home/simpletime/ws01_plumbing/src/py01_topic': CMAKE_PREFIX_PATH=/home/simpletime/ws01_plumbing/install/base_interfaces_demo:/home/simpletime/ws01_plumbing/install/py01_topic:/home/simpletime/ws01_plumbing/install/cpp01_topic PYTHONPATH=/home/simpletime/ws01_plumbing/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpletime/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/simpletime/ws01_plumbing/build/py01_topic/build install --record /home/simpletime/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed install_data
+[0.470s] running egg_info
+[0.470s] writing ../../build/py01_topic/py01_topic.egg-info/PKG-INFO
+[0.470s] writing dependency_links to ../../build/py01_topic/py01_topic.egg-info/dependency_links.txt
+[0.470s] writing entry points to ../../build/py01_topic/py01_topic.egg-info/entry_points.txt
+[0.471s] writing requirements to ../../build/py01_topic/py01_topic.egg-info/requires.txt
+[0.471s] writing top-level names to ../../build/py01_topic/py01_topic.egg-info/top_level.txt
+[0.472s] reading manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.472s] writing manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.473s] running build
+[0.473s] running build_py
+[0.473s] copying py01_topic/__init__.py -> /home/simpletime/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[0.473s] copying py01_topic/demo01_talker_str_py.py -> /home/simpletime/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[0.473s] running install
+[0.473s] running install_lib
+[0.474s] copying /home/simpletime/ws01_plumbing/build/py01_topic/build/lib/py01_topic/__init__.py -> /home/simpletime/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[0.474s] copying /home/simpletime/ws01_plumbing/build/py01_topic/build/lib/py01_topic/demo01_talker_str_py.py -> /home/simpletime/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[0.474s] byte-compiling /home/simpletime/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/__init__.py to __init__.cpython-310.pyc
+[0.474s] byte-compiling /home/simpletime/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo01_talker_str_py.py to demo01_talker_str_py.cpython-310.pyc
+[0.475s] running install_data
+[0.475s] copying resource/py01_topic -> /home/simpletime/ws01_plumbing/install/py01_topic/share/ament_index/resource_index/packages
+[0.475s] copying package.xml -> /home/simpletime/ws01_plumbing/install/py01_topic/share/py01_topic
+[0.475s] running install_egg_info
+[0.476s] removing '/home/simpletime/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic-0.0.0-py3.10.egg-info' (and everything under it)
+[0.477s] Copying ../../build/py01_topic/py01_topic.egg-info to /home/simpletime/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic-0.0.0-py3.10.egg-info
+[0.477s] running install_scripts
+[0.490s] Installing demo01_talker_str_py script to /home/simpletime/ws01_plumbing/install/py01_topic/lib/py01_topic
+[0.490s] writing list of installed files to '/home/simpletime/ws01_plumbing/build/py01_topic/install.log'
+[0.507s] Invoked command in '/home/simpletime/ws01_plumbing/src/py01_topic' returned '0': CMAKE_PREFIX_PATH=/home/simpletime/ws01_plumbing/install/base_interfaces_demo:/home/simpletime/ws01_plumbing/install/py01_topic:/home/simpletime/ws01_plumbing/install/cpp01_topic PYTHONPATH=/home/simpletime/ws01_plumbing/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpletime/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/simpletime/ws01_plumbing/build/py01_topic/build install --record /home/simpletime/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed install_data

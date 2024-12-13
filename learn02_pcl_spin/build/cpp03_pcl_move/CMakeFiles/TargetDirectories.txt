@@ -1,0 +1,12 @@
+/home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move/CMakeFiles/uninstall.dir
+/home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move/CMakeFiles/cpp03_pcl_move_uninstall.dir
+/home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move/CMakeFiles/demo00_run.dir
+/home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move/CMakeFiles/demo01_tf_spin.dir
+/home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move/CMakeFiles/demo02_pcl_pub.dir
+/home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move/CMakeFiles/test.dir
+/home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move/CMakeFiles/edit_cache.dir
+/home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move/CMakeFiles/rebuild_cache.dir
+/home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move/CMakeFiles/list_install_components.dir
+/home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move/CMakeFiles/install.dir
+/home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move/CMakeFiles/install/local.dir
+/home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move/CMakeFiles/install/strip.dir

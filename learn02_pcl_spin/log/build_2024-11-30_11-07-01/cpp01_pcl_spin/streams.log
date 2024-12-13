@@ -1,0 +1,12 @@
+[0.010s] Invoking command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin -- -j32 -l32
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target demo01_pcl_spin[0m
+[0.062s] [ 50%] Built target demo01_tf_spin
+[0.074s] [ 75%] [32mBuilding CXX object CMakeFiles/demo01_pcl_spin.dir/src/demo01_pcl_spin.cpp.o[0m
+[8.579s] [100%] [32m[1mLinking CXX executable demo01_pcl_spin[0m
+[9.119s] /usr/bin/ld: CMakeFiles/demo01_pcl_spin.dir/src/demo01_pcl_spin.cpp.o: in function `PointCouldPublisher::do_cb()':
+[9.119s] demo01_pcl_spin.cpp:(.text._ZN19PointCouldPublisher5do_cbEv[_ZN19PointCouldPublisher5do_cbEv]+0x7ec): undefined reference to `void tf2::doTransform<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >(sensor_msgs::msg::PointCloud2_<std::allocator<void> > const&, sensor_msgs::msg::PointCloud2_<std::allocator<void> >&, geometry_msgs::msg::TransformStamped_<std::allocator<void> > const&)'
+[9.165s] collect2: error: ld returned 1 exit status
+[9.167s] gmake[2]: *** [CMakeFiles/demo01_pcl_spin.dir/build.make:326: demo01_pcl_spin] Error 1
+[9.167s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/demo01_pcl_spin.dir/all] Error 2
+[9.167s] gmake: *** [Makefile:146: all] Error 2
+[9.170s] Invoked command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin -- -j32 -l32

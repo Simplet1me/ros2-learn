@@ -1,0 +1,148 @@
+[0.008s] Invoking command in '/home/simpletime/project02_gameservice/build/base_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/project02_gameservice/build/base_interfaces -- -j4 -l4
+[0.054s] [  3%] Built target base_interfaces__cpp
+[0.056s] [ 12%] Built target base_interfaces__rosidl_generator_c
+[0.071s] [ 12%] Built target ament_cmake_python_copy_base_interfaces
+[0.077s] [ 22%] Built target base_interfaces__rosidl_typesupport_introspection_cpp
+[0.081s] [ 35%] Built target base_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.081s] [ 41%] Built target base_interfaces__rosidl_typesupport_cpp
+[0.094s] [ 51%] Built target base_interfaces__rosidl_typesupport_fastrtps_c
+[0.097s] [ 61%] Built target base_interfaces__rosidl_typesupport_introspection_c
+[0.102s] [ 70%] Built target base_interfaces__rosidl_typesupport_c
+[0.123s] [ 70%] Built target base_interfaces
+[0.144s] [ 74%] Built target base_interfaces__py
+[0.169s] [ 80%] Built target base_interfaces__rosidl_generator_py
+[0.200s] [ 87%] Built target base_interfaces__rosidl_typesupport_c__pyext
+[0.200s] [ 93%] Built target base_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.200s] [100%] Built target base_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.230s] running egg_info
+[0.231s] writing base_interfaces.egg-info/PKG-INFO
+[0.231s] writing dependency_links to base_interfaces.egg-info/dependency_links.txt
+[0.231s] writing top-level names to base_interfaces.egg-info/top_level.txt
+[0.233s] reading manifest file 'base_interfaces.egg-info/SOURCES.txt'
+[0.234s] writing manifest file 'base_interfaces.egg-info/SOURCES.txt'
+[0.265s] [100%] Built target ament_cmake_python_build_base_interfaces_egg
+[0.277s] Invoked command in '/home/simpletime/project02_gameservice/build/base_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/project02_gameservice/build/base_interfaces -- -j4 -l4
+[0.351s] Invoking command in '/home/simpletime/project02_gameservice/build/base_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/simpletime/project02_gameservice/build/base_interfaces
+[0.358s] -- Install configuration: ""
+[0.358s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/ament_index/resource_index/rosidl_interfaces/base_interfaces
+[0.358s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces
+[0.359s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/msg
+[0.359s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.359s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/srv
+[0.359s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail
+[0.359s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/recharge__functions.c
+[0.359s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/recharge__struct.h
+[0.359s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/recharge__type_support.h
+[0.359s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/recharge__functions.h
+[0.359s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/srv/recharge.h
+[0.359s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/environment/library_path.sh
+[0.359s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/environment/library_path.dsv
+[0.359s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_c.so
+[0.359s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces
+[0.359s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/msg
+[0.359s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.359s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/srv
+[0.359s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail
+[0.360s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/recharge__rosidl_typesupport_fastrtps_c.h
+[0.360s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.360s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces
+[0.360s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/msg
+[0.360s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.360s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/srv
+[0.360s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail
+[0.360s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/recharge__type_support.c
+[0.360s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/recharge__rosidl_typesupport_introspection_c.h
+[0.360s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_c.so
+[0.360s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_c.so
+[0.360s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces
+[0.360s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/srv
+[0.360s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail
+[0.360s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/recharge__struct.hpp
+[0.360s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/recharge__builder.hpp
+[0.361s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/recharge__traits.hpp
+[0.361s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/srv/recharge.hpp
+[0.361s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces
+[0.361s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/msg
+[0.361s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.361s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/srv
+[0.361s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail
+[0.361s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/dds_fastrtps
+[0.361s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/recharge__rosidl_typesupport_fastrtps_cpp.hpp
+[0.361s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.361s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces
+[0.361s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/srv
+[0.361s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail
+[0.361s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/recharge__rosidl_typesupport_introspection_cpp.hpp
+[0.361s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/recharge__type_support.cpp
+[0.362s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.362s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_cpp.so
+[0.362s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/environment/pythonpath.sh
+[0.362s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/environment/pythonpath.dsv
+[0.362s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces-0.0.0-py3.10.egg-info
+[0.362s] -- Installing: /home/simpletime/project02_gameservice/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.362s] -- Installing: /home/simpletime/project02_gameservice/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.362s] -- Installing: /home/simpletime/project02_gameservice/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.362s] -- Installing: /home/simpletime/project02_gameservice/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.362s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces
+[0.362s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/srv
+[0.362s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/srv/__init__.py
+[0.363s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/srv/_recharge.py
+[0.363s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/srv/_recharge_s.c
+[0.363s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/__init__.py
+[0.363s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.363s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.363s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_c.c
+[0.363s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.363s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.363s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.363s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/libbase_interfaces__rosidl_generator_py.so
+[0.383s] Listing '/home/simpletime/project02_gameservice/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces'...
+[0.383s] Listing '/home/simpletime/project02_gameservice/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/srv'...
+[0.386s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.387s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.388s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.388s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_py.so
+[0.388s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/srv/Recharge.idl
+[0.388s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/srv/Recharge.srv
+[0.388s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/srv/Recharge_Request.msg
+[0.388s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/srv/Recharge_Response.msg
+[0.388s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/ament_index/resource_index/package_run_dependencies/base_interfaces
+[0.388s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/ament_index/resource_index/parent_prefix_path/base_interfaces
+[0.388s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/environment/ament_prefix_path.sh
+[0.388s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/environment/ament_prefix_path.dsv
+[0.388s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/environment/path.sh
+[0.388s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/environment/path.dsv
+[0.388s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/local_setup.bash
+[0.388s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/local_setup.sh
+[0.388s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/local_setup.zsh
+[0.388s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/local_setup.dsv
+[0.388s] -- Installing: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/package.dsv
+[0.388s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/ament_index/resource_index/packages/base_interfaces
+[0.389s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_cExport.cmake
+[0.389s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.389s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.389s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.389s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.389s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.389s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cExport.cmake
+[0.389s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.389s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_cppExport.cmake
+[0.390s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.390s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.390s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.390s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.390s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cppExport.cmake
+[0.390s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.391s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_pyExport.cmake
+[0.391s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.391s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.391s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.391s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.391s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.391s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.391s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.391s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.392s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/cmake/base_interfacesConfig.cmake
+[0.392s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/cmake/base_interfacesConfig-version.cmake
+[0.392s] -- Up-to-date: /home/simpletime/project02_gameservice/install/base_interfaces/share/base_interfaces/package.xml
+[0.395s] Invoked command in '/home/simpletime/project02_gameservice/build/base_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/simpletime/project02_gameservice/build/base_interfaces

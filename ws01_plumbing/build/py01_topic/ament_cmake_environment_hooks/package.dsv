@@ -1,0 +1,4 @@
+source;share/py01_topic/local_setup.bash
+source;share/py01_topic/local_setup.dsv
+source;share/py01_topic/local_setup.sh
+source;share/py01_topic/local_setup.zsh

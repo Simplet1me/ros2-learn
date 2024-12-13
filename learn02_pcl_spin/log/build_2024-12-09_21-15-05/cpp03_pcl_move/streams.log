@@ -1,0 +1,26 @@
+[0.044s] Invoking command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move -- -j32 -l32
+[0.121s] [35m[1mConsolidate compiler generated dependencies of target demo01_tf_pub[0m
+[0.181s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_tf_pub.dir/src/demo01_tf_pub.cpp.o[0m
+[12.281s] [100%] [32m[1mLinking CXX executable demo01_tf_pub[0m
+[13.119s] [100%] Built target demo01_tf_pub
+[13.141s] Invoked command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move -- -j32 -l32
+[13.188s] Invoking command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move
+[13.200s] -- Install configuration: ""
+[13.200s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/lib/cpp03_pcl_move/demo01_tf_pub
+[13.204s] -- Set runtime path of "/home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/lib/cpp03_pcl_move/demo01_tf_pub" to ""
+[13.204s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/ament_index/resource_index/package_run_dependencies/cpp03_pcl_move
+[13.205s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/ament_index/resource_index/parent_prefix_path/cpp03_pcl_move
+[13.205s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/environment/ament_prefix_path.sh
+[13.206s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/environment/ament_prefix_path.dsv
+[13.206s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/environment/path.sh
+[13.206s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/environment/path.dsv
+[13.207s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/local_setup.bash
+[13.207s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/local_setup.sh
+[13.207s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/local_setup.zsh
+[13.208s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/local_setup.dsv
+[13.208s] -- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/package.dsv
+[13.209s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/ament_index/resource_index/packages/cpp03_pcl_move
+[13.210s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/cmake/cpp03_pcl_moveConfig.cmake
+[13.212s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/cmake/cpp03_pcl_moveConfig-version.cmake
+[13.213s] -- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp03_pcl_move/share/cpp03_pcl_move/package.xml
+[13.213s] Invoked command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/simpletime/Project/learn02_pcl_spin/build/cpp03_pcl_move

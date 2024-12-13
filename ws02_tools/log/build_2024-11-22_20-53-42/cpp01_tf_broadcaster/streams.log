@@ -1,0 +1,66 @@
+[0.017s] Invoking command in '/home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster -- -j32 -l32
+[0.098s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.238s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.404s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.407s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.419s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.436s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.456s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.509s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.512s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.619s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.693s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[4.719s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[4.826s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[4.848s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.879s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.961s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.961s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/simpletime/Project/ws02_tools/src/cpp01_tf_broadcaster/include>
+[4.961s] -- Configured cppcheck exclude dirs and/or files: 
+[4.962s] -- Added test 'lint_cmake' to check CMake code style
+[4.963s] -- Added test 'uncrustify' to check C / C++ code style
+[4.963s] -- Configured uncrustify additional arguments: 
+[4.964s] -- Added test 'xmllint' to check XML markup files
+[4.966s] -- Configuring done
+[5.013s] -- Generating done
+[5.016s] -- Build files have been written to: /home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster
+[5.048s] [35m[1mConsolidate compiler generated dependencies of target demo04_pcl_reader[0m
+[5.048s] [35m[1mConsolidate compiler generated dependencies of target demo03_tf_listener[0m
+[5.048s] [35m[1mConsolidate compiler generated dependencies of target demo00_run1[0m
+[5.048s] [35m[1mConsolidate compiler generated dependencies of target demo01_static_tf_broadcaster[0m
+[5.048s] [35m[1mConsolidate compiler generated dependencies of target demo02_dynamic_tf_broadcaster[0m
+[5.048s] [35m[1mConsolidate compiler generated dependencies of target demo00_run[0m
+[5.072s] [ 50%] Built target demo01_static_tf_broadcaster
+[5.072s] [ 50%] [32mBuilding CXX object CMakeFiles/demo04_pcl_reader.dir/src/demo04_pcl_reader.cpp.o[0m
+[5.072s] [ 50%] Built target demo00_run1
+[5.072s] [ 58%] Built target demo00_run
+[5.072s] [ 75%] Built target demo02_dynamic_tf_broadcaster
+[5.073s] [ 91%] Built target demo03_tf_listener
+[8.191s] [100%] [32m[1mLinking CXX executable demo04_pcl_reader[0m
+[8.431s] [100%] Built target demo04_pcl_reader
+[8.443s] Invoked command in '/home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster -- -j32 -l32
+[8.492s] Invoking command in '/home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster
+[8.498s] -- Install configuration: ""
+[8.500s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo01_static_tf_broadcaster
+[8.501s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo03_tf_listener
+[8.502s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo00_run
+[8.503s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo02_dynamic_tf_broadcaster
+[8.504s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo00_run1
+[8.505s] -- Installing: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo04_pcl_reader
+[8.506s] -- Set runtime path of "/home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo04_pcl_reader" to ""
+[8.506s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/ament_index/resource_index/package_run_dependencies/cpp01_tf_broadcaster
+[8.506s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/ament_index/resource_index/parent_prefix_path/cpp01_tf_broadcaster
+[8.507s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/environment/ament_prefix_path.sh
+[8.507s] -- Installing: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/environment/ament_prefix_path.dsv
+[8.507s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/environment/path.sh
+[8.508s] -- Installing: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/environment/path.dsv
+[8.508s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/local_setup.bash
+[8.508s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/local_setup.sh
+[8.508s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/local_setup.zsh
+[8.508s] -- Installing: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/local_setup.dsv
+[8.509s] -- Installing: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/package.dsv
+[8.509s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/ament_index/resource_index/packages/cpp01_tf_broadcaster
+[8.509s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/cmake/cpp01_tf_broadcasterConfig.cmake
+[8.509s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/cmake/cpp01_tf_broadcasterConfig-version.cmake
+[8.509s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/package.xml
+[8.512s] Invoked command in '/home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster

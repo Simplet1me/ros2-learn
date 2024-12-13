@@ -1,0 +1,4 @@
+Invoking command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl -- -j32 -l32
+Invoked command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl -- -j32 -l32
+Invoking command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl
+Invoked command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl

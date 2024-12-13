@@ -1,0 +1,5 @@
+source;share/identify_frame/local_setup.bash
+source;share/identify_frame/local_setup.dsv
+source;share/identify_frame/local_setup.ps1
+source;share/identify_frame/local_setup.sh
+source;share/identify_frame/local_setup.zsh

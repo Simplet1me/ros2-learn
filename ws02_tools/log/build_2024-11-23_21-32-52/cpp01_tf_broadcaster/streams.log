@@ -1,0 +1,111 @@
+[0.028s] Invoking command in '/home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster -- -j32 -l32
+[0.125s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.285s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.427s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.431s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.441s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.455s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.473s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.519s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.521s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.344s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.413s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[4.438s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[4.538s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[4.558s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.592s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.772s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[8.942s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.948s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[8.948s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[10.581s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[10.588s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[10.593s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[12.173s] -- Found Qhull version 8.0.2
+[13.869s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[15.565s] -- looking for PCL_COMMON
+[15.566s] -- looking for PCL_KDTREE
+[15.566s] -- looking for PCL_OCTREE
+[15.566s] -- looking for PCL_SEARCH
+[15.566s] -- looking for PCL_SAMPLE_CONSENSUS
+[15.566s] -- looking for PCL_FILTERS
+[15.566s] -- looking for PCL_2D
+[15.567s] -- looking for PCL_GEOMETRY
+[15.567s] -- looking for PCL_IO
+[15.567s] -- looking for PCL_FEATURES
+[15.567s] -- looking for PCL_ML
+[15.568s] -- looking for PCL_SEGMENTATION
+[15.568s] -- looking for PCL_VISUALIZATION
+[15.568s] -- looking for PCL_SURFACE
+[15.569s] -- looking for PCL_REGISTRATION
+[15.569s] -- looking for PCL_KEYPOINTS
+[15.569s] -- looking for PCL_TRACKING
+[15.569s] -- looking for PCL_RECOGNITION
+[15.570s] -- looking for PCL_STEREO
+[15.570s] -- looking for PCL_APPS
+[15.571s] -- looking for PCL_IN_HAND_SCANNER
+[15.571s] -- looking for PCL_MODELER
+[15.571s] -- looking for PCL_POINT_CLOUD_EDITOR
+[15.571s] -- looking for PCL_OUTOFCORE
+[15.572s] -- looking for PCL_PEOPLE
+[15.580s] -- Found rviz2: 11.2.13 (/opt/ros/humble/share/rviz2/cmake)
+[15.581s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[15.623s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[15.700s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[15.700s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/simpletime/Project/ws02_tools/src/cpp01_tf_broadcaster/include>
+[15.700s] -- Configured cppcheck exclude dirs and/or files: 
+[15.701s] -- Added test 'lint_cmake' to check CMake code style
+[15.702s] -- Added test 'uncrustify' to check C / C++ code style
+[15.703s] -- Configured uncrustify additional arguments: 
+[15.703s] -- Added test 'xmllint' to check XML markup files
+[15.705s] -- Configuring done
+[15.809s] -- Generating done
+[15.812s] -- Build files have been written to: /home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster
+[15.849s] [35m[1mConsolidate compiler generated dependencies of target demo00_run[0m
+[15.849s] [35m[1mConsolidate compiler generated dependencies of target demo01_static_tf_broadcaster[0m
+[15.849s] [35m[1mConsolidate compiler generated dependencies of target demo03_tf_listener[0m
+[15.849s] [35m[1mConsolidate compiler generated dependencies of target demo00_run1[0m
+[15.849s] [35m[1mConsolidate compiler generated dependencies of target demo02_dynamic_tf_broadcaster[0m
+[15.849s] [35m[1mConsolidate compiler generated dependencies of target demo04_pcl_reader[0m
+[15.867s] [ 33%] Built target demo00_run1
+[15.867s] [ 33%] [32mBuilding CXX object CMakeFiles/demo02_dynamic_tf_broadcaster.dir/src/demo02_dynamic_tf_broadcaster.cpp.o[0m
+[15.867s] [ 50%] Built target demo01_static_tf_broadcaster
+[15.867s] [ 58%] Built target demo00_run
+[15.868s] [ 75%] Built target demo03_tf_listener
+[15.878s] [ 83%] [32mBuilding CXX object CMakeFiles/demo04_pcl_reader.dir/src/demo04_pcl_reader.cpp.o[0m
+[18.072s] [01m[K/home/simpletime/Project/ws02_tools/src/cpp01_tf_broadcaster/src/demo02_dynamic_tf_broadcaster.cpp:[m[K In member function ‘[01m[Kvoid TFDynBroadcaster::do_pose(const TransformStamped&)[m[K’:
+[18.072s] [01m[K/home/simpletime/Project/ws02_tools/src/cpp01_tf_broadcaster/src/demo02_dynamic_tf_broadcaster.cpp:16:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcenter[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[18.072s]    16 |   void do_pose([01;35m[Kconst geometry_msgs::msg::TransformStamped & center[m[K){
+[18.072s]       |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[22.796s] [ 91%] [32m[1mLinking CXX executable demo04_pcl_reader[0m
+[23.496s] [100%] [32m[1mLinking CXX executable demo02_dynamic_tf_broadcaster[0m
+[23.539s] [100%] Built target demo04_pcl_reader
+[23.911s] [100%] Built target demo02_dynamic_tf_broadcaster
+[23.923s] Invoked command in '/home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster -- -j32 -l32
+[23.972s] Invoking command in '/home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster
+[23.978s] -- Install configuration: ""
+[23.980s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo01_static_tf_broadcaster
+[23.981s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo03_tf_listener
+[23.982s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo00_run
+[23.983s] -- Installing: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo02_dynamic_tf_broadcaster
+[23.988s] -- Set runtime path of "/home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo02_dynamic_tf_broadcaster" to ""
+[23.989s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo00_run1
+[23.990s] -- Installing: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo04_pcl_reader
+[23.992s] -- Set runtime path of "/home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo04_pcl_reader" to ""
+[23.992s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/lib/cpp01_tf_broadcaster/demo04_pcl_reader
+[23.992s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/ament_index/resource_index/package_run_dependencies/cpp01_tf_broadcaster
+[23.993s] -- Installing: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/ament_index/resource_index/parent_prefix_path/cpp01_tf_broadcaster
+[23.993s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/environment/ament_prefix_path.sh
+[23.993s] -- Installing: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/environment/ament_prefix_path.dsv
+[23.993s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/environment/path.sh
+[23.993s] -- Installing: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/environment/path.dsv
+[23.994s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/local_setup.bash
+[23.994s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/local_setup.sh
+[23.994s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/local_setup.zsh
+[23.994s] -- Installing: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/local_setup.dsv
+[23.994s] -- Installing: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/package.dsv
+[23.995s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/ament_index/resource_index/packages/cpp01_tf_broadcaster
+[23.995s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/cmake/cpp01_tf_broadcasterConfig.cmake
+[23.995s] -- Up-to-date: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/cmake/cpp01_tf_broadcasterConfig-version.cmake
+[23.995s] -- Installing: /home/simpletime/Project/ws02_tools/install/cpp01_tf_broadcaster/share/cpp01_tf_broadcaster/package.xml
+[23.997s] Invoked command in '/home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster

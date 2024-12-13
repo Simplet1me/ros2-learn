@@ -1,0 +1,249 @@
+[0.000000] (-) TimerEvent: {}
+[0.000573] (pcl) JobQueued: {'identifier': 'pcl', 'dependencies': OrderedDict()}
+[0.000785] (pcl) JobStarted: {'identifier': 'pcl'}
+[0.013405] (pcl) JobProgress: {'identifier': 'pcl', 'progress': 'cmake'}
+[0.014736] (pcl) Command: {'cmd': ['/usr/bin/cmake', '/home/simpletime/Project/proj_ws_pcl/src/pcl', '-DCMAKE_INSTALL_PREFIX=/home/simpletime/Project/proj_ws_pcl/install/pcl'], 'cwd': '/home/simpletime/Project/proj_ws_pcl/build/pcl', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'simpletime'), ('GIT_ASKPASS', '/home/simpletime/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/simpletime'), ('TERM_PROGRAM_VERSION', '1.91.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-62e73bd6-fa7e-4a4f-a70a-d4d2629c87be.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/simpletime/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/simpletime/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'simpletime'), ('NAME', 'LAPTOP-KMT8CKP9'), ('WSL_INTEROP', '/run/WSL/11770_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/simpletime/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/f/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Bandizip/:/mnt/f/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/f/MinGW/x86_64-14.2.0-release-posix-seh-ucrt-rt_v12-rev0/mingw64/bin:/mnt/c/Program Files (x86)/GtkSharp/2.12/bin:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Administrator/.dotnet/tools:/mnt/c/Users/Administrator/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6e0d4ae8c0.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/simpletime/Project/proj_ws_pcl/build/pcl'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.058467] (pcl) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098889] (-) TimerEvent: {}
+[0.199281] (-) TimerEvent: {}
+[0.210931] (pcl) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.299439] (-) TimerEvent: {}
+[0.376409] (pcl) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.381007] (pcl) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.394076] (pcl) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.399642] (-) TimerEvent: {}
+[0.410357] (pcl) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.428829] (pcl) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.483655] (pcl) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.487648] (pcl) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.499859] (-) TimerEvent: {}
+[0.600444] (-) TimerEvent: {}
+[0.700905] (-) TimerEvent: {}
+[0.801439] (-) TimerEvent: {}
+[0.901969] (-) TimerEvent: {}
+[1.002359] (-) TimerEvent: {}
+[1.102754] (-) TimerEvent: {}
+[1.203186] (-) TimerEvent: {}
+[1.303597] (-) TimerEvent: {}
+[1.404057] (-) TimerEvent: {}
+[1.504481] (-) TimerEvent: {}
+[1.604896] (-) TimerEvent: {}
+[1.705276] (-) TimerEvent: {}
+[1.805667] (-) TimerEvent: {}
+[1.906167] (-) TimerEvent: {}
+[2.006541] (-) TimerEvent: {}
+[2.106921] (-) TimerEvent: {}
+[2.207299] (-) TimerEvent: {}
+[2.307736] (-) TimerEvent: {}
+[2.408249] (-) TimerEvent: {}
+[2.508674] (-) TimerEvent: {}
+[2.609093] (-) TimerEvent: {}
+[2.709473] (-) TimerEvent: {}
+[2.809866] (-) TimerEvent: {}
+[2.910305] (-) TimerEvent: {}
+[3.010763] (-) TimerEvent: {}
+[3.111178] (-) TimerEvent: {}
+[3.211642] (-) TimerEvent: {}
+[3.312043] (-) TimerEvent: {}
+[3.412435] (-) TimerEvent: {}
+[3.512799] (-) TimerEvent: {}
+[3.613167] (-) TimerEvent: {}
+[3.713531] (-) TimerEvent: {}
+[3.813893] (-) TimerEvent: {}
+[3.914296] (-) TimerEvent: {}
+[4.014678] (-) TimerEvent: {}
+[4.115094] (-) TimerEvent: {}
+[4.215511] (-) TimerEvent: {}
+[4.316131] (-) TimerEvent: {}
+[4.416715] (-) TimerEvent: {}
+[4.517352] (-) TimerEvent: {}
+[4.617839] (-) TimerEvent: {}
+[4.718271] (-) TimerEvent: {}
+[4.818699] (-) TimerEvent: {}
+[4.919281] (-) TimerEvent: {}
+[5.019738] (-) TimerEvent: {}
+[5.020809] (pcl) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.090246] (pcl) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[5.119905] (-) TimerEvent: {}
+[5.140478] (pcl) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[5.220071] (-) TimerEvent: {}
+[5.320613] (-) TimerEvent: {}
+[5.421020] (-) TimerEvent: {}
+[5.521424] (-) TimerEvent: {}
+[5.621852] (-) TimerEvent: {}
+[5.722313] (-) TimerEvent: {}
+[5.822719] (-) TimerEvent: {}
+[5.923121] (-) TimerEvent: {}
+[6.023525] (-) TimerEvent: {}
+[6.123928] (-) TimerEvent: {}
+[6.224311] (-) TimerEvent: {}
+[6.324701] (-) TimerEvent: {}
+[6.425098] (-) TimerEvent: {}
+[6.525537] (-) TimerEvent: {}
+[6.567742] (pcl) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[6.625690] (-) TimerEvent: {}
+[6.726108] (-) TimerEvent: {}
+[6.826474] (-) TimerEvent: {}
+[6.926877] (-) TimerEvent: {}
+[7.027307] (-) TimerEvent: {}
+[7.127736] (-) TimerEvent: {}
+[7.228167] (-) TimerEvent: {}
+[7.328540] (-) TimerEvent: {}
+[7.428927] (-) TimerEvent: {}
+[7.529341] (-) TimerEvent: {}
+[7.629754] (-) TimerEvent: {}
+[7.730151] (-) TimerEvent: {}
+[7.830555] (-) TimerEvent: {}
+[7.930959] (-) TimerEvent: {}
+[8.031372] (-) TimerEvent: {}
+[8.131772] (-) TimerEvent: {}
+[8.232153] (-) TimerEvent: {}
+[8.332589] (-) TimerEvent: {}
+[8.433048] (-) TimerEvent: {}
+[8.533495] (-) TimerEvent: {}
+[8.633895] (-) TimerEvent: {}
+[8.734362] (-) TimerEvent: {}
+[8.834942] (-) TimerEvent: {}
+[8.935403] (-) TimerEvent: {}
+[9.035983] (-) TimerEvent: {}
+[9.136394] (-) TimerEvent: {}
+[9.236829] (-) TimerEvent: {}
+[9.337306] (-) TimerEvent: {}
+[9.437842] (-) TimerEvent: {}
+[9.538317] (-) TimerEvent: {}
+[9.639043] (-) TimerEvent: {}
+[9.739625] (-) TimerEvent: {}
+[9.840111] (-) TimerEvent: {}
+[9.940526] (-) TimerEvent: {}
+[10.040968] (-) TimerEvent: {}
+[10.141369] (-) TimerEvent: {}
+[10.196353] (pcl) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[10.202475] (pcl) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[10.202811] (pcl) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[10.241517] (-) TimerEvent: {}
+[10.341967] (-) TimerEvent: {}
+[10.442361] (-) TimerEvent: {}
+[10.542744] (-) TimerEvent: {}
+[10.643139] (-) TimerEvent: {}
+[10.743619] (-) TimerEvent: {}
+[10.844040] (-) TimerEvent: {}
+[10.944618] (-) TimerEvent: {}
+[11.045141] (-) TimerEvent: {}
+[11.145513] (-) TimerEvent: {}
+[11.245874] (-) TimerEvent: {}
+[11.346260] (-) TimerEvent: {}
+[11.446722] (-) TimerEvent: {}
+[11.547153] (-) TimerEvent: {}
+[11.647645] (-) TimerEvent: {}
+[11.748094] (-) TimerEvent: {}
+[11.848510] (-) TimerEvent: {}
+[11.948933] (-) TimerEvent: {}
+[12.049393] (-) TimerEvent: {}
+[12.150064] (-) TimerEvent: {}
+[12.157913] (pcl) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[12.165472] (pcl) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[12.174171] (pcl) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[12.250264] (-) TimerEvent: {}
+[12.350772] (-) TimerEvent: {}
+[12.451266] (-) TimerEvent: {}
+[12.551825] (-) TimerEvent: {}
+[12.652344] (-) TimerEvent: {}
+[12.752766] (-) TimerEvent: {}
+[12.853169] (-) TimerEvent: {}
+[12.953575] (-) TimerEvent: {}
+[13.053989] (-) TimerEvent: {}
+[13.154444] (-) TimerEvent: {}
+[13.254871] (-) TimerEvent: {}
+[13.355281] (-) TimerEvent: {}
+[13.455690] (-) TimerEvent: {}
+[13.556125] (-) TimerEvent: {}
+[13.656618] (-) TimerEvent: {}
+[13.757023] (-) TimerEvent: {}
+[13.857460] (-) TimerEvent: {}
+[13.957874] (-) TimerEvent: {}
+[14.058289] (-) TimerEvent: {}
+[14.158721] (-) TimerEvent: {}
+[14.256729] (pcl) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[14.258873] (-) TimerEvent: {}
+[14.359316] (-) TimerEvent: {}
+[14.459743] (-) TimerEvent: {}
+[14.560196] (-) TimerEvent: {}
+[14.660695] (-) TimerEvent: {}
+[14.761264] (-) TimerEvent: {}
+[14.861707] (-) TimerEvent: {}
+[14.962100] (-) TimerEvent: {}
+[15.062572] (-) TimerEvent: {}
+[15.163140] (-) TimerEvent: {}
+[15.263567] (-) TimerEvent: {}
+[15.363971] (-) TimerEvent: {}
+[15.464529] (-) TimerEvent: {}
+[15.564941] (-) TimerEvent: {}
+[15.665350] (-) TimerEvent: {}
+[15.765774] (-) TimerEvent: {}
+[15.866187] (-) TimerEvent: {}
+[15.966611] (-) TimerEvent: {}
+[16.067059] (-) TimerEvent: {}
+[16.167504] (-) TimerEvent: {}
+[16.190010] (pcl) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[16.267662] (-) TimerEvent: {}
+[16.368132] (-) TimerEvent: {}
+[16.468645] (-) TimerEvent: {}
+[16.569082] (-) TimerEvent: {}
+[16.669551] (-) TimerEvent: {}
+[16.769984] (-) TimerEvent: {}
+[16.870446] (-) TimerEvent: {}
+[16.970943] (-) TimerEvent: {}
+[17.071517] (-) TimerEvent: {}
+[17.172145] (-) TimerEvent: {}
+[17.272638] (-) TimerEvent: {}
+[17.373246] (-) TimerEvent: {}
+[17.473787] (-) TimerEvent: {}
+[17.574271] (-) TimerEvent: {}
+[17.674749] (-) TimerEvent: {}
+[17.775209] (-) TimerEvent: {}
+[17.875640] (-) TimerEvent: {}
+[17.976118] (-) TimerEvent: {}
+[18.076515] (-) TimerEvent: {}
+[18.176928] (-) TimerEvent: {}
+[18.189963] (pcl) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[18.190439] (pcl) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[18.190651] (pcl) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[18.190819] (pcl) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[18.191018] (pcl) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[18.191301] (pcl) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[18.191574] (pcl) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[18.191831] (pcl) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[18.192103] (pcl) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[18.192345] (pcl) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[18.192626] (pcl) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[18.192903] (pcl) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[18.193241] (pcl) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[18.193562] (pcl) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[18.193864] (pcl) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[18.194207] (pcl) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[18.194491] (pcl) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[18.194761] (pcl) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[18.195111] (pcl) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[18.195380] (pcl) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[18.195953] (pcl) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[18.196305] (pcl) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[18.196508] (pcl) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[18.196739] (pcl) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[18.197041] (pcl) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[18.200843] (pcl) StdoutLine: {'line': b'-- Found rviz2: 11.2.13 (/opt/ros/humble/share/rviz2/cmake)\n'}
+[18.202657] (pcl) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[18.261618] (pcl) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):\n'}
+[18.261848] (pcl) StderrLine: {'line': b"  ament_package_xml() package name 'pcl' in '/package.xml' does not match\n"}
+[18.261911] (pcl) StderrLine: {'line': b"  current PROJECT_NAME 'pcl_reg'.  You must call project() with the same\n"}
+[18.261965] (pcl) StderrLine: {'line': b'  package name before.\n'}
+[18.262015] (pcl) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[18.262189] (pcl) StderrLine: {'line': b'  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[18.262377] (pcl) StderrLine: {'line': b'  CMakeLists.txt:84 (ament_lint_auto_find_test_dependencies)\n'}
+[18.262446] (pcl) StderrLine: {'line': b'\n'}
+[18.262499] (pcl) StderrLine: {'line': b'\x1b[0m\n'}
+[18.262548] (pcl) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[18.262605] (pcl) StdoutLine: {'line': b'See also "/home/simpletime/Project/proj_ws_pcl/build/pcl/CMakeFiles/CMakeOutput.log".\n'}
+[18.277077] (-) TimerEvent: {}
+[18.279151] (pcl) CommandEnded: {'returncode': 1}
+[18.307097] (pcl) JobEnded: {'identifier': 'pcl', 'rc': 1}
+[18.317977] (-) EventReactorShutdown: {}

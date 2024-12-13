@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target demo01_pcl_pub[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/demo01_pcl_pub.dir/src/demo01_pcl_pub.cpp.o[0m
+[01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp02_nav_pcl/src/demo01_pcl_pub.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp02_nav_pcl/src/demo01_pcl_pub.cpp:85:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KangularResolution[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   85 |   float [01;35m[KangularResolution[m[K = (float)(1.0f * (M_PI / 180.0f));
+      |         [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp02_nav_pcl/src/demo01_pcl_pub.cpp:86:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KmaxAngleWidth[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   86 |   float [01;35m[KmaxAngleWidth[m[K = (float)(360.0f * (M_PI / 180.0f));
+      |         [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp02_nav_pcl/src/demo01_pcl_pub.cpp:87:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KmaxAngleHeight[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   87 |   float [01;35m[KmaxAngleHeight[m[K = (float)(180.0f * (M_PI / 180.0f));
+      |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable demo01_pcl_pub[0m
+[100%] Built target demo01_pcl_pub
+-- Install configuration: ""
+-- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/lib/cpp02_nav_pcl/demo01_pcl_pub
+-- Set runtime path of "/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/lib/cpp02_nav_pcl/demo01_pcl_pub" to ""
+-- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/ament_index/resource_index/package_run_dependencies/cpp02_nav_pcl
+-- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/ament_index/resource_index/parent_prefix_path/cpp02_nav_pcl
+-- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/environment/ament_prefix_path.sh
+-- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/environment/path.sh
+-- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/environment/path.dsv
+-- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/local_setup.bash
+-- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/local_setup.sh
+-- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/local_setup.zsh
+-- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/local_setup.dsv
+-- Installing: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/package.dsv
+-- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/ament_index/resource_index/packages/cpp02_nav_pcl
+-- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/cmake/cpp02_nav_pclConfig.cmake
+-- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/cmake/cpp02_nav_pclConfig-version.cmake
+-- Up-to-date: /home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/package.xml

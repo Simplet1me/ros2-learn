@@ -1,0 +1,11 @@
+[ 50%] Built target demo01_tf_spin
+[ 75%] [32mBuilding CXX object CMakeFiles/demo02_pcl_pub.dir/src/demo02_pcl_pub.cpp.o[0m
+[01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp03_pcl_move/src/demo02_pcl_pub.cpp:52:32:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Krclcpp::TimerBase::SharedPtr TFPublisher::timer_[m[K’
+   52 |   rclcpp::TimerBase::SharedPtr [01;31m[Ktimer_[m[K;
+      |                                [01;31m[K^~~~~~[m[K
+[01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp03_pcl_move/src/demo02_pcl_pub.cpp:44:50:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kstd::shared_ptr<tf2_ros::CreateTimerInterface> TFPublisher::timer_[m[K’
+   44 |   std::shared_ptr<tf2_ros::CreateTimerInterface> [01;36m[Ktimer_[m[K;
+      |                                                  [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo02_pcl_pub.dir/build.make:76: CMakeFiles/demo02_pcl_pub.dir/src/demo02_pcl_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/demo02_pcl_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

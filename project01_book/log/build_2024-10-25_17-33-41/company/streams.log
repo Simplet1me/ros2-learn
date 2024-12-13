@@ -1,0 +1,31 @@
+[0.010s] Invoking command in '/home/simpletime/project01_book/build/company': CMAKE_PREFIX_PATH=/home/simpletime/project01_book/install/base_interfaces:/home/simpletime/project01_book/install/company:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/project01_book/build/company -- -j4 -l4
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target company_a[0m
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target company_b[0m
+[0.067s] [ 33%] Built target company_c
+[0.071s] [ 50%] [32mBuilding CXX object CMakeFiles/company_b.dir/src/company_b.cpp.o[0m
+[0.080s] [ 83%] Built target company_a
+[5.202s] [100%] [32m[1mLinking CXX executable company_b[0m
+[5.433s] [100%] Built target company_b
+[5.442s] Invoked command in '/home/simpletime/project01_book/build/company' returned '0': CMAKE_PREFIX_PATH=/home/simpletime/project01_book/install/base_interfaces:/home/simpletime/project01_book/install/company:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/project01_book/build/company -- -j4 -l4
+[5.470s] Invoking command in '/home/simpletime/project01_book/build/company': CMAKE_PREFIX_PATH=/home/simpletime/project01_book/install/base_interfaces:/home/simpletime/project01_book/install/company:/opt/ros/humble /usr/bin/cmake --install /home/simpletime/project01_book/build/company
+[5.476s] -- Install configuration: ""
+[5.476s] -- Up-to-date: /home/simpletime/project01_book/install/company/lib/company/company_a
+[5.476s] -- Installing: /home/simpletime/project01_book/install/company/lib/company/company_b
+[5.480s] -- Set runtime path of "/home/simpletime/project01_book/install/company/lib/company/company_b" to ""
+[5.480s] -- Up-to-date: /home/simpletime/project01_book/install/company/lib/company/company_c
+[5.481s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/ament_index/resource_index/package_run_dependencies/company
+[5.481s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/ament_index/resource_index/parent_prefix_path/company
+[5.481s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/company/environment/ament_prefix_path.sh
+[5.481s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/company/environment/ament_prefix_path.dsv
+[5.481s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/company/environment/path.sh
+[5.481s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/company/environment/path.dsv
+[5.481s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/company/local_setup.bash
+[5.481s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/company/local_setup.sh
+[5.481s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/company/local_setup.zsh
+[5.481s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/company/local_setup.dsv
+[5.481s] -- Installing: /home/simpletime/project01_book/install/company/share/company/package.dsv
+[5.481s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/ament_index/resource_index/packages/company
+[5.481s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/company/cmake/companyConfig.cmake
+[5.481s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/company/cmake/companyConfig-version.cmake
+[5.481s] -- Up-to-date: /home/simpletime/project01_book/install/company/share/company/package.xml
+[5.484s] Invoked command in '/home/simpletime/project01_book/build/company' returned '0': CMAKE_PREFIX_PATH=/home/simpletime/project01_book/install/base_interfaces:/home/simpletime/project01_book/install/company:/opt/ros/humble /usr/bin/cmake --install /home/simpletime/project01_book/build/company

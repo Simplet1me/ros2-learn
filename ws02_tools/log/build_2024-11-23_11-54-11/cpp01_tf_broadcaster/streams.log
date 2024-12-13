@@ -1,0 +1,15 @@
+[0.013s] Invoking command in '/home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster -- -j32 -l32
+[0.068s] [ 16%] Built target demo00_run
+[0.068s] [ 33%] Built target demo02_dynamic_tf_broadcaster
+[0.068s] [ 41%] [32mBuilding CXX object CMakeFiles/demo04_pcl_reader.dir/src/demo04_pcl_reader.cpp.o[0m
+[0.068s] [ 58%] Built target demo03_tf_listener
+[0.068s] [ 75%] Built target demo01_static_tf_broadcaster
+[0.069s] [ 91%] Built target demo00_run1
+[1.064s] [01m[K/home/simpletime/Project/ws02_tools/src/cpp01_tf_broadcaster/src/demo04_pcl_reader.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kpcl_conversions/pcl_conversions.h: No such file or directory
+[1.064s]     5 | #include [01;31m[K"pcl_conversions/pcl_conversions.h"[m[K
+[1.064s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.064s] compilation terminated.
+[1.075s] gmake[2]: *** [CMakeFiles/demo04_pcl_reader.dir/build.make:76: CMakeFiles/demo04_pcl_reader.dir/src/demo04_pcl_reader.cpp.o] Error 1
+[1.075s] gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/demo04_pcl_reader.dir/all] Error 2
+[1.075s] gmake: *** [Makefile:146: all] Error 2
+[1.078s] Invoked command in '/home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster -- -j32 -l32

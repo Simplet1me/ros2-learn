@@ -1,0 +1,28 @@
+[0.006s] Invoking command in '/home/simpletime/exam/build/cpp_topic': CMAKE_PREFIX_PATH=/home/simpletime/exam/install/base_interface:/home/simpletime/exam/install/cpp_topic:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/exam/build/cpp_topic -- -j4 -l4
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.075s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[0.076s] [ 75%] Built target talker
+[3.201s] [100%] [32m[1mLinking CXX executable listener[0m
+[3.341s] [100%] Built target listener
+[3.351s] Invoked command in '/home/simpletime/exam/build/cpp_topic' returned '0': CMAKE_PREFIX_PATH=/home/simpletime/exam/install/base_interface:/home/simpletime/exam/install/cpp_topic:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/exam/build/cpp_topic -- -j4 -l4
+[3.379s] Invoking command in '/home/simpletime/exam/build/cpp_topic': CMAKE_PREFIX_PATH=/home/simpletime/exam/install/base_interface:/home/simpletime/exam/install/cpp_topic:/opt/ros/humble /usr/bin/cmake --install /home/simpletime/exam/build/cpp_topic
+[3.390s] -- Install configuration: ""
+[3.390s] -- Up-to-date: /home/simpletime/exam/install/cpp_topic/lib/cpp_topic/talker
+[3.390s] -- Installing: /home/simpletime/exam/install/cpp_topic/lib/cpp_topic/listener
+[3.391s] -- Set runtime path of "/home/simpletime/exam/install/cpp_topic/lib/cpp_topic/listener" to ""
+[3.391s] -- Up-to-date: /home/simpletime/exam/install/cpp_topic/share/ament_index/resource_index/package_run_dependencies/cpp_topic
+[3.391s] -- Up-to-date: /home/simpletime/exam/install/cpp_topic/share/ament_index/resource_index/parent_prefix_path/cpp_topic
+[3.391s] -- Up-to-date: /home/simpletime/exam/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.sh
+[3.391s] -- Installing: /home/simpletime/exam/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.dsv
+[3.392s] -- Up-to-date: /home/simpletime/exam/install/cpp_topic/share/cpp_topic/environment/path.sh
+[3.392s] -- Installing: /home/simpletime/exam/install/cpp_topic/share/cpp_topic/environment/path.dsv
+[3.392s] -- Up-to-date: /home/simpletime/exam/install/cpp_topic/share/cpp_topic/local_setup.bash
+[3.392s] -- Up-to-date: /home/simpletime/exam/install/cpp_topic/share/cpp_topic/local_setup.sh
+[3.392s] -- Up-to-date: /home/simpletime/exam/install/cpp_topic/share/cpp_topic/local_setup.zsh
+[3.392s] -- Installing: /home/simpletime/exam/install/cpp_topic/share/cpp_topic/local_setup.dsv
+[3.394s] -- Up-to-date: /home/simpletime/exam/install/cpp_topic/share/cpp_topic/package.dsv
+[3.394s] -- Up-to-date: /home/simpletime/exam/install/cpp_topic/share/ament_index/resource_index/packages/cpp_topic
+[3.394s] -- Up-to-date: /home/simpletime/exam/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig.cmake
+[3.394s] -- Up-to-date: /home/simpletime/exam/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig-version.cmake
+[3.394s] -- Up-to-date: /home/simpletime/exam/install/cpp_topic/share/cpp_topic/package.xml
+[3.396s] Invoked command in '/home/simpletime/exam/build/cpp_topic' returned '0': CMAKE_PREFIX_PATH=/home/simpletime/exam/install/base_interface:/home/simpletime/exam/install/cpp_topic:/opt/ros/humble /usr/bin/cmake --install /home/simpletime/exam/build/cpp_topic

@@ -1,0 +1,7 @@
+[01m[K/home/simpletime/Project/proj_ws_pcl/src/pcl/src/reg_pcl.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kpcl_conversions/pcl_conversions.h: No such file or directory
+    3 | #include [01;31m[K"pcl_conversions/pcl_conversions.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/reg_pcl.dir/build.make:76: CMakeFiles/reg_pcl.dir/src/reg_pcl.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/reg_pcl.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,32 @@
+[0.013s] Invoking command in '/home/simpletime/exam/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/exam/build/cpp_topic -- -j4 -l4
+[0.035s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.153s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.189s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.190s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.195s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.207s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.219s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.250s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.252s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.337s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.404s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[0.404s]   By not providing "Findbase_interface.cmake" in CMAKE_MODULE_PATH this
+[0.404s]   project has asked CMake to find a package configuration file provided by
+[0.404s]   "base_interface", but CMake did not find one.
+[0.404s] 
+[0.404s]   Could not find a package configuration file provided by "base_interface"
+[0.404s]   with any of the following names:
+[0.404s] 
+[0.405s]     base_interfaceConfig.cmake
+[0.405s]     base_interface-config.cmake
+[0.405s] 
+[0.405s]   Add the installation prefix of "base_interface" to CMAKE_PREFIX_PATH or set
+[0.405s]   "base_interface_DIR" to a directory containing one of the above files.  If
+[0.405s]   "base_interface" provides a separate development package or SDK, be sure it
+[0.405s]   has been installed.
+[0.405s] 
+[0.405s] [0m
+[0.405s] -- Configuring incomplete, errors occurred!
+[0.405s] See also "/home/simpletime/exam/build/cpp_topic/CMakeFiles/CMakeOutput.log".
+[0.411s] gmake: *** [Makefile:267：cmake_check_build_system] 错误 1
+[0.413s] Invoked command in '/home/simpletime/exam/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/exam/build/cpp_topic -- -j4 -l4

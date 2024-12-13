@@ -1,0 +1,94 @@
+[0.023s] Invoking command in '/home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster -- -j32 -l32
+[0.123s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.300s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.470s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.474s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.485s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.501s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.519s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.572s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.575s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.607s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.673s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[5.695s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[5.793s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[5.836s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[5.838s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.838s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.839s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[5.855s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.884s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[7.139s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[8.333s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[10.704s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[10.711s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[10.711s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[12.648s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[12.654s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[12.661s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[14.352s] -- Found Qhull version 8.0.2
+[16.032s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[17.824s] -- looking for PCL_COMMON
+[17.825s] -- looking for PCL_KDTREE
+[17.825s] -- looking for PCL_OCTREE
+[17.825s] -- looking for PCL_SEARCH
+[17.825s] -- looking for PCL_SAMPLE_CONSENSUS
+[17.826s] -- looking for PCL_FILTERS
+[17.826s] -- looking for PCL_2D
+[17.826s] -- looking for PCL_GEOMETRY
+[17.826s] -- looking for PCL_IO
+[17.826s] -- looking for PCL_FEATURES
+[17.827s] -- looking for PCL_ML
+[17.827s] -- looking for PCL_SEGMENTATION
+[17.827s] -- looking for PCL_VISUALIZATION
+[17.828s] -- looking for PCL_SURFACE
+[17.828s] -- looking for PCL_REGISTRATION
+[17.828s] -- looking for PCL_KEYPOINTS
+[17.828s] -- looking for PCL_TRACKING
+[17.829s] -- looking for PCL_RECOGNITION
+[17.829s] -- looking for PCL_STEREO
+[17.829s] -- looking for PCL_APPS
+[17.830s] -- looking for PCL_IN_HAND_SCANNER
+[17.830s] -- looking for PCL_MODELER
+[17.830s] -- looking for PCL_POINT_CLOUD_EDITOR
+[17.830s] -- looking for PCL_OUTOFCORE
+[17.831s] -- looking for PCL_PEOPLE
+[17.844s] -- Found rviz2: 11.2.13 (/opt/ros/humble/share/rviz2/cmake)
+[17.845s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[17.866s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[17.879s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[17.963s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[17.964s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/simpletime/Project/ws02_tools/src/cpp01_tf_broadcaster/include>
+[17.964s] -- Configured cppcheck exclude dirs and/or files: 
+[17.966s] -- Added test 'lint_cmake' to check CMake code style
+[17.967s] -- Added test 'uncrustify' to check C / C++ code style
+[17.967s] -- Configured uncrustify additional arguments: 
+[17.968s] -- Added test 'xmllint' to check XML markup files
+[17.971s] -- Configuring done
+[18.107s] -- Generating done
+[18.110s] -- Build files have been written to: /home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster
+[18.148s] [35m[1mConsolidate compiler generated dependencies of target demo03_tf_listener[0m
+[18.148s] [35m[1mConsolidate compiler generated dependencies of target demo00_run[0m
+[18.148s] [35m[1mConsolidate compiler generated dependencies of target demo02_dynamic_tf_broadcaster[0m
+[18.149s] [35m[1mConsolidate compiler generated dependencies of target demo01_static_tf_broadcaster[0m
+[18.149s] [35m[1mConsolidate compiler generated dependencies of target demo00_run1[0m
+[18.149s] [35m[1mConsolidate compiler generated dependencies of target demo05_point_tf_broadcaster[0m
+[18.149s] [35m[1mConsolidate compiler generated dependencies of target demo06_buffer[0m
+[18.149s] [35m[1mConsolidate compiler generated dependencies of target demo04_pcl_reader[0m
+[18.158s] [  5%] [32mBuilding CXX object CMakeFiles/demo07_msg_filter.dir/src/demo07_msg_filter.cpp.o[0m
+[18.173s] [ 38%] Built target demo00_run1
+[18.174s] [ 38%] Built target demo02_dynamic_tf_broadcaster
+[18.174s] [ 44%] Built target demo03_tf_listener
+[18.174s] [ 55%] Built target demo06_buffer
+[18.174s] [ 61%] Built target demo00_run
+[18.174s] [ 83%] Built target demo01_static_tf_broadcaster
+[18.174s] [ 83%] Built target demo05_point_tf_broadcaster
+[18.187s] [ 94%] Built target demo04_pcl_reader
+[20.460s] [100%] [32m[1mLinking CXX executable demo07_msg_filter[0m
+[20.689s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[20.689s] (.text+0x1b): undefined reference to `main'
+[20.692s] collect2: error: ld returned 1 exit status
+[20.694s] gmake[2]: *** [CMakeFiles/demo07_msg_filter.dir/build.make:206: demo07_msg_filter] Error 1
+[20.695s] gmake[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/demo07_msg_filter.dir/all] Error 2
+[20.695s] gmake: *** [Makefile:146: all] Error 2
+[20.699s] Invoked command in '/home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster -- -j32 -l32

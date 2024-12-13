@@ -1,0 +1,63 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp01_pcl_spin/src/demo01_pcl_spin.cpp:1[m[K:
+[01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp01_pcl_spin/src/demo01_pcl_spin.cpp:[m[K In member function ‘[01m[Kvoid PointCouldPublisher::getCloudcb(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp01_pcl_spin/src/demo01_pcl_spin.cpp:66:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before string constant
+   66 |     RCLCPP_INFO(this->get_logger()[01;31m[K"第一个点的位置为:%f"[m[K,cloud->points[0].x);
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp01_pcl_spin/src/demo01_pcl_spin.cpp:66:5:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   66 |     [01;36m[KRCLCPP_INFO[m[K(this->get_logger()"第一个点的位置为:%f",cloud->points[0].x);
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp01_pcl_spin/src/demo01_pcl_spin.cpp:66:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   66 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger()"第一个点的位置为:%f",cloud->points[0].x);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp01_pcl_spin/src/demo01_pcl_spin.cpp:66:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   66 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger()"第一个点的位置为:%f",cloud->points[0].x);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp01_pcl_spin/src/demo01_pcl_spin.cpp:66:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   66 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger()"第一个点的位置为:%f",cloud->points[0].x);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp01_pcl_spin/src/demo01_pcl_spin.cpp:1[m[K:
+[01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp01_pcl_spin/src/demo01_pcl_spin.cpp:66:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before string constant
+   66 |     RCLCPP_INFO(this->get_logger()[01;31m[K"第一个点的位置为:%f"[m[K,cloud->points[0].x);
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp01_pcl_spin/src/demo01_pcl_spin.cpp:66:5:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   66 |     [01;36m[KRCLCPP_INFO[m[K(this->get_logger()"第一个点的位置为:%f",cloud->points[0].x);
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp01_pcl_spin/src/demo01_pcl_spin.cpp:66:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+   66 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger()"第一个点的位置为:%f",cloud->points[0].x);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp01_pcl_spin/src/demo01_pcl_spin.cpp:66:5:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   66 |     [01;36m[KRCLCPP_INFO[m[K(this->get_logger()"第一个点的位置为:%f",cloud->points[0].x);
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp01_pcl_spin/src/demo01_pcl_spin.cpp:66:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+   66 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger()"第一个点的位置为:%f",cloud->points[0].x);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp01_pcl_spin/src/demo01_pcl_spin.cpp:66:5:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   66 |     [01;36m[KRCLCPP_INFO[m[K(this->get_logger()"第一个点的位置为:%f",cloud->points[0].x);
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/simpletime/Project/learn02_pcl_spin/src/cpp01_pcl_spin/src/demo01_pcl_spin.cpp:66:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+   66 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger()"第一个点的位置为:%f",cloud->points[0].x);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo01_pcl_spin.dir/build.make:76: CMakeFiles/demo01_pcl_spin.dir/src/demo01_pcl_spin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo01_pcl_spin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

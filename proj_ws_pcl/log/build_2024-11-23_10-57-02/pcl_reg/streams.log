@@ -1,0 +1,77 @@
+[0.010s] Invoking command in '/home/simpletime/Project/proj_ws_pcl/build/pcl_reg': /usr/bin/cmake /home/simpletime/Project/proj_ws_pcl/src/pcl -DCMAKE_INSTALL_PREFIX=/home/simpletime/Project/proj_ws_pcl/install/pcl_reg
+[0.016s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.101s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.204s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.206s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.210s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.216s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.223s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.272s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.272s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.911s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.944s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.972s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.100s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[7.918s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.922s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[7.922s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[9.465s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[9.469s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.474s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[10.982s] -- Found Qhull version 8.0.2
+[12.486s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[14.018s] -- looking for PCL_COMMON
+[14.018s] -- looking for PCL_KDTREE
+[14.018s] -- looking for PCL_OCTREE
+[14.018s] -- looking for PCL_SEARCH
+[14.018s] -- looking for PCL_SAMPLE_CONSENSUS
+[14.018s] -- looking for PCL_FILTERS
+[14.018s] -- looking for PCL_2D
+[14.019s] -- looking for PCL_GEOMETRY
+[14.019s] -- looking for PCL_IO
+[14.019s] -- looking for PCL_FEATURES
+[14.019s] -- looking for PCL_ML
+[14.020s] -- looking for PCL_SEGMENTATION
+[14.020s] -- looking for PCL_VISUALIZATION
+[14.020s] -- looking for PCL_SURFACE
+[14.020s] -- looking for PCL_REGISTRATION
+[14.021s] -- looking for PCL_KEYPOINTS
+[14.021s] -- looking for PCL_TRACKING
+[14.021s] -- looking for PCL_RECOGNITION
+[14.022s] -- looking for PCL_STEREO
+[14.022s] -- looking for PCL_APPS
+[14.022s] -- looking for PCL_IN_HAND_SCANNER
+[14.023s] -- looking for PCL_MODELER
+[14.023s] -- looking for PCL_POINT_CLOUD_EDITOR
+[14.023s] -- looking for PCL_OUTOFCORE
+[14.024s] -- looking for PCL_PEOPLE
+[14.025s] -- Found rviz2: 11.2.13 (/opt/ros/humble/share/rviz2/cmake)
+[14.025s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.064s] Error parsing '/home/simpletime/Project/proj_ws_pcl/src/pcl/package.xml':
+[14.095s] Traceback (most recent call last):
+[14.095s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[14.095s]     main()
+[14.095s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[14.095s]     raise e
+[14.095s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[14.095s]     package = parse_package_string(
+[14.095s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[14.095s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[14.095s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/simpletime/Project/proj_ws_pcl/src/pcl/package.xml':
+[14.095s] Error(s):
+[14.095s] - The generic dependency on 'pcl' is redundant with: build_depend
+[14.109s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[14.109s]   execute_process(/usr/bin/python3
+[14.109s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[14.110s]   /home/simpletime/Project/proj_ws_pcl/src/pcl/package.xml
+[14.110s]   /home/simpletime/Project/proj_ws_pcl/build/pcl_reg/ament_cmake_core/package.cmake)
+[14.110s]   returned error code 1
+[14.110s] Call Stack (most recent call first):
+[14.110s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[14.110s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[14.110s]   CMakeLists.txt:84 (ament_lint_auto_find_test_dependencies)
+[14.110s] 
+[14.110s] [0m
+[14.110s] -- Configuring incomplete, errors occurred!
+[14.110s] See also "/home/simpletime/Project/proj_ws_pcl/build/pcl_reg/CMakeFiles/CMakeOutput.log".
+[14.124s] Invoked command in '/home/simpletime/Project/proj_ws_pcl/build/pcl_reg' returned '1': /usr/bin/cmake /home/simpletime/Project/proj_ws_pcl/src/pcl -DCMAKE_INSTALL_PREFIX=/home/simpletime/Project/proj_ws_pcl/install/pcl_reg

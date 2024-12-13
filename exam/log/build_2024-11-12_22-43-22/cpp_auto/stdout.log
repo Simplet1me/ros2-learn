@@ -1,0 +1,19 @@
+[ 50%] Built target SHARED
+[100%] Built target cppauto
+-- Install configuration: ""
+-- Up-to-date: /home/simpletime/exam/install/cpp_auto/lib/cpp_auto/cppauto
+-- Up-to-date: /home/simpletime/exam/install/cpp_auto/share/ament_index/resource_index/package_run_dependencies/cpp_auto
+-- Up-to-date: /home/simpletime/exam/install/cpp_auto/share/ament_index/resource_index/parent_prefix_path/cpp_auto
+-- Up-to-date: /home/simpletime/exam/install/cpp_auto/share/cpp_auto/environment/ament_prefix_path.sh
+-- Up-to-date: /home/simpletime/exam/install/cpp_auto/share/cpp_auto/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/simpletime/exam/install/cpp_auto/share/cpp_auto/environment/path.sh
+-- Up-to-date: /home/simpletime/exam/install/cpp_auto/share/cpp_auto/environment/path.dsv
+-- Up-to-date: /home/simpletime/exam/install/cpp_auto/share/cpp_auto/local_setup.bash
+-- Up-to-date: /home/simpletime/exam/install/cpp_auto/share/cpp_auto/local_setup.sh
+-- Up-to-date: /home/simpletime/exam/install/cpp_auto/share/cpp_auto/local_setup.zsh
+-- Up-to-date: /home/simpletime/exam/install/cpp_auto/share/cpp_auto/local_setup.dsv
+-- Up-to-date: /home/simpletime/exam/install/cpp_auto/share/cpp_auto/package.dsv
+-- Up-to-date: /home/simpletime/exam/install/cpp_auto/share/ament_index/resource_index/packages/cpp_auto
+-- Up-to-date: /home/simpletime/exam/install/cpp_auto/share/cpp_auto/cmake/cpp_autoConfig.cmake
+-- Up-to-date: /home/simpletime/exam/install/cpp_auto/share/cpp_auto/cmake/cpp_autoConfig-version.cmake
+-- Up-to-date: /home/simpletime/exam/install/cpp_auto/share/cpp_auto/package.xml

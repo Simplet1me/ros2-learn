@@ -1,0 +1,42 @@
+[0.011s] Invoking command in '/home/simpletime/project01_book/build/company': CMAKE_PREFIX_PATH=/home/simpletime/project01_book/install/base_interfaces:/home/simpletime/project01_book/install/company:/home/simpletime/project01_book/src/install/company:/home/simpletime/project01_book/src/install/base_interfaces:/home/simpletime/project01_book/install/company_a:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/project01_book/build/company -- -j4 -l4
+[0.060s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.190s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.216s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.218s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.223s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.231s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.240s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.266s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.268s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.345s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.388s] -- Found base_interfaces: 0.0.0 (/home/simpletime/project01_book/install/base_interfaces/share/base_interfaces/cmake)
+[0.398s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.452s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.452s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/simpletime/project01_book/src/company/include>
+[0.452s] -- Configured cppcheck exclude dirs and/or files: 
+[0.453s] -- Added test 'lint_cmake' to check CMake code style
+[0.454s] -- Added test 'uncrustify' to check C / C++ code style
+[0.454s] -- Configured uncrustify additional arguments: 
+[0.454s] -- Added test 'xmllint' to check XML markup files
+[0.456s] -- Configuring done
+[0.472s] -- Generating done
+[0.474s] -- Build files have been written to: /home/simpletime/project01_book/build/company
+[0.500s] [35m[1mConsolidate compiler generated dependencies of target company_a[0m
+[0.505s] [ 16%] [32mBuilding CXX object CMakeFiles/company_b.dir/src/company_b.cpp.o[0m
+[0.511s] [ 33%] [32mBuilding CXX object CMakeFiles/company_c.dir/src/company_c.cpp.o[0m
+[0.519s] [ 66%] Built target company_a
+[0.549s] [100%] [32m[1mLinking CXX executable company_c[0m
+[0.550s] [100%] [32m[1mLinking CXX executable company_b[0m
+[0.619s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.619s] (.text+0x1b): undefined reference to `main'
+[0.620s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.620s] (.text+0x1b): undefined reference to `main'
+[0.620s] collect2: error: ld returned 1 exit status
+[0.621s] collect2: error: ld returned 1 exit status
+[0.622s] gmake[2]: *** [CMakeFiles/company_b.dir/build.make:167：company_b] 错误 1
+[0.622s] gmake[1]: *** [CMakeFiles/Makefile2:167：CMakeFiles/company_b.dir/all] 错误 2
+[0.622s] gmake[1]: *** 正在等待未完成的任务....
+[0.623s] gmake[2]: *** [CMakeFiles/company_c.dir/build.make:167：company_c] 错误 1
+[0.623s] gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/company_c.dir/all] 错误 2
+[0.624s] gmake: *** [Makefile:146：all] 错误 2
+[0.626s] Invoked command in '/home/simpletime/project01_book/build/company' returned '2': CMAKE_PREFIX_PATH=/home/simpletime/project01_book/install/base_interfaces:/home/simpletime/project01_book/install/company:/home/simpletime/project01_book/src/install/company:/home/simpletime/project01_book/src/install/base_interfaces:/home/simpletime/project01_book/install/company_a:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/project01_book/build/company -- -j4 -l4

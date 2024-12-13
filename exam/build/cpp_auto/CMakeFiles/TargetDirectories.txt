@@ -1,0 +1,11 @@
+/home/simpletime/exam/build/cpp_auto/CMakeFiles/uninstall.dir
+/home/simpletime/exam/build/cpp_auto/CMakeFiles/cpp_auto_uninstall.dir
+/home/simpletime/exam/build/cpp_auto/CMakeFiles/SHARED.dir
+/home/simpletime/exam/build/cpp_auto/CMakeFiles/cppauto.dir
+/home/simpletime/exam/build/cpp_auto/CMakeFiles/test.dir
+/home/simpletime/exam/build/cpp_auto/CMakeFiles/edit_cache.dir
+/home/simpletime/exam/build/cpp_auto/CMakeFiles/rebuild_cache.dir
+/home/simpletime/exam/build/cpp_auto/CMakeFiles/list_install_components.dir
+/home/simpletime/exam/build/cpp_auto/CMakeFiles/install.dir
+/home/simpletime/exam/build/cpp_auto/CMakeFiles/install/local.dir
+/home/simpletime/exam/build/cpp_auto/CMakeFiles/install/strip.dir

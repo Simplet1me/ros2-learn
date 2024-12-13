@@ -1,0 +1,23 @@
+[0.009s] Invoking command in '/home/simpletime/exam/build/cpp_auto': CMAKE_PREFIX_PATH=/home/simpletime/exam/install/base_interface:/home/simpletime/exam/install/cpp_topic:/home/simpletime/exam/install/cpp_auto:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/exam/build/cpp_auto -- -j4 -l4
+[0.059s] [ 75%] Built target cppauto
+[0.061s] [100%] Built target SHARED
+[0.073s] Invoked command in '/home/simpletime/exam/build/cpp_auto' returned '0': CMAKE_PREFIX_PATH=/home/simpletime/exam/install/base_interface:/home/simpletime/exam/install/cpp_topic:/home/simpletime/exam/install/cpp_auto:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/exam/build/cpp_auto -- -j4 -l4
+[0.100s] Invoking command in '/home/simpletime/exam/build/cpp_auto': CMAKE_PREFIX_PATH=/home/simpletime/exam/install/base_interface:/home/simpletime/exam/install/cpp_topic:/home/simpletime/exam/install/cpp_auto:/opt/ros/humble /usr/bin/cmake --install /home/simpletime/exam/build/cpp_auto
+[0.110s] -- Install configuration: ""
+[0.110s] -- Up-to-date: /home/simpletime/exam/install/cpp_auto/lib/cpp_auto/cppauto
+[0.110s] -- Up-to-date: /home/simpletime/exam/install/cpp_auto/share/ament_index/resource_index/package_run_dependencies/cpp_auto
+[0.111s] -- Up-to-date: /home/simpletime/exam/install/cpp_auto/share/ament_index/resource_index/parent_prefix_path/cpp_auto
+[0.111s] -- Up-to-date: /home/simpletime/exam/install/cpp_auto/share/cpp_auto/environment/ament_prefix_path.sh
+[0.111s] -- Up-to-date: /home/simpletime/exam/install/cpp_auto/share/cpp_auto/environment/ament_prefix_path.dsv
+[0.111s] -- Up-to-date: /home/simpletime/exam/install/cpp_auto/share/cpp_auto/environment/path.sh
+[0.111s] -- Up-to-date: /home/simpletime/exam/install/cpp_auto/share/cpp_auto/environment/path.dsv
+[0.111s] -- Up-to-date: /home/simpletime/exam/install/cpp_auto/share/cpp_auto/local_setup.bash
+[0.112s] -- Up-to-date: /home/simpletime/exam/install/cpp_auto/share/cpp_auto/local_setup.sh
+[0.112s] -- Up-to-date: /home/simpletime/exam/install/cpp_auto/share/cpp_auto/local_setup.zsh
+[0.112s] -- Up-to-date: /home/simpletime/exam/install/cpp_auto/share/cpp_auto/local_setup.dsv
+[0.113s] -- Installing: /home/simpletime/exam/install/cpp_auto/share/cpp_auto/package.dsv
+[0.113s] -- Up-to-date: /home/simpletime/exam/install/cpp_auto/share/ament_index/resource_index/packages/cpp_auto
+[0.113s] -- Up-to-date: /home/simpletime/exam/install/cpp_auto/share/cpp_auto/cmake/cpp_autoConfig.cmake
+[0.113s] -- Up-to-date: /home/simpletime/exam/install/cpp_auto/share/cpp_auto/cmake/cpp_autoConfig-version.cmake
+[0.115s] -- Up-to-date: /home/simpletime/exam/install/cpp_auto/share/cpp_auto/package.xml
+[0.116s] Invoked command in '/home/simpletime/exam/build/cpp_auto' returned '0': CMAKE_PREFIX_PATH=/home/simpletime/exam/install/base_interface:/home/simpletime/exam/install/cpp_topic:/home/simpletime/exam/install/cpp_auto:/opt/ros/humble /usr/bin/cmake --install /home/simpletime/exam/build/cpp_auto

@@ -1,0 +1,6 @@
+[  8%] [32mBuilding CXX object CMakeFiles/demo04_pcl_reader.dir/src/demo04_pcl_reader.cpp.o[0m
+[ 83%] Built target demo00_run1
+[ 83%] Built target demo03_tf_listener
+[ 66%] Built target demo01_static_tf_broadcaster
+[ 66%] Built target demo02_dynamic_tf_broadcaster
+[ 91%] Built target demo00_run

@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target company_a[0m
+[ 33%] Built target company_c
+[ 50%] [32mBuilding CXX object CMakeFiles/company_b.dir/src/company_b.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/company_a.dir/src/company_a.cpp.o[0m
+[01m[K/home/simpletime/project01_book/src/company/src/company_a.cpp:33:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kbase_interfaces::msg::Booksupply Listenerb::getBooksupply()[m[K’ cannot be overloaded with ‘[01m[Kbase_interfaces::msg::Booksupply Listenerb::getBooksupply()[m[K’
+   33 |     Booksupply [01;31m[KgetBooksupply[m[K(){
+      |                [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/simpletime/project01_book/src/company/src/company_a.cpp:30:16:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kbase_interfaces::msg::Booksupply Listenerb::getBooksupply()[m[K’
+   30 |     Booksupply [01;36m[KgetBooksupply[m[K(){
+      |                [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/simpletime/project01_book/src/company/src/company_a.cpp:55:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kbase_interfaces::msg::Booksupply Listenerc::getBooksupply()[m[K’ cannot be overloaded with ‘[01m[Kbase_interfaces::msg::Booksupply Listenerc::getBooksupply()[m[K’
+   55 |     Booksupply [01;31m[KgetBooksupply[m[K(){
+      |                [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/simpletime/project01_book/src/company/src/company_a.cpp:52:16:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kbase_interfaces::msg::Booksupply Listenerc::getBooksupply()[m[K’
+   52 |     Booksupply [01;36m[KgetBooksupply[m[K(){
+      |                [01;36m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/company_a.dir/build.make:76：CMakeFiles/company_a.dir/src/company_a.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:141：CMakeFiles/company_a.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+[ 83%] [32m[1mLinking CXX executable company_b[0m
+[ 83%] Built target company_b
+gmake: *** [Makefile:146：all] 错误 2

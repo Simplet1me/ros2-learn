@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target demo03_tf_listener[0m
+[ 70%] Built target demo00_run
+[ 70%] Built target demo01_static_tf_broadcaster
+[ 70%] Built target demo00_run1
+[ 80%] Built target demo02_dynamic_tf_broadcaster
+[ 90%] [32m[1mLinking CXX executable demo03_tf_listener[0m

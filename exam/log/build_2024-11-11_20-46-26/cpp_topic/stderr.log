@@ -1,0 +1,7 @@
+[01m[K/home/simpletime/exam/src/cpp_topic/src/talker.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kbase_interface/msg/message.hpp: 没有那个文件或目录
+    2 | #include [01;31m[K"base_interface/msg/message.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76：CMakeFiles/talker.dir/src/talker.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/talker.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

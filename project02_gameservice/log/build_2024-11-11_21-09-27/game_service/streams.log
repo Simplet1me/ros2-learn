@@ -1,0 +1,45 @@
+[0.010s] Invoking command in '/home/simpletime/project02_gameservice/build/game_service': CMAKE_PREFIX_PATH=/home/simpletime/project02_gameservice/install/base_interfaces:/home/simpletime/project02_gameservice/install/game_service:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/project02_gameservice/build/game_service -- -j4 -l4
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target game_server[0m
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target game_client[0m
+[0.083s] [ 50%] Built target game_server
+[0.090s] [ 75%] [32mBuilding CXX object CMakeFiles/game_client.dir/src/game_client.cpp.o[0m
+[2.007s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.007s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.007s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.007s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.007s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.007s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.007s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.007s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.007s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.007s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.007s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.007s]                  from [01m[K/home/simpletime/project02_gameservice/src/game_service/src/game_client.cpp:1[m[K:
+[2.007s] [01m[K/home/simpletime/project02_gameservice/src/game_service/src/game_client.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[2.008s] [01m[K/home/simpletime/project02_gameservice/src/game_service/src/game_client.cpp:109:38:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[2.008s]   109 |     RCLCPP_INFO(client->get_logger(),[01;35m[K"充值成功！用户:%s 充值金额:%s 获得点卷:%d 恭喜您成为尊贵的%s"[m[K
+[2.008s]       |                                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.832s] [100%] [32m[1mLinking CXX executable game_client[0m
+[2.976s] [100%] Built target game_client
+[2.986s] Invoked command in '/home/simpletime/project02_gameservice/build/game_service' returned '0': CMAKE_PREFIX_PATH=/home/simpletime/project02_gameservice/install/base_interfaces:/home/simpletime/project02_gameservice/install/game_service:/opt/ros/humble /usr/bin/cmake --build /home/simpletime/project02_gameservice/build/game_service -- -j4 -l4
+[3.014s] Invoking command in '/home/simpletime/project02_gameservice/build/game_service': CMAKE_PREFIX_PATH=/home/simpletime/project02_gameservice/install/base_interfaces:/home/simpletime/project02_gameservice/install/game_service:/opt/ros/humble /usr/bin/cmake --install /home/simpletime/project02_gameservice/build/game_service
+[3.022s] -- Install configuration: ""
+[3.023s] -- Up-to-date: /home/simpletime/project02_gameservice/install/game_service/lib/game_service/game_server
+[3.023s] -- Installing: /home/simpletime/project02_gameservice/install/game_service/lib/game_service/game_client
+[3.024s] -- Set runtime path of "/home/simpletime/project02_gameservice/install/game_service/lib/game_service/game_client" to ""
+[3.024s] -- Up-to-date: /home/simpletime/project02_gameservice/install/game_service/share/ament_index/resource_index/package_run_dependencies/game_service
+[3.025s] -- Up-to-date: /home/simpletime/project02_gameservice/install/game_service/share/ament_index/resource_index/parent_prefix_path/game_service
+[3.025s] -- Up-to-date: /home/simpletime/project02_gameservice/install/game_service/share/game_service/environment/ament_prefix_path.sh
+[3.025s] -- Up-to-date: /home/simpletime/project02_gameservice/install/game_service/share/game_service/environment/ament_prefix_path.dsv
+[3.025s] -- Up-to-date: /home/simpletime/project02_gameservice/install/game_service/share/game_service/environment/path.sh
+[3.025s] -- Up-to-date: /home/simpletime/project02_gameservice/install/game_service/share/game_service/environment/path.dsv
+[3.025s] -- Up-to-date: /home/simpletime/project02_gameservice/install/game_service/share/game_service/local_setup.bash
+[3.025s] -- Up-to-date: /home/simpletime/project02_gameservice/install/game_service/share/game_service/local_setup.sh
+[3.025s] -- Up-to-date: /home/simpletime/project02_gameservice/install/game_service/share/game_service/local_setup.zsh
+[3.025s] -- Up-to-date: /home/simpletime/project02_gameservice/install/game_service/share/game_service/local_setup.dsv
+[3.025s] -- Installing: /home/simpletime/project02_gameservice/install/game_service/share/game_service/package.dsv
+[3.026s] -- Up-to-date: /home/simpletime/project02_gameservice/install/game_service/share/ament_index/resource_index/packages/game_service
+[3.026s] -- Up-to-date: /home/simpletime/project02_gameservice/install/game_service/share/game_service/cmake/game_serviceConfig.cmake
+[3.026s] -- Up-to-date: /home/simpletime/project02_gameservice/install/game_service/share/game_service/cmake/game_serviceConfig-version.cmake
+[3.026s] -- Up-to-date: /home/simpletime/project02_gameservice/install/game_service/share/game_service/package.xml
+[3.028s] Invoked command in '/home/simpletime/project02_gameservice/build/game_service' returned '0': CMAKE_PREFIX_PATH=/home/simpletime/project02_gameservice/install/base_interfaces:/home/simpletime/project02_gameservice/install/game_service:/opt/ros/humble /usr/bin/cmake --install /home/simpletime/project02_gameservice/build/game_service

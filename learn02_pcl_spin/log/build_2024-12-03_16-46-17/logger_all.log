@@ -1,0 +1,220 @@
+[0.593s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.593s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f0fece57ca0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0fece577c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0fece577c0>>)
+[0.854s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.854s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.854s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.854s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.854s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.854s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.854s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/simpletime/Project/learn02_pcl_spin'
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(source) by extensions ['ignore', 'ignore_ament_install']
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(source) by extension 'ignore'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(source) by extension 'ignore_ament_install'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(source) by extensions ['colcon_pkg']
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(source) by extension 'colcon_pkg'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(source) by extensions ['colcon_meta']
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(source) by extension 'colcon_meta'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(source) by extensions ['ros']
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(source) by extension 'ros'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(source) by extensions ['cmake', 'python']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(source) by extension 'cmake'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(source) by extension 'python'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(source) by extensions ['python_setup_py']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(source) by extension 'python_setup_py'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_pcl_spin) by extensions ['ignore', 'ignore_ament_install']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_pcl_spin) by extension 'ignore'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_pcl_spin) by extension 'ignore_ament_install'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_pcl_spin) by extensions ['colcon_pkg']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_pcl_spin) by extension 'colcon_pkg'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_pcl_spin) by extensions ['colcon_meta']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_pcl_spin) by extension 'colcon_meta'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_pcl_spin) by extensions ['ros']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_pcl_spin) by extension 'ros'
+[0.877s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp01_pcl_spin' with type 'ros.ament_cmake' and name 'cpp01_pcl_spin'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_nav_pcl) by extensions ['ignore', 'ignore_ament_install']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_nav_pcl) by extension 'ignore'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_nav_pcl) by extension 'ignore_ament_install'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_nav_pcl) by extensions ['colcon_pkg']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_nav_pcl) by extension 'colcon_pkg'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_nav_pcl) by extensions ['colcon_meta']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_nav_pcl) by extension 'colcon_meta'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_nav_pcl) by extensions ['ros']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_nav_pcl) by extension 'ros'
+[0.879s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp02_nav_pcl' with type 'ros.ament_cmake' and name 'cpp02_nav_pcl'
+[0.879s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.879s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.879s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.879s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.879s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.913s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.920s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.921s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.031s] Level 5:colcon.colcon_core.verb:set package 'cpp01_pcl_spin' build argument 'cmake_args' from command line to 'None'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'cpp01_pcl_spin' build argument 'cmake_target' from command line to 'None'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'cpp01_pcl_spin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'cpp01_pcl_spin' build argument 'cmake_clean_cache' from command line to 'False'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'cpp01_pcl_spin' build argument 'cmake_clean_first' from command line to 'False'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'cpp01_pcl_spin' build argument 'cmake_force_configure' from command line to 'False'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'cpp01_pcl_spin' build argument 'ament_cmake_args' from command line to 'None'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'cpp01_pcl_spin' build argument 'catkin_cmake_args' from command line to 'None'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'cpp01_pcl_spin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.032s] DEBUG:colcon.colcon_core.verb:Building package 'cpp01_pcl_spin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin', 'merge_install': False, 'path': '/home/simpletime/Project/learn02_pcl_spin/src/cpp01_pcl_spin', 'symlink_install': False, 'test_result_base': None}
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'cpp02_nav_pcl' build argument 'cmake_args' from command line to 'None'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'cpp02_nav_pcl' build argument 'cmake_target' from command line to 'None'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'cpp02_nav_pcl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'cpp02_nav_pcl' build argument 'cmake_clean_cache' from command line to 'False'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'cpp02_nav_pcl' build argument 'cmake_clean_first' from command line to 'False'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'cpp02_nav_pcl' build argument 'cmake_force_configure' from command line to 'False'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'cpp02_nav_pcl' build argument 'ament_cmake_args' from command line to 'None'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'cpp02_nav_pcl' build argument 'catkin_cmake_args' from command line to 'None'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'cpp02_nav_pcl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.032s] DEBUG:colcon.colcon_core.verb:Building package 'cpp02_nav_pcl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl', 'merge_install': False, 'path': '/home/simpletime/Project/learn02_pcl_spin/src/cpp02_nav_pcl', 'symlink_install': False, 'test_result_base': None}
+[1.033s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.034s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.034s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/simpletime/Project/learn02_pcl_spin/src/cpp01_pcl_spin' with build type 'ament_cmake'
+[1.035s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/simpletime/Project/learn02_pcl_spin/src/cpp01_pcl_spin'
+[1.042s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.042s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.042s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.046s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/simpletime/Project/learn02_pcl_spin/src/cpp02_nav_pcl' with build type 'ament_cmake'
+[1.047s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/simpletime/Project/learn02_pcl_spin/src/cpp02_nav_pcl'
+[1.047s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.047s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin -- -j32 -l32
+[1.071s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl -- -j32 -l32
+[1.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin -- -j32 -l32
+[1.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin
+[1.379s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp01_pcl_spin)
+[1.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/simpletime/Project/learn02_pcl_spin/build/cpp01_pcl_spin
+[1.387s] Level 1:colcon.colcon_core.environment:checking '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin' for CMake module files
+[1.388s] Level 1:colcon.colcon_core.environment:checking '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin' for CMake config files
+[1.388s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp01_pcl_spin', 'cmake_prefix_path')
+[1.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/hook/cmake_prefix_path.ps1'
+[1.390s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/hook/cmake_prefix_path.dsv'
+[1.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/hook/cmake_prefix_path.sh'
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/lib'
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/bin'
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/lib/pkgconfig/cpp01_pcl_spin.pc'
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/lib/python3.10/site-packages'
+[1.393s] Level 1:colcon.colcon_core.environment:checking '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/bin'
+[1.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/package.ps1'
+[1.394s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/package.dsv'
+[1.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/package.sh'
+[1.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/package.bash'
+[1.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/package.zsh'
+[1.399s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/colcon-core/packages/cpp01_pcl_spin)
+[1.427s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp01_pcl_spin)
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin' for CMake module files
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin' for CMake config files
+[1.428s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp01_pcl_spin', 'cmake_prefix_path')
+[1.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/hook/cmake_prefix_path.ps1'
+[1.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/hook/cmake_prefix_path.dsv'
+[1.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/hook/cmake_prefix_path.sh'
+[1.429s] Level 1:colcon.colcon_core.environment:checking '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/lib'
+[1.429s] Level 1:colcon.colcon_core.environment:checking '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/bin'
+[1.430s] Level 1:colcon.colcon_core.environment:checking '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/lib/pkgconfig/cpp01_pcl_spin.pc'
+[1.430s] Level 1:colcon.colcon_core.environment:checking '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/lib/python3.10/site-packages'
+[1.430s] Level 1:colcon.colcon_core.environment:checking '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/bin'
+[1.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/package.ps1'
+[1.431s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/package.dsv'
+[1.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/package.sh'
+[1.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/package.bash'
+[1.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/cpp01_pcl_spin/package.zsh'
+[1.432s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/simpletime/Project/learn02_pcl_spin/install/cpp01_pcl_spin/share/colcon-core/packages/cpp01_pcl_spin)
+[12.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl -- -j32 -l32
+[12.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl
+[12.464s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp02_nav_pcl)
+[12.464s] Level 1:colcon.colcon_core.environment:checking '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl' for CMake module files
+[12.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/simpletime/Project/learn02_pcl_spin/build/cpp02_nav_pcl
+[12.465s] Level 1:colcon.colcon_core.environment:checking '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl' for CMake config files
+[12.465s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp02_nav_pcl', 'cmake_prefix_path')
+[12.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/hook/cmake_prefix_path.ps1'
+[12.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/hook/cmake_prefix_path.dsv'
+[12.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/hook/cmake_prefix_path.sh'
+[12.466s] Level 1:colcon.colcon_core.environment:checking '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/lib'
+[12.467s] Level 1:colcon.colcon_core.environment:checking '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/bin'
+[12.467s] Level 1:colcon.colcon_core.environment:checking '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/lib/pkgconfig/cpp02_nav_pcl.pc'
+[12.467s] Level 1:colcon.colcon_core.environment:checking '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/lib/python3.10/site-packages'
+[12.467s] Level 1:colcon.colcon_core.environment:checking '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/bin'
+[12.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/package.ps1'
+[12.468s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/package.dsv'
+[12.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/package.sh'
+[12.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/package.bash'
+[12.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/package.zsh'
+[12.469s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/colcon-core/packages/cpp02_nav_pcl)
+[12.494s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp02_nav_pcl)
+[12.494s] Level 1:colcon.colcon_core.environment:checking '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl' for CMake module files
+[12.494s] Level 1:colcon.colcon_core.environment:checking '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl' for CMake config files
+[12.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp02_nav_pcl', 'cmake_prefix_path')
+[12.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/hook/cmake_prefix_path.ps1'
+[12.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/hook/cmake_prefix_path.dsv'
+[12.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/hook/cmake_prefix_path.sh'
+[12.496s] Level 1:colcon.colcon_core.environment:checking '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/lib'
+[12.496s] Level 1:colcon.colcon_core.environment:checking '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/bin'
+[12.496s] Level 1:colcon.colcon_core.environment:checking '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/lib/pkgconfig/cpp02_nav_pcl.pc'
+[12.496s] Level 1:colcon.colcon_core.environment:checking '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/lib/python3.10/site-packages'
+[12.496s] Level 1:colcon.colcon_core.environment:checking '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/bin'
+[12.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/package.ps1'
+[12.497s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/package.dsv'
+[12.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/package.sh'
+[12.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/package.bash'
+[12.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/cpp02_nav_pcl/package.zsh'
+[12.498s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/simpletime/Project/learn02_pcl_spin/install/cpp02_nav_pcl/share/colcon-core/packages/cpp02_nav_pcl)
+[12.499s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.499s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.499s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.499s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.541s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[12.541s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.541s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.541s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.556s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[12.556s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.557s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simpletime/Project/learn02_pcl_spin/install/local_setup.ps1'
+[12.558s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/simpletime/Project/learn02_pcl_spin/install/_local_setup_util_ps1.py'
+[12.559s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simpletime/Project/learn02_pcl_spin/install/setup.ps1'
+[12.560s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simpletime/Project/learn02_pcl_spin/install/local_setup.sh'
+[12.561s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/simpletime/Project/learn02_pcl_spin/install/_local_setup_util_sh.py'
+[12.562s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simpletime/Project/learn02_pcl_spin/install/setup.sh'
+[12.563s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simpletime/Project/learn02_pcl_spin/install/local_setup.bash'
+[12.563s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simpletime/Project/learn02_pcl_spin/install/setup.bash'
+[12.564s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simpletime/Project/learn02_pcl_spin/install/local_setup.zsh'
+[12.565s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simpletime/Project/learn02_pcl_spin/install/setup.zsh'

@@ -1,0 +1,16 @@
+/home/simpletime/ws01_plumbing/install/py01_topic/lib/py01_topic/demo01_talker_str_py
+/home/simpletime/ws01_plumbing/install/py01_topic/share/ament_index/resource_index/package_run_dependencies/py01_topic
+/home/simpletime/ws01_plumbing/install/py01_topic/share/ament_index/resource_index/parent_prefix_path/py01_topic
+/home/simpletime/ws01_plumbing/install/py01_topic/share/py01_topic/environment/ament_prefix_path.sh
+/home/simpletime/ws01_plumbing/install/py01_topic/share/py01_topic/environment/ament_prefix_path.dsv
+/home/simpletime/ws01_plumbing/install/py01_topic/share/py01_topic/environment/path.sh
+/home/simpletime/ws01_plumbing/install/py01_topic/share/py01_topic/environment/path.dsv
+/home/simpletime/ws01_plumbing/install/py01_topic/share/py01_topic/local_setup.bash
+/home/simpletime/ws01_plumbing/install/py01_topic/share/py01_topic/local_setup.sh
+/home/simpletime/ws01_plumbing/install/py01_topic/share/py01_topic/local_setup.zsh
+/home/simpletime/ws01_plumbing/install/py01_topic/share/py01_topic/local_setup.dsv
+/home/simpletime/ws01_plumbing/install/py01_topic/share/py01_topic/package.dsv
+/home/simpletime/ws01_plumbing/install/py01_topic/share/ament_index/resource_index/packages/py01_topic
+/home/simpletime/ws01_plumbing/install/py01_topic/share/py01_topic/cmake/py01_topicConfig.cmake
+/home/simpletime/ws01_plumbing/install/py01_topic/share/py01_topic/cmake/py01_topicConfig-version.cmake
+/home/simpletime/ws01_plumbing/install/py01_topic/share/py01_topic/package.xml

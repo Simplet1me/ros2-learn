@@ -1,0 +1,6 @@
+[0.016s] Invoking command in '/home/simpletime/Project/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/ws01_plumbing/build/base_interfaces_demo -- -j32 -l32
+[0.057s] [0mCMake Error: The current CMakeCache.txt directory /home/simpletime/Project/ws01_plumbing/build/base_interfaces_demo/CMakeCache.txt is different than the directory /home/simpletime/ws01_plumbing/build/base_interfaces_demo where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.075s] [0mCMake Error: The source directory "/home/simpletime/ws01_plumbing/src/base_interfaces_demo" does not exist.
+[0.075s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.078s] gmake: *** [Makefile:1179: cmake_check_build_system] Error 1
+[0.080s] Invoked command in '/home/simpletime/Project/ws01_plumbing/build/base_interfaces_demo' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/ws01_plumbing/build/base_interfaces_demo -- -j32 -l32

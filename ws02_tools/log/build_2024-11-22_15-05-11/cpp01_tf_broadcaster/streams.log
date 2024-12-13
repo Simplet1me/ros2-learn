@@ -1,0 +1,15 @@
+[0.009s] Invoking command in '/home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster -- -j32 -l32
+[0.037s] [35m[1mConsolidate compiler generated dependencies of target demo03_tf_listener[0m
+[0.046s] [ 60%] Built target demo00_run1
+[0.046s] [ 60%] Built target demo01_static_tf_broadcaster
+[0.046s] [ 60%] Built target demo00_run
+[0.046s] [ 80%] Built target demo02_dynamic_tf_broadcaster
+[0.051s] [ 90%] [32mBuilding CXX object CMakeFiles/demo03_tf_listener.dir/src/demo03_tf_listener.cpp.o[0m
+[5.952s] [100%] [32m[1mLinking CXX executable demo03_tf_listener[0m
+[6.221s] /usr/bin/ld: CMakeFiles/demo03_tf_listener.dir/src/demo03_tf_listener.cpp.o: in function `tf2::impl::toQuaternion(geometry_msgs::msg::Quaternion_<std::allocator<void> > const&)':
+[6.221s] demo03_tf_listener.cpp:(.text._ZN3tf24impl12toQuaternionERKN13geometry_msgs3msg11Quaternion_ISaIvEEE[_ZN3tf24impl12toQuaternionERKN13geometry_msgs3msg11Quaternion_ISaIvEEE]+0x2f): undefined reference to `tf2::fromMsg(geometry_msgs::msg::Quaternion_<std::allocator<void> > const&, tf2::Quaternion&)'
+[6.254s] collect2: error: ld returned 1 exit status
+[6.255s] gmake[2]: *** [CMakeFiles/demo03_tf_listener.dir/build.make:205: demo03_tf_listener] Error 1
+[6.255s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/demo03_tf_listener.dir/all] Error 2
+[6.256s] gmake: *** [Makefile:146: all] Error 2
+[6.259s] Invoked command in '/home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simpletime/Project/ws02_tools/build/cpp01_tf_broadcaster -- -j32 -l32
