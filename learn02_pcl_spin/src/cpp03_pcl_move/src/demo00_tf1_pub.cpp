@@ -8,7 +8,7 @@ using namespace std::chrono_literals;
 
 class TFDynBroadcaster : public rclcpp::Node{
 public:
-  TFDynBroadcaster():Node("tf_broadcaster_node_cpp1"){
+  TFDynBroadcaster():Node("tf1_a_b"){
     //tf2_ros::StaticTransformBroadcaster
     broadcaster_ = std::make_shared<tf2_ros::TransformBroadcaster>(this);
     timer_ = this->create_wall_timer(20ms,std::bind(&TFDynBroadcaster::pub_tf,this));
@@ -19,7 +19,7 @@ private:
   rclcpp::TimerBase::SharedPtr timer_;
   geometry_msgs::msg::TransformStamped transform;
   tf2::Quaternion qtn;
-  double angle = 1;
+  double ray = 0;
   void pub_tf(){
     transform.header.stamp = this->now();
     transform.header.frame_id = "frame_b";
@@ -40,7 +40,7 @@ private:
     RCLCPP_INFO(this->get_logger(),"pub");
     broadcaster_->sendTransform(transform);
   }
-  double ray = 0;
+
 };
 
 int main(int argc,char const * argv[]){

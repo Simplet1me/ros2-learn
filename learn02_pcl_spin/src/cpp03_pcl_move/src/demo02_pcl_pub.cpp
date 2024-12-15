@@ -56,7 +56,8 @@ private:
     auto trun_cloud_msg = buffer_->transform(get_cloud_msg,"frame_b");
     pcl::fromROSMsg(trun_cloud_msg,get_cloud);
 
-    cloud.clear();
+    //cloud.clear();
+    //墙角+小cube
     for (size_t i = 0; i < 50; i++){
       for (size_t j = 0; j < 50; j++){
         p.x = -5;
@@ -81,7 +82,6 @@ private:
         cloud.points.push_back(p);
       }
     }
-
     for (size_t z = 0; z < 10; z++){
       for (size_t y = 0; y < 10; y++){
         for (size_t x = 0; x < 10; x++){

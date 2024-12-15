@@ -16,7 +16,7 @@ find_package(pcl_conversions REQUIRED)
 find_package(tf2_geometry_msgs REQUIRED)
 find_package(tf2_sensor_msgs REQUIRED)
 
-add_executable(demo00_run src/demo00_run.cpp)
+add_executable(demo00_tf1_pub src/demo00_tf1_pub.cpp)
 add_executable(demo01_tf_spin src/demo01_tf_spin.cpp)
 add_executable(demo02_pcl_pub src/demo02_pcl_pub.cpp)
 
@@ -50,7 +50,7 @@ ament_target_dependencies(
 )
 
 ament_target_dependencies(
-  demo00_run
+  demo00_tf1_pub
   "rclcpp"
   "tf2"
   "tf2_ros"
@@ -61,7 +61,7 @@ ament_target_dependencies(
   "tf2_sensor_msgs"
 )
 
-install(TARGETS demo00_run
+install(TARGETS demo00_tf1_pub
   DESTINATION lib/${PROJECT_NAME})
 
 install(TARGETS demo01_tf_spin
