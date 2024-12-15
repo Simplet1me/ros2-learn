@@ -8,6 +8,7 @@ def generate_launch_description():
     #获取默认urdf路径 
     urdf_package_path = get_package_share_directory('robot_description')
     default_urdf_path = os.path.join(urdf_package_path,'urdf','robot.urdf')
+    default_rviz_config_path = os.path.join(urdf_package_path,'config','display_robot_model.rviz')
     action_declare_arg_mode_path = launch.actions.DeclareLaunchArgument(
         name = 'model',default_value = str(default_urdf_path),description = '加载的模型文件路径'
     )
@@ -28,7 +29,8 @@ def generate_launch_description():
 
     action_rviz_node = launch_ros.actions.Node(
         package='rviz2',
-        executable='rviz2'
+        executable='rviz2',
+        arguments=['-d', default_rviz_config_path]
     )
 
     return launch.LaunchDescription([
