@@ -1,4 +1,5 @@
 <launch>
+    <node pkg="cpp03_pcl_move" exec="demo00_tf1_pub" name="demo00_tf1_pub" />
     <node pkg="cpp03_pcl_move" exec="demo01_tf_spin" name="demo01_tf_spin" />
     <node pkg="cpp03_pcl_move" exec="demo02_pcl_pub" name="demo02_pcl_pub" />
 </launch>

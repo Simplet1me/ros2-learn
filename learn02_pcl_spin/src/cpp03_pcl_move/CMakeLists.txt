@@ -61,6 +61,8 @@ ament_target_dependencies(
   "tf2_sensor_msgs"
 )
 
+install(DIRECTORY launch DESTINATION share/${PROJECT_NAME})
+
 install(TARGETS demo00_tf1_pub
   DESTINATION lib/${PROJECT_NAME})
 
@@ -70,7 +72,6 @@ install(TARGETS demo01_tf_spin
 install(TARGETS demo02_pcl_pub
   DESTINATION lib/${PROJECT_NAME})
 
-install(DIRECTORY launch DESTINATION share/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
