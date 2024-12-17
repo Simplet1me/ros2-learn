@@ -6,10 +6,18 @@
 <xacro:include filename="$(find robot_description)/urdf/bot/sensor/imu.urdf.xacro" />
 <xacro:include filename="$(find robot_description)/urdf/bot/sensor/laser.urdf.xacro" />
 <xacro:include filename="$(find robot_description)/urdf/bot/sensor/camera.urdf.xacro" />
+<!-- 执行器部分 -->
+<xacro:include filename="$(find robot_description)/urdf/bot/actuator/wheel.urdf.xacro" />
+<xacro:include filename="$(find robot_description)/urdf/bot/actuator/caster.urdf.xacro" />
 
 <xacro:base_xacro length="0.12" radius="0.10" />
 <xacro:imu_xacro xyz="0.0 0.0 0.02" />
 <xacro:camera_xacro xyz="0.10 0.0 0.075" />
 <xacro:laser_xacro xyz="0.0 0.0 0.10" />
 
+<xacro:wheel_xacro whell_name="left_wheel" xyz="0 0.10 -0.06" />
+<xacro:wheel_xacro whell_name="right_wheel" xyz="0 -0.100 -0.06" />
+
+<xacro:caster_xacro caster_name="front_wheel" xyz="0.08 0 -0.076" />
+<xacro:caster_xacro caster_name="back_wheel" xyz="-0.08 0 -0.076" />
 </robot>
