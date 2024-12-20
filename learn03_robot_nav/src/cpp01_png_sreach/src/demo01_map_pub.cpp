@@ -42,26 +42,40 @@ private:
     //生产障碍物
     for (size_t i = 20; i <= 70; i++){//列
       for (size_t j = 50; j <= 100; j++){//行
-        if(i>30&&i<60 && j>60&&j<90){
-          
-        }
-        else{
           map.data[i * width + j] = 80;
-        }
-          
       }
     }
 
-    //障碍物膨胀-行
-    for (size_t grid_y = 0; grid_y < height; grid_y++){
-      for (size_t grid_x = 0; grid_x < width; grid_x++){
-        if (map.data[grid_y * width + grid_x] == 80){
-          
+    
+    //障碍物膨胀算法，空心可用
+    for (int i = 80; i >= 55; i-=5){
+      for (size_t grid_y = 0; grid_y < height; grid_y++){
+        for (size_t grid_x = 0; grid_x < width; grid_x++){
+          //遍历到障碍物80
+          if(map.data[grid_y * width + grid_x] == i){
+            //判断周围障碍物是否为80，如果否就将其变为70
+            //上
+            if(map.data[grid_y * width + grid_x + width] < i) map.data[grid_y * width + grid_x + width] = i-5;
+            //右上
+            if(map.data[grid_y * width + grid_x + width + 1] < i) map.data[grid_y * width + grid_x + width + 1] = i-5;
+            //右
+            if(map.data[grid_y * width + grid_x + 1] < i) map.data[grid_y * width + grid_x + 1] = i-5;
+            //右下
+            if(map.data[grid_y * width + grid_x - width + 1] < i) map.data[grid_y * width + grid_x - width + 1] = i-5;
+            //下
+            if(map.data[grid_y * width + grid_x - width] < i) map.data[grid_y * width + grid_x - width] = i-5;
+            //左下
+            if(map.data[grid_y * width + grid_x - width - 1] < i) map.data[grid_y * width + grid_x - width - 1] = i-5;
+            //左
+            if(map.data[grid_y * width + grid_x - 1] < i) map.data[grid_y * width + grid_x - 1] = i-5;
+            //左上
+            if(map.data[grid_y * width + grid_x + width - 1] < i) map.data[grid_y * width + grid_x + width - 1] = i-5;
+          }
         }
       }
     }
-    
-    
+
+
     navpublisher_->publish(map);
   }
 };
