@@ -15,6 +15,9 @@ find_package(sensor_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
 
 add_executable(demo01_map_pub src/demo01_map_pub.cpp)
+
+add_executable(demo02_astart src/demo02_astart.cpp)
+
 target_include_directories(demo01_map_pub PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
@@ -27,8 +30,20 @@ include_directories(
   /usr/include/OGRE
 )
 target_compile_features(demo01_map_pub PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+
+
 ament_target_dependencies(
   demo01_map_pub
+  "rclcpp"
+  "tf2"
+  "tf2_ros"
+  "geometry_msgs"
+  "sensor_msgs"
+  "nav_msgs"
+)
+
+ament_target_dependencies(
+  demo02_astart
   "rclcpp"
   "tf2"
   "tf2_ros"
@@ -40,7 +55,7 @@ ament_target_dependencies(
 install(DIRECTORY launch DESTINATION share/${PROJECT_NAME})
 
 install(TARGETS demo01_map_pub DESTINATION lib/${PROJECT_NAME})
-
+install(TARGETS demo02_astart DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
