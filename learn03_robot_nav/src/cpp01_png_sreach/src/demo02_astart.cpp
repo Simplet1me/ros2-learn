@@ -27,7 +27,11 @@ struct point{
 
   bool operator>(const point& n) const {
         return f > n.f;
-    }
+  }
+
+  bool operator<(const point& n) const {
+        return f < n.f;
+  }
 
   struct Hash{
     size_t operator()(const point& n) const {
@@ -46,7 +50,7 @@ class MapPublisher : public rclcpp::Node{
  public:
   MapPublisher() : Node("map_pub_node"){
     navpublisher_ = this->create_publisher<nav_msgs::msg::OccupancyGrid>("map",10);
-    timer_ = create_wall_timer(5s,std::bind(&MapPublisher::do_cb,this));
+    timer_ = create_wall_timer(0.003s,std::bind(&MapPublisher::do_cb,this));
     RCLCPP_INFO(this->get_logger(),"初始化");
     map.info.width = width;
     map.info.height = height;
@@ -58,27 +62,32 @@ class MapPublisher : public rclcpp::Node{
     map.data.resize(width * height,-1);
     map.header.stamp = this->get_clock()->now();
     map.header.frame_id = "base_link";
+    
+    //起点终点初始化
+
+    map.data[start_point->y * width + start_point->x] = 30;
+    map.data[end_point->y * width + end_point->x] = 30;
+    openlist.push(start_point);
   }
 private:
   rclcpp::Publisher<nav_msgs::msg::OccupancyGrid>::SharedPtr navpublisher_;
   rclcpp::TimerBase::SharedPtr timer_;
   nav_msgs::msg::OccupancyGrid map;
+  std::priority_queue<point*, std::vector<point*>,std::greater<point*>> openlist;
+  std::unordered_set<point, point::Hash> closedlist;
   int width = 160;
   int height = 90;
   double resolution = 0.1;
+  bool isArried = false;
+  point* start_point = new point(0,5);
+  point* end_point = new point(150,5);
+
 
   void do_cb(){
     //清空地图
-    for (size_t i = 0; i < map.data.size(); i++){
+/*     for (size_t i = 0; i < map.data.size(); i++){
       map.data[i] = -1;
-    }
-
-    //起点终点初始化
-    point* start_point = new point(0,0);
-    point* end_point = new point(150,60);
-    map.data[start_point->y * width + start_point->x] = 30;
-    map.data[end_point->y * width + end_point->x] = 30;
-
+    } */
 
     //生产障碍物
     for (size_t i = 20; i <= 70; i++){//列
@@ -116,20 +125,12 @@ private:
 
 
     //A*搜索路径
-    //开放list和闭合list
-    std::priority_queue<point*, std::vector<point*>,std::greater<point*>> openlist;
-    std::unordered_set<point, point::Hash> closedlist;
-    openlist = {};
-    closedlist = {};
-    //将起始点加入openlist
-    openlist.push(start_point);
-
-    while (!openlist.empty()){
-      //将当前点设为open里最低点
+    if (!isArried){
       point* current = openlist.top();
+      RCLCPP_INFO(this->get_logger(),"Current: X:%d Y:%d",current->x,current->y);
+      map.data[current->y * width + current->x] = 30;
       openlist.pop();
-
-      //抵达终点，直接跳出
+      
       if(current->x == end_point->x && current->y == end_point->y){
         RCLCPP_INFO(this->get_logger(),"抵达终点");
         std::vector<std::pair<int,int>> path;
@@ -138,14 +139,17 @@ private:
           current = current->parent;
         }
         std::reverse(path.begin(),path.end());
+        RCLCPP_INFO(this->get_logger(),"完成路径队列");
         for(const auto& p : path){  
           map.data[p.second * width + p.first] = 1;
         }
-        break;
+        RCLCPP_INFO(this->get_logger(),"路径打印完成");
+        isArried = true;
       }
-      //将当前点塞入闭合列表
-      closedlist.insert(*current);
 
+      if (!isArried){
+      closedlist.insert(*current);
+      
 
       std::vector<std::pair<int, int>> directions = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
       //右下左上依次遍历
@@ -186,19 +190,18 @@ private:
               break;
             }
           }
-          
+
           if(!inOpenlist){
             openlist.push(point_neighbor);
           }
 
         }
+
+      }
+
+      }
       }
       
-
-
-    }
-    
-
     navpublisher_->publish(map);
   }
 };

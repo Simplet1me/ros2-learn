@@ -75,7 +75,7 @@ private:
 
     //起点终点初始化
     point* start_point = new point(0,0);
-    point* end_point = new point(150,60);
+    point* end_point = new point(130,60);
     map.data[start_point->y * width + start_point->x] = 30;
     map.data[end_point->y * width + end_point->x] = 30;
 
