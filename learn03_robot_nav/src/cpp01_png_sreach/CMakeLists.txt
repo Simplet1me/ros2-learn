@@ -18,6 +18,8 @@ add_executable(demo01_map_pub src/demo01_map_pub.cpp)
 
 add_executable(demo02_astart src/demo02_astart.cpp)
 
+add_executable(demo03_astart_practice src/demo03_astart_practice.cpp)
+
 target_include_directories(demo01_map_pub PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
@@ -52,10 +54,21 @@ ament_target_dependencies(
   "nav_msgs"
 )
 
+ament_target_dependencies(
+  demo03_astart_practice
+  "rclcpp"
+  "tf2"
+  "tf2_ros"
+  "geometry_msgs"
+  "sensor_msgs"
+  "nav_msgs"
+)
+
 install(DIRECTORY launch DESTINATION share/${PROJECT_NAME})
 
 install(TARGETS demo01_map_pub DESTINATION lib/${PROJECT_NAME})
 install(TARGETS demo02_astart DESTINATION lib/${PROJECT_NAME})
+install(TARGETS demo03_astart_practice DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
