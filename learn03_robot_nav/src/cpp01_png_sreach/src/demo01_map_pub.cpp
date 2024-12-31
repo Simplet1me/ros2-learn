@@ -12,9 +12,9 @@ using namespace std::chrono_literals;
 struct point{
   int x;
   int y;
-  int g;
-  int h;
-  int f;
+  float g;
+  float h;
+  float f;
   point* parent;
   point(int x,int y) : x(x),y(y),g(0),h(0),f(0), parent(nullptr){}
   bool operator==(const point& n) const{
@@ -25,10 +25,6 @@ struct point{
     return !(*this == n);
   }
 
-  bool operator>(const point& n) const {
-        return f > n.f;
-    }
-
   struct Hash{
     size_t operator()(const point& n) const {
       return std::hash<int>()(n.x) ^ std::hash<int>()(n.y);
@@ -37,9 +33,9 @@ struct point{
 };
 
 //求两点间的曼哈顿距离，用于启发搜索
-int heuristic(point* a, point* b){
-  //返回水平和垂直距离
-  return abs(a->x - b->x) + abs(a->y - b->y);
+float eular(point* a, point* b){
+  //绝对距离
+  return sqrt(pow(a->x - b->x,2) + pow(a->y - b->y,2));
 }
 
 class MapPublisher : public rclcpp::Node{
@@ -61,11 +57,23 @@ class MapPublisher : public rclcpp::Node{
   }
 private:
   rclcpp::Publisher<nav_msgs::msg::OccupancyGrid>::SharedPtr navpublisher_;
+  std::vector<point*> openlist;
+  std::unordered_set<point, point::Hash> closedlist;
   rclcpp::TimerBase::SharedPtr timer_;
   nav_msgs::msg::OccupancyGrid map;
   int width = 160;
   int height = 90;
   double resolution = 0.1;
+
+  void sort(){
+    for(size_t j = 0;j<openlist.size()-1;j++){
+        for (size_t i = 0; i < openlist.size()-j-1; i++){
+            if(openlist[i]->f < openlist[i+1]->f){
+                std::swap(openlist[i],openlist[i+1]);
+            }
+        }
+    }
+  }
 
   void do_cb(){
     //清空地图
@@ -116,18 +124,15 @@ private:
 
 
     //A*搜索路径
-    //开放list和闭合list
-    std::priority_queue<point*, std::vector<point*>,std::greater<point*>> openlist;
-    std::unordered_set<point, point::Hash> closedlist;
-    openlist = {};
-    closedlist = {};
+
     //将起始点加入openlist
-    openlist.push(start_point);
+    openlist.push_back(start_point);
 
     while (!openlist.empty()){
+      sort();
       //将当前点设为open里最低点
-      point* current = openlist.top();
-      openlist.pop();
+      point* current = openlist.back();
+      openlist.pop_back();
 
       //抵达终点，直接跳出
       if(current->x == end_point->x && current->y == end_point->y){
@@ -138,9 +143,11 @@ private:
           current = current->parent;
         }
         std::reverse(path.begin(),path.end());
+        RCLCPP_INFO(this->get_logger(),"完成路径队列");
         for(const auto& p : path){  
           map.data[p.second * width + p.first] = 1;
         }
+        RCLCPP_INFO(this->get_logger(),"路径打印完成");
         break;
       }
       //将当前点塞入闭合列表
@@ -162,7 +169,7 @@ private:
           //绝对代价
           point_neighbor->g = current->g + 1;
           //启发代价
-          point_neighbor->h = heuristic(point_neighbor,end_point); 
+          point_neighbor->h = eular(point_neighbor,end_point); 
           //总代价= 绝对代价 + 启发代价
           point_neighbor->f = point_neighbor->g + point_neighbor->h;
           //指针指向父级，用于回溯路径
@@ -176,26 +183,69 @@ private:
 
           //检查是否在开放列表中
           bool inOpenlist = false;
-          std::priority_queue<point*,std::vector<point*>,std::greater<point*>> tempOpenlist = openlist;
+          std::vector<point*> tempOpenlist = openlist;
           while (!tempOpenlist.empty()){
-            point* n = tempOpenlist.top();
-            tempOpenlist.pop();
+            point* n = tempOpenlist.back();
+            tempOpenlist.pop_back();
             if(n->x == point_neighbor->x && n->y == point_neighbor->y && point_neighbor->g >= n->g){
               inOpenlist =true;
               delete point_neighbor;
               break;
             }
           }
-          
+
           if(!inOpenlist){
-            openlist.push(point_neighbor);
+            openlist.push_back(point_neighbor);
+          }
+        }
+      }
+
+      std::vector<std::pair<int, int>> directions_2 = {{1, 1}, {1, -1}, {-1, -1}, {-1, 1}};
+      //右下左上依次遍历
+      for (const auto& d : directions_2){
+        int newX = current->x + d.first;
+        int newY = current->y + d.second;
+        //RCLCPP_INFO(this->get_logger(),"遍历邻点");
+
+        //检查上方点的障碍及边界
+        //上方点0<=x<边界160 && 上方点0<=y<边界90  障碍物范围是80-55 取65为可走路径   
+        if(newX >= 0 && newX < width && newY >= 0 && newY < height && map.data[newY * width + newX] <= 65){
+
+          point* point_neighbor = new point(newX,newY);
+          //绝对代价
+          point_neighbor->g = current->g + 1.4;
+          //启发代价
+          point_neighbor->h = eular(point_neighbor,end_point); 
+          //总代价= 绝对代价 + 启发代价
+          point_neighbor->f = point_neighbor->g + point_neighbor->h;
+          //指针指向父级，用于回溯路径
+          point_neighbor->parent = current;
+
+          //检查是否在闭合列表
+          if(closedlist.find(*point_neighbor) != closedlist.end()){
+            delete point_neighbor;//删除邻点
+            continue;
           }
 
+          //检查是否在开放列表中
+          bool inOpenlist = false;
+          std::vector<point*> tempOpenlist = openlist;
+          while (!tempOpenlist.empty()){
+            point* n = tempOpenlist.back();
+            tempOpenlist.pop_back();
+            if(n->x == point_neighbor->x && n->y == point_neighbor->y && point_neighbor->g >= n->g){
+              inOpenlist =true;
+              delete point_neighbor;
+              break;
+            }
+          }
+
+          if(!inOpenlist){
+            openlist.push_back(point_neighbor);
+          }
         }
       }
       
-
-
     }
     
 

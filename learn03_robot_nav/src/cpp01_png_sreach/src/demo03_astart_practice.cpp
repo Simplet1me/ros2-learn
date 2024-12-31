@@ -33,7 +33,7 @@ struct point{
 };
 
 //求两点间的曼哈顿距离，用于启发搜索
-int eular(point* a, point* b){
+float eular(point* a, point* b){
   //绝对距离
   return sqrt(pow(a->x - b->x,2) + pow(a->y - b->y,2));
 }
