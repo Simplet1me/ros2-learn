@@ -53,7 +53,7 @@ class MapPublisher : public rclcpp::Node{
     map.info.origin.orientation.w = 0;
     map.data.resize(width * height,-1);
     map.header.stamp = this->get_clock()->now();
-    map.header.frame_id = "base_link";
+    map.header.frame_id = "map";
   }
 private:
   rclcpp::Publisher<nav_msgs::msg::OccupancyGrid>::SharedPtr navpublisher_;
