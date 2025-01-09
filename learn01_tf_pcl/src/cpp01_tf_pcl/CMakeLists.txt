@@ -13,6 +13,7 @@ find_package(tf2_ros REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(pcl_conversions REQUIRED)
+find_package(nav_msgs REQUIRED)
 
 add_executable(node01_tf_pcl src/node01_tf_pcl.cpp)
 target_include_directories(node01_tf_pcl PUBLIC
@@ -27,6 +28,7 @@ ament_target_dependencies(
   "geometry_msgs"
   "sensor_msgs"
   "pcl_conversions"
+  "nav_msgs"
 )
 
 install(TARGETS node01_tf_pcl
