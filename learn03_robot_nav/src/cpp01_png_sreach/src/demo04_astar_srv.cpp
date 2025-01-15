@@ -1,6 +1,12 @@
 #include "base_interfaces/srv/path.hpp"
 #include "nav_msgs/msg/occupancy_grid.hpp"
 #include "rclcpp/rclcpp.hpp"
+#include "tf2/LinearMath/Quaternion.h"
+#include "tf2_ros/buffer.h"
+#include "tf2_ros/transform_broadcaster.h"
+#include "tf2_ros/transform_listener.h"
+#include "geometry_msgs/msg/transform_stamped.hpp"
+#include "geometry_msgs/msg/point.hpp"
 #include <algorithm>
 #include <cmath>
 #include <iostream>
@@ -41,10 +47,8 @@ float eular(point *a, point *b) {
 class MapPublisher : public rclcpp::Node {
 public:
   MapPublisher() : Node("map_pub_node") {
-    navpublisher_ =
-        this->create_publisher<nav_msgs::msg::OccupancyGrid>("map", 10);
-    mapserver_ = this->create_service<Path>(
-        "find_path", std::bind(&MapPublisher::FindPath, this, _1, _2));
+    navpublisher_ = this->create_publisher<nav_msgs::msg::OccupancyGrid>("map", 10);
+    timer_ = this->create_wall_timer(5s, std::bind(&MapPublisher::pub, this));
     RCLCPP_INFO(this->get_logger(), "初始化");
     map.info.width = width;
     map.info.height = height;
@@ -56,17 +60,46 @@ public:
     map.data.resize(width * height, -1);
     map.header.stamp = this->get_clock()->now();
     map.header.frame_id = "map";
+
+    current_point.x = 0;
+    current_point.y = 0;
+    end_point.x = 150;
+    end_point.y = 80;
   }
 
 private:
   rclcpp::Publisher<nav_msgs::msg::OccupancyGrid>::SharedPtr navpublisher_;
-  rclcpp::Service<Path>::SharedPtr mapserver_;
+  rclcpp::TimerBase::SharedPtr timer_;
+  geometry_msgs::msg::Point current_point;
+  geometry_msgs::msg::Point end_point;
   std::vector<point *> openlist;
+  bool isGet = false;
   std::unordered_set<point, point::Hash> closedlist;
   nav_msgs::msg::OccupancyGrid map;
   int width = 160;
   int height = 90;
   double resolution = 0.1;
+  int length = 10;
+
+  void pub() {
+    if(!isGet){
+      RCLCPP_INFO(this->get_logger(),"current x=%.2f y=%.2f",current_point.x,current_point.y);
+      auto path_get = Astar(current_point.x, current_point.y, end_point.x, end_point.y);
+      int path_get_max = path_get.size();
+      if(path_get_max - length > 0){
+        current_point.x = path_get[length].first;
+        current_point.y = path_get[length].second;
+        path_get.clear();
+      }else{
+        current_point.x = path_get[path_get_max - 1].first;
+        current_point.y = path_get[path_get_max - 1].second;
+        path_get.clear();
+        isGet = true;
+      }
+    }
+    navpublisher_->publish(map);
+
+  }
 
   void sort() {
     for (size_t j = 0; j < openlist.size() - 1; j++) {
@@ -76,24 +109,6 @@ private:
         }
       }
     }
-  }
-
-  // 服务回调函数
-  void FindPath(const Path::Request::SharedPtr req,
-                const Path::Response::SharedPtr res) {
-    int start_x = req->start_x;
-    int start_y = req->start_y;
-    int end_x = req->end_x;
-    int end_y = req->end_y;
-    std::vector<std::pair<int, int>> path =
-        Astar(start_x, start_y, end_x, end_y);
-    for (auto &point : path) {
-      geometry_msgs::msg::Point p;
-      p.x = point.first;
-      p.y = point.second;
-      res->path.push_back(p);
-    }
-    RCLCPP_INFO(this->get_logger(), "收到请求，返回路径");
   }
 
   // Astar寻路

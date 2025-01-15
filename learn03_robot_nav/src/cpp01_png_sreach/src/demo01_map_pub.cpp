@@ -1,4 +1,5 @@
 #include "nav_msgs/msg/occupancy_grid.hpp"
+#include "nav_msgs/msg/odometry.hpp"
 #include "rclcpp/rclcpp.hpp"
 #include <algorithm>
 #include <cmath>
@@ -7,6 +8,7 @@
 #include <queue>
 #include <unordered_set>
 #include <vector>
+#include <Eigen/Dense>
 using namespace std::chrono_literals;
 
 struct point {
@@ -39,6 +41,7 @@ public:
   MapPublisher() : Node("map_pub_node") {
     navpublisher_ =
         this->create_publisher<nav_msgs::msg::OccupancyGrid>("map", 10);
+    odmpublisher_ = this->create_publisher<nav_msgs::msg::Odometry>("odm",10);
     timer_ = create_wall_timer(5s, std::bind(&MapPublisher::do_cb, this));
     RCLCPP_INFO(this->get_logger(), "初始化");
     map.info.width = width;
@@ -55,6 +58,7 @@ public:
 
 private:
   rclcpp::Publisher<nav_msgs::msg::OccupancyGrid>::SharedPtr navpublisher_;
+  rclcpp::Publisher<nav_msgs::msg::Odometry>::SharedPtr odmpublisher_;
   std::vector<point *> openlist;
   std::unordered_set<point, point::Hash> closedlist;
   rclcpp::TimerBase::SharedPtr timer_;
@@ -141,7 +145,7 @@ private:
       // 抵达终点，直接跳出
       if (current->x == end_point->x && current->y == end_point->y) {
         RCLCPP_INFO(this->get_logger(), "抵达终点");
-        std::vector<std::pair<int, int>> path;
+        std::vector<Eigen::Vector2f> path;
         while (current) {
           path.push_back({current->x, current->y});
           current = current->parent;
@@ -149,7 +153,7 @@ private:
         std::reverse(path.begin(), path.end());
         RCLCPP_INFO(this->get_logger(), "完成路径队列");
         for (const auto &p : path) {
-          map.data[p.second * width + p.first] = 1;
+          map.data[p.y() * width + p.x()] = 1;
         }
         RCLCPP_INFO(this->get_logger(), "路径打印完成");
         break;
@@ -257,6 +261,18 @@ private:
         }
       }
     }
+    nav_msgs::msg::Odometry odm;
+    odm.header.stamp = this->get_clock()->now();
+    odm.header.frame_id = "odm";
+    odm.child_frame_id = "base_link";
+    odm.pose.pose.position.x = 0;
+    odm.pose.pose.position.y = 0;
+    odm.pose.pose.orientation.x = 0;
+    odm.pose.pose.orientation.y = 0;
+    odm.pose.pose.orientation.z = 0;
+    odm.pose.pose.orientation.w = 0;
+
+
 
     navpublisher_->publish(map);
   }

@@ -16,6 +16,8 @@ find_package(nav_msgs REQUIRED)
 find_package(base_interfaces REQUIRED)
 find_package(pcl_conversions REQUIRED)
 
+find_package(Eigen3 REQUIRED)
+
 add_executable(demo01_map_pub src/demo01_map_pub.cpp)
 
 add_executable(demo02_astart src/demo02_astart.cpp)
@@ -27,6 +29,11 @@ add_executable(demo04_tf_pub src/demo04_tf_pub.cpp)
 add_executable(demo04_astar_srv src/demo04_astar_srv.cpp)
 
 add_executable(demo05_labmap src/demo05_labmap.cpp)
+
+add_executable(pcd_process src/pcd_process.cpp)
+
+add_executable(demo06_pcd_read src/demo06_pcd_read.cpp)
+
 
 target_include_directories(demo01_map_pub PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -106,6 +113,31 @@ ament_target_dependencies(
   "pcl_conversions"
 )
 
+ament_target_dependencies(
+  pcd_process
+  "rclcpp"
+  "tf2"
+  "tf2_ros"
+  "geometry_msgs"
+  "sensor_msgs"
+  "nav_msgs"
+  "base_interfaces"
+  "pcl_conversions"
+)
+
+ament_target_dependencies(
+  demo06_pcd_read
+  "rclcpp"
+  "tf2"
+  "tf2_ros"
+  "geometry_msgs"
+  "sensor_msgs"
+  "nav_msgs"
+  "base_interfaces"
+  "pcl_conversions"
+)
+
+
 install(DIRECTORY launch DESTINATION share/${PROJECT_NAME})
 
 install(TARGETS demo01_map_pub DESTINATION lib/${PROJECT_NAME})
@@ -114,6 +146,8 @@ install(TARGETS demo03_astart_practice DESTINATION lib/${PROJECT_NAME})
 install(TARGETS demo04_tf_pub DESTINATION lib/${PROJECT_NAME})
 install(TARGETS demo04_astar_srv DESTINATION lib/${PROJECT_NAME})
 install(TARGETS demo05_labmap DESTINATION lib/${PROJECT_NAME})
+install(TARGETS pcd_process DESTINATION lib/${PROJECT_NAME})
+install(TARGETS demo06_pcd_read DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
