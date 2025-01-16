@@ -18,6 +18,7 @@ public:
     if (pcl::io::loadPCDFile(path, cloud) == -1) {
       PCL_ERROR("pcl load error");
     }
+    
     for (auto &point : cloud) {
       point.z = 0;
     }
@@ -81,7 +82,7 @@ private:
     sensor_msgs::msg::PointCloud2::UniquePtr cloud_msg(new sensor_msgs::msg::PointCloud2);
 
     point *start_point = new point(30, 10);
-    point *end_point = new point(200, 75);
+    point *end_point = new point(180, 75);
 
     map.data[start_point->y * width + start_point->x] = 30;
     map.data[end_point->y * width + end_point->x] = 30;

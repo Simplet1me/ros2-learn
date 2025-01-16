@@ -18,7 +18,7 @@ find_package(pcl_conversions REQUIRED)
 
 find_package(Eigen3 REQUIRED)
 
-add_executable(demo05_labmap src/demo05_labmap.cpp)
+add_executable(demo_node src/demo_node.cpp)
 
 
 
@@ -31,7 +31,7 @@ include_directories(
 )
 
 ament_target_dependencies(
-  demo05_labmap
+  demo_node
   "rclcpp"
   "tf2"
   "tf2_ros"
@@ -44,7 +44,7 @@ ament_target_dependencies(
 
 
 
-install(TARGETS demo05_labmap DESTINATION lib/${PROJECT_NAME})
+install(TARGETS demo_node DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
