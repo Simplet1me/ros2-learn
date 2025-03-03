@@ -1,9 +1,3 @@
-/*
-Need: send messages in frcuncy count ++
-1. include
-2.init ROS2 client
-3.create class
-*/
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
 

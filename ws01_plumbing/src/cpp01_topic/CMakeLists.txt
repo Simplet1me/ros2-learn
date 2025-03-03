@@ -10,6 +10,7 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(base_interfaces_demo REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
 add_executable(demo01_talker_str src/demo01_talker_str.cpp)
 add_executable(demo02_listener_str src/demo02_listener_str.cpp)
@@ -33,6 +34,7 @@ ament_target_dependencies(
   "rclcpp"
   "std_msgs"
   "base_interfaces_demo"
+  "geometry_msgs"
 )
 
 ament_target_dependencies(

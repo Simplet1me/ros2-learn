@@ -34,6 +34,8 @@ add_executable(pcd_process src/pcd_process.cpp)
 
 add_executable(demo06_pcd_read src/demo06_pcd_read.cpp)
 
+add_executable(demo07_motion_sim src/demo07_motion_sim.cpp)
+
 
 target_include_directories(demo01_map_pub PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -137,6 +139,18 @@ ament_target_dependencies(
   "pcl_conversions"
 )
 
+ament_target_dependencies(
+  demo07_motion_sim
+  "rclcpp"
+  "tf2"
+  "tf2_ros"
+  "geometry_msgs"
+  "sensor_msgs"
+  "nav_msgs"
+  "base_interfaces"
+  "pcl_conversions"
+)
+
 
 install(DIRECTORY launch DESTINATION share/${PROJECT_NAME})
 
@@ -148,6 +162,7 @@ install(TARGETS demo04_astar_srv DESTINATION lib/${PROJECT_NAME})
 install(TARGETS demo05_labmap DESTINATION lib/${PROJECT_NAME})
 install(TARGETS pcd_process DESTINATION lib/${PROJECT_NAME})
 install(TARGETS demo06_pcd_read DESTINATION lib/${PROJECT_NAME})
+install(TARGETS demo07_motion_sim DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

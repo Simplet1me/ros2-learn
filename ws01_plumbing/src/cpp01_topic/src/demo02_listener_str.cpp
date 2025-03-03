@@ -1,19 +1,20 @@
 #include "rclcpp/rclcpp.hpp"
-#include "std_msgs/msg/string.hpp"
+#include "geometry_msgs/msg/pose_stamped.hpp"
 
 class Listener:public rclcpp::Node{
 public:
     Listener():Node("listener_node_cpp"){
         RCLCPP_INFO(this->get_logger(),"Listener create");
-        subscription_ = this->create_subscription<std_msgs::msg::String>("chatter",10,std::bind(&Listener::do_cb,this,std::placeholders::_1));
+        subscription_ = this->create_subscription<geometry_msgs::msg::PoseStamped>("goal_pose",10,std::bind(&Listener::do_cb,this,std::placeholders::_1));
 
     }
 
 private:
-    void do_cb(const std_msgs::msg::String &msg){
-        RCLCPP_INFO(this->get_logger(),"订阅到的消息:%s",msg.data.c_str());
+    rclcpp::Subscription<geometry_msgs::msg::PoseStamped>::SharedPtr subscription_;
+    void do_cb(const geometry_msgs::msg::PoseStamped &msg){
+        RCLCPP_INFO(this->get_logger(),"XYZ:%.2f %.2f %.2f",msg.pose.position.x,msg.pose.position.y,msg.pose.position.z);
+        RCLCPP_INFO(this->get_logger(),"XYZ:%.2f %.2f %.2f %.2f",msg.pose.orientation.x,msg.pose.orientation.y,msg.pose.orientation.z,msg.pose.orientation.w);
     }
-    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
 };
 
 

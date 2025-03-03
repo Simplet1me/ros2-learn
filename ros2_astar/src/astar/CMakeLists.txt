@@ -15,6 +15,7 @@ find_package(sensor_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(base_interfaces REQUIRED)
 find_package(pcl_conversions REQUIRED)
+find_package(tf2_sensor_msgs REQUIRED)
 
 find_package(Eigen3 REQUIRED)
 
@@ -37,6 +38,7 @@ ament_target_dependencies(
   "tf2_ros"
   "geometry_msgs"
   "sensor_msgs"
+  "tf2_sensor_msgs"
   "nav_msgs"
   "base_interfaces"
   "pcl_conversions"

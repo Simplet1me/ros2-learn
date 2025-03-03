@@ -14,7 +14,7 @@ namespace tilted_lidar{
 class TiltedLidar: public rclcpp::Node{
 private:
     Eigen::Vector3f T_b_{-0.5, -0.4, -0.7}; //位置偏移 [x, y, z]
-    Eigen::Vector3f R_b_{0.585, 0, 0};  //欧拉角 姿态偏移 [roll绕x轴  pitch绕y轴  yaw绕z轴]
+    Eigen::Vector3f R_b_{0, 0, 0};  //欧拉角 姿态偏移 [roll绕x轴  pitch绕y轴  yaw绕z轴]
     Eigen::Matrix3f R_inverse; //R_b_的旋转矩阵 的逆矩阵
 
     std::shared_ptr<tf2_ros::TransformBroadcaster> tf_broadcast_;
@@ -85,9 +85,9 @@ public:
     }
 
 };
-
+                                                                                                          
 }
-// 假设body是雷达的frame， v_body是车体中心的frame
+// 假设body是雷达的frame， v_body是车体中心的frame 
 
 // 上方的两个参数T_b_, R_b_分别对应 body与v_body的位置偏移[x,y,z] 和姿态偏移[roll绕x轴  pitch绕y轴  yaw绕z轴]
 // 循环发布body和v_body的tf关系

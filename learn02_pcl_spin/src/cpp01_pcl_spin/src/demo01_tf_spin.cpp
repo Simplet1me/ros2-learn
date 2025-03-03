@@ -31,7 +31,7 @@ private:
     geometry_msgs::msg::TransformStamped transform;
     tf2::Quaternion qtn;
     transform.header.stamp = this->now();
-    transform.header.frame_id = "frame_a";
+    transform.header.frame_id = "base_link";
     transform.child_frame_id = "frame_b";
     transform.transform.translation.x = 1;
     transform.transform.translation.y = 0;
@@ -44,7 +44,7 @@ private:
     transform.transform.rotation.w = qtn.w();
 
     pcl::toROSMsg(cloud,*cloud_msg);
-    cloud_msg->header.frame_id = "frame_a";
+    cloud_msg->header.frame_id = "frame_b";
     cloud_msg->header.stamp = this->now();
 
     tfpublisher_->sendTransform(transform);
