@@ -1,4 +1,6 @@
 #include "nav_msgs/msg/occupancy_grid.hpp"
+#include "nav_msgs/msg/path.hpp"
+#include "geometry_msgs/msg/pose_stamped.hpp"
 #include "rclcpp/rclcpp.hpp"
 #include <algorithm>
 #include <cmath>
@@ -39,7 +41,8 @@ public:
   MapPublisher() : Node("map_pub_node") {
     navpublisher_ =
         this->create_publisher<nav_msgs::msg::OccupancyGrid>("map", 10);
-    timer_ = create_wall_timer(0.01s, std::bind(&MapPublisher::do_cb, this));
+    pathpublisher_ = this->create_publisher<nav_msgs::msg::Path>("path",10);
+    timer_ = create_wall_timer(0.005s, std::bind(&MapPublisher::do_cb, this));
     RCLCPP_INFO(this->get_logger(), "初始化");
     map.info.width = width;
     map.info.height = height;
@@ -47,10 +50,12 @@ public:
     map.info.origin.position.x = 0;
     map.info.origin.position.y = 0;
     map.info.origin.position.z = 0;
-    map.info.origin.orientation.w = 0;
     map.data.resize(width * height, -1);
     map.header.stamp = this->get_clock()->now();
     map.header.frame_id = "base_link";
+    nav_path.header.frame_id = "map";
+    nav_path.header.stamp = this->now();
+
 
     // 生产障碍物
     for (size_t i = 20; i <= 70; i++) {    // 列
@@ -101,8 +106,10 @@ public:
 
 private:
   rclcpp::Publisher<nav_msgs::msg::OccupancyGrid>::SharedPtr navpublisher_;
+  rclcpp::Publisher<nav_msgs::msg::Path>::SharedPtr pathpublisher_;
   rclcpp::TimerBase::SharedPtr timer_;
   nav_msgs::msg::OccupancyGrid map;
+  nav_msgs::msg::Path nav_path;
   std::vector<point *> openlist;
   std::unordered_set<point, point::Hash> closedlist;
   int width = 160;
@@ -143,6 +150,14 @@ private:
         RCLCPP_INFO(this->get_logger(), "完成路径队列");
         for (const auto &p : path) {
           map.data[p.second * width + p.first] = 1;
+          geometry_msgs::msg::PoseStamped pose;
+          pose.header.stamp = this->now();
+          pose.header.frame_id = "map";
+          pose.pose.position.x = p.first * resolution; // 沿 x 轴递增
+          pose.pose.position.y = p.second * resolution;
+          pose.pose.position.z = 0.0;
+          pose.pose.orientation.w = 1.0; // 无旋转
+          nav_path.poses.push_back(pose);
         }
         RCLCPP_INFO(this->get_logger(), "路径打印完成");
         isArried = true;
@@ -259,6 +274,8 @@ private:
                   << " f=" << coutlist[i]->f << std::endl;
       }
     }
+
+    pathpublisher_->publish(nav_path);
     navpublisher_->publish(map);
   }
 };

@@ -1,4 +1,5 @@
 import launch
+import launch.event_handlers
 import launch.launch_description_sources
 import launch_ros
 from ament_index_python.packages import get_package_share_directory
@@ -37,6 +38,20 @@ def generate_launch_description():
         arguments=['-topic','/robot_description','-entity','robot']
     )
 
+    action_load_joint_state_controller = launch.actions.ExecuteProcess(
+        cmd='ros2 control load_controller bot_joint_state_broadcaster --set-state active'.split(' '),
+        output='screen'
+    )
+
+    action_load_effect_controller = launch.actions.ExecuteProcess(
+        cmd='ros2 control load_controller bot_effort_controller --set-state active'.split(' '),
+        output='screen'
+    )
+
+    action_load_diff_driver_controller = launch.actions.ExecuteProcess(
+        cmd='ros2 control load_controller bot_diff_drive_controller --set-state active'.split(' '),
+        output='screen'
+    )
 
     #action_joint_state_publisher = launch_ros.actions.Node(
     #    package='joint_state_publisher',
@@ -46,7 +61,7 @@ def generate_launch_description():
     action_rviz_node = launch_ros.actions.Node(
         package='rviz2',
         executable='rviz2',
-        #arguments=['-d', default_rviz_config_path]
+        arguments=['-d', default_rviz_config_path]
     )
 
     return launch.LaunchDescription([
@@ -54,6 +69,24 @@ def generate_launch_description():
         action_robot_state_publisher,
         action_launch_gazebo,
         action_spawn_entity,
+        launch.actions.RegisterEventHandler(
+            event_handler=launch.event_handlers.OnProcessExit(
+                target_action=action_spawn_entity,
+                on_exit=[action_load_joint_state_controller],
+            )
+        ),
+        launch.actions.RegisterEventHandler(
+            event_handler=launch.event_handlers.OnProcessExit(
+                target_action=action_spawn_entity,
+                on_exit=[action_load_effect_controller],
+            )
+        ),
+        launch.actions.RegisterEventHandler(
+            event_handler=launch.event_handlers.OnProcessExit(
+                target_action=action_spawn_entity,
+                on_exit=[action_load_diff_driver_controller],
+            )
+        ),
         action_rviz_node
         #action_joint_state_publisher
     ])

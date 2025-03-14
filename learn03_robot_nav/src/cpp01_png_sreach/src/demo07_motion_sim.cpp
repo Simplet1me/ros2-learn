@@ -1,6 +1,7 @@
 #include <Eigen/Dense>
 #include <geometry_msgs/msg/point_stamped.hpp>
 #include <geometry_msgs/msg/pose_stamped.hpp>
+#include <nav_msgs/msg/path.hpp>
 #include <nav_msgs/msg/occupancy_grid.hpp>
 #include <rclcpp/rclcpp.hpp>
 #include <tf2/LinearMath/Quaternion.h>
@@ -38,7 +39,7 @@ public:
     current_position(0, 0);
     current_velocity(0, 0);
     max_acceleration = 2;
-    max_velocity = 0.8;
+    max_velocity = 1;
     isArried = false;
     havePath = false;
     map.info.width = width;
@@ -56,6 +57,8 @@ public:
     map.data.resize(width * height, -1);
     map.header.stamp = this->now();
     map.header.frame_id = "map";
+    nav_path.header.stamp = this->now();
+    nav_path.header.frame_id = "map";
     point_publisher_ =
         this->create_publisher<geometry_msgs::msg::PointStamped>("point", 10);
     poselistener_ = this->create_subscription<geometry_msgs::msg::PoseStamped>(
@@ -63,6 +66,7 @@ public:
         std::bind(&PointMotionSim::GetPose, this, std::placeholders::_1));
     mappublisher_ =
         this->create_publisher<nav_msgs::msg::OccupancyGrid>("map", 10);
+    pathpublisher_ = this->create_publisher<nav_msgs::msg::Path>("path",10);
     timer_ = this->create_wall_timer(
         100ms, std::bind(&PointMotionSim::timer_callback, this));
   }
@@ -82,11 +86,13 @@ private:
   Eigen::Vector2f current_velocity;
   rclcpp::TimerBase::SharedPtr timer_;
   nav_msgs::msg::OccupancyGrid map;
+  nav_msgs::msg::Path nav_path;
   rclcpp::Publisher<geometry_msgs::msg::PointStamped>::SharedPtr
       point_publisher_;
   rclcpp::Subscription<geometry_msgs::msg::PoseStamped>::SharedPtr
       poselistener_;
   rclcpp::Publisher<nav_msgs::msg::OccupancyGrid>::SharedPtr mappublisher_;
+  rclcpp::Publisher<nav_msgs::msg::Path>::SharedPtr pathpublisher_;
   void timer_callback() {
     // 运动解算
     if (!isArried && havePath) {
@@ -122,6 +128,7 @@ private:
 
       moveTowards();
       path.erase(path.begin());
+      nav_path.poses.erase(nav_path.poses.begin());
     }
 
     // 消息发布
@@ -132,6 +139,8 @@ private:
     position_msg.point.y = current_position.y();
     position_msg.point.z = 0;
     //RCLCPP_INFO(this->get_logger(), "发布位置%.2f %.2f", current_position.x(),current_position.y());
+    RCLCPP_INFO(this->get_logger(), "当前速度v:%.2f", current_velocity.norm());
+    pathpublisher_->publish(nav_path);
     mappublisher_->publish(map);
     point_publisher_->publish(position_msg);
   }
@@ -144,6 +153,17 @@ private:
       p = -1;
     }
     this->path = Astar(current_position, goal_position);
+    for(auto &p : path){
+      geometry_msgs::msg::PoseStamped pose;
+      pose.header.stamp = this->now();
+      pose.header.frame_id = "map";
+      pose.pose.position.x = p.x();
+      pose.pose.position.y = p.y();
+      pose.pose.position.z = 0;
+      pose.pose.orientation.w = 1.0;
+      nav_path.poses.push_back(pose); 
+    }
+
     havePath = true;
     isArried = false;
     std::cout<<"路径长度："<<path.size()<<std::endl;
@@ -197,7 +217,7 @@ private:
     int width = map.info.width;
     int height = map.info.height;
     RCLCPP_INFO(this->get_logger(),"START:%d %d",Floattoint(start.x()),Floattoint(start.y()));
-    RCLCPP_INFO(this->get_logger(),"START:%d %d",Floattoint(end.x()),Floattoint(end.y()));
+    RCLCPP_INFO(this->get_logger(),"END:%d %d",Floattoint(end.x()),Floattoint(end.y()));
     point *start_point =
         new point(Floattoint(start.x()), Floattoint(start.y()));
     point *end_point = new point(Floattoint(end.x()), Floattoint(end.y()));
