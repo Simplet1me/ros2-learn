@@ -38,6 +38,11 @@ def generate_launch_description():
         arguments=['-topic','/robot_description','-entity','robot']
     )
 
+    action_slam_node = launch_ros.actions.Node(
+        package='slam_toolbox',
+        executable='async_slam_toolbox_node',
+    )
+
     action_load_joint_state_controller = launch.actions.ExecuteProcess(
         cmd='ros2 control load_controller bot_joint_state_broadcaster --set-state active'.split(' '),
         output='screen'
@@ -87,6 +92,7 @@ def generate_launch_description():
                 on_exit=[action_load_diff_driver_controller],
             )
         ),
-        action_rviz_node
+        # action_slam_node,
+        # action_rviz_node
         #action_joint_state_publisher
     ])
